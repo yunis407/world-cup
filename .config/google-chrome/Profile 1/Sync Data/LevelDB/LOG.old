@@ -1,18 +1,6 @@
-2022/11/17-14:51:53.722 c9a Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
-2022/11/17-14:51:53.722 c9a Recovering log #34
-2022/11/17-14:51:53.725 c9a Reusing old log /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/000034.log 
-2022/11/17-14:53:42.325 db7 Level-0 table #38: started
-2022/11/17-14:53:42.337 db7 Level-0 table #38: 96601 bytes OK
-2022/11/17-14:53:42.346 db7 Delete type=0 #34
-2022/11/17-14:53:42.346 db7 Compacting 4@0 + 1@1 files
-2022/11/17-14:53:42.358 db7 Generated table #39@0: 71 keys, 8287 bytes
-2022/11/17-14:53:42.358 db7 Compacted 4@0 + 1@1 files => 8287 bytes
-2022/11/17-14:53:42.362 db7 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/11/17-14:53:42.362 db7 Delete type=2 #35
-2022/11/17-14:53:42.362 db7 Delete type=2 #30
-2022/11/17-14:53:42.362 db7 Delete type=2 #38
-2022/11/17-14:53:42.362 db7 Delete type=2 #33
-2022/11/17-14:53:42.362 db7 Delete type=2 #28
-2022/11/17-16:32:43.425 3440 Level-0 table #41: started
-2022/11/17-16:32:43.437 3440 Level-0 table #41: 114322 bytes OK
-2022/11/17-16:32:43.442 3440 Delete type=0 #37
+2022/11/17-22:58:23.038 a2d Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2022/11/17-22:58:23.065 a2d Recovering log #40
+2022/11/17-22:58:23.177 a2d Reusing old log /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/000040.log 
+2022/11/17-23:19:52.207 f25 Level-0 table #44: started
+2022/11/17-23:19:52.225 f25 Level-0 table #44: 92045 bytes OK
+2022/11/17-23:19:52.232 f25 Delete type=0 #40

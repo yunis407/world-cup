@@ -5,12 +5,6 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1668692505915"
-            },
-            {
-                "backupFolder": "1668695063559"
-            },
-            {
                 "backupFolder": "1668708994612"
             }
         ]
@@ -53,8 +47,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -116,6 +109,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-images-lab/index.html",
+                                        "path": "/home/yunis/phase-0-html-images-lab/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-images-lab/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -215,17 +219,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/phase-0-html-document-structure-lab/CONTRIBUTING.md"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-experiencing-html-lab/my_list.html",
-                                        "path": "/home/yunis/phase-0-html-experiencing-html-lab/my_list.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/phase-0-html-experiencing-html-lab/my_list.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1738,43 +1731,12 @@
             "backupPath": "/home/yunis/.config/Code/Backups/1668708994612",
             "uiState": {
                 "mode": 1,
-                "x": 581,
-                "y": 64,
-                "width": 1057,
-                "height": 642
+                "x": 374,
+                "y": 139,
+                "width": 905,
+                "height": 566
             }
         },
-        "openedWindows": [
-            {
-                "backupPath": "/home/yunis/.config/Code/Backups/1668692505915",
-                "uiState": {
-                    "mode": 1,
-                    "x": 663,
-                    "y": 64,
-                    "width": 676,
-                    "height": 642
-                }
-            },
-            {
-                "backupPath": "/home/yunis/.config/Code/Backups/1668695063559",
-                "uiState": {
-                    "mode": 1,
-                    "x": 512,
-                    "y": 64,
-                    "width": 854,
-                    "height": 642
-                }
-            },
-            {
-                "backupPath": "/home/yunis/.config/Code/Backups/1668708994612",
-                "uiState": {
-                    "mode": 1,
-                    "x": 581,
-                    "y": 64,
-                    "width": 1057,
-                    "height": 642
-                }
-            }
-        ]
+        "openedWindows": []
     }
 }

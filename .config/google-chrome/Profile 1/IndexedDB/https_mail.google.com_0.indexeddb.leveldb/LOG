@@ -1,9 +1,6 @@
-2022/11/17-22:58:38.156 a2c Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/17-22:58:38.157 a2c Recovering log #25
-2022/11/17-22:58:38.171 a2c Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000025.log 
-2022/11/17-22:58:47.999 89d Compacting 1@1 + 1@2 files
-2022/11/17-22:58:48.037 89d Generated table #28@1: 72 keys, 56785 bytes
-2022/11/17-22:58:48.037 89d Compacted 1@1 + 1@2 files => 56785 bytes
-2022/11/17-22:58:48.040 89d compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/17-22:58:48.040 89d Delete type=2 #23
-2022/11/17-22:58:48.041 89d Delete type=2 #26
+2022/11/17-23:39:52.362 a66 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/17-23:39:52.362 a66 Recovering log #25
+2022/11/17-23:39:52.457 a66 Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000025.log 
+2022/11/17-23:40:10.811 a41 Level-0 table #31: started
+2022/11/17-23:40:10.928 a41 Level-0 table #31: 2339234 bytes OK
+2022/11/17-23:40:10.933 a41 Delete type=0 #25

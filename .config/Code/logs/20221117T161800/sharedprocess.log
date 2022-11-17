@@ -1,7 +1,0 @@
-2022-11-17 16:18:03.090 [info] Starting worker process with pid 12897 (type: fileWatcher, window: 1).
-2022-11-17 16:34:25.521 [info] Starting worker process with pid 13556 (type: fileWatcher, window: 3).
-2022-11-17 16:37:17.712 [info] Worker process with pid 13556 terminated normally (type: fileWatcher, window: 3).
-2022-11-17 16:38:57.913 [info] Starting worker process with pid 13985 (type: fileWatcher, window: 4).
-2022-11-17 16:39:14.399 [info] Worker process with pid 13985 terminated normally (type: fileWatcher, window: 4).
-2022-11-17 16:39:27.149 [info] Starting worker process with pid 14128 (type: fileWatcher, window: 5).
-2022-11-17 16:40:26.656 [info] Worker process with pid 14128 terminated normally (type: fileWatcher, window: 5).

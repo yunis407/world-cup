@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="google-chrome.desktop" score="15587.875" last-seen="1668716177"/>
+    <application id="snap-store_ubuntu-software.desktop" score="178.375" last-seen="1668712282"/>
+    <application id="code.desktop" score="1964.625" last-seen="1668721936"/>
+    <application id="org.gnome.Nautilus.desktop" score="37.5" last-seen="1668686747"/>
+    <application id="slack_slack.desktop" score="70.5" last-seen="1668688552"/>
+    <application id="gnome-initial-setup.desktop" score="792.375" last-seen="1668177630"/>
+    <application id="google-chrome.desktop" score="15905.875" last-seen="1668721969"/>
     <application id="org.gnome.Evolution-alarm-notify.desktop" score="35.375" last-seen="1668671400"/>
     <application id="software-properties-gtk.desktop" score="6" last-seen="1668688533"/>
-    <application id="gnome-control-center.desktop" score="55.25" last-seen="1668692174"/>
     <application id="org.gnome.gedit.desktop" score="16.25" last-seen="1668685865"/>
-    <application id="apport-gtk.desktop" score="0" last-seen="1668499014"/>
-    <application id="org.gnome.Nautilus.desktop" score="37.5" last-seen="1668686747"/>
-    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
-    <application id="snap-store_ubuntu-software.desktop" score="178.375" last-seen="1668712282"/>
-    <application id="gnome-initial-setup.desktop" score="792.375" last-seen="1668177630"/>
-    <application id="org.gnome.Terminal.desktop" score="7378.625" last-seen="1668715346"/>
-    <application id="slack_slack.desktop" score="70.5" last-seen="1668688552"/>
+    <application id="org.gnome.Terminal.desktop" score="7435.625" last-seen="1668718065"/>
+    <application id="gnome-control-center.desktop" score="55.25" last-seen="1668692174"/>
     <application id="yelp.desktop" score="0" last-seen="1668688831"/>
-    <application id="code.desktop" score="1625.625" last-seen="1668715894"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1668499014"/>
+    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
   </context>
 </application-state>

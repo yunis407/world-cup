@@ -1,0 +1,12 @@
+2022-11-17 23:47:45.742 [info] update#setState idle
+2022-11-17 23:47:49.408 [info] Starting extension host with pid 3283 (fork() took 10 ms).
+2022-11-17 23:47:49.663 [info] Starting extension host with pid 3304 (fork() took 20 ms).
+2022-11-17 23:47:50.439 [info] Starting extension host with pid 3322 (fork() took 52 ms).
+2022-11-17 23:47:50.470 [info] Starting extension host with pid 3333 (fork() took 26 ms).
+2022-11-17 23:48:15.750 [info] update#setState checking for updates
+2022-11-17 23:48:15.786 [info] update#setState available for download
+2022-11-17 23:48:46.812 [info] Extension host with pid 3304 exited with code: 0, signal: null.
+2022-11-17 23:48:51.414 [info] Extension host with pid 3322 exited with code: 0, signal: null.
+2022-11-17 23:49:00.926 [info] Extension host with pid 3283 exited with code: 0, signal: null.
+2022-11-18 00:22:13.956 [info] Waiting for extension host with pid 3333 to exit.
+2022-11-18 00:22:13.974 [info] Extension host with pid 3333 exited with code: 0, signal: null.

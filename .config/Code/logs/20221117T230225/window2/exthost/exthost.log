@@ -15,3 +15,5 @@
 2022-11-17 23:02:40.255 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 2022-11-17 23:02:40.256 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2022-11-17 23:02:40.256 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-17 23:31:01.523 [info] Extension host terminating: received terminate message from renderer
+2022-11-17 23:31:01.546 [info] Extension host with pid 3595 exiting with code 0
