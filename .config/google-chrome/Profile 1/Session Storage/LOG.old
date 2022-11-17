@@ -1,3 +1,15 @@
-2022/11/17-14:49:57.977 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Session Storage/MANIFEST-000001
-2022/11/17-14:49:58.031 3 Recovering log #15
-2022/11/17-14:49:58.172 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Session Storage/000015.log 
+2022/11/17-14:51:59.553 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Session Storage/MANIFEST-000001
+2022/11/17-14:51:59.555 3 Recovering log #15
+2022/11/17-14:51:59.556 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Session Storage/000015.log 
+2022/11/17-15:48:21.292 24 Level-0 table #19: started
+2022/11/17-15:48:21.301 24 Level-0 table #19: 11212 bytes OK
+2022/11/17-15:48:21.308 24 Delete type=0 #15
+2022/11/17-15:48:21.310 24 Compacting 4@0 + 1@1 files
+2022/11/17-15:48:21.322 24 Generated table #20@0: 422 keys, 11365 bytes
+2022/11/17-15:48:21.322 24 Compacted 4@0 + 1@1 files => 11365 bytes
+2022/11/17-15:48:21.327 24 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/17-15:48:21.329 24 Delete type=2 #19
+2022/11/17-15:48:21.329 24 Delete type=2 #13
+2022/11/17-15:48:21.330 24 Delete type=2 #7
+2022/11/17-15:48:21.330 24 Delete type=2 #10
+2022/11/17-15:48:21.330 24 Delete type=2 #16

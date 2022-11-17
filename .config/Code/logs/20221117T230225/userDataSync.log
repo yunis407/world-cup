@@ -1,0 +1,58 @@
+2022-11-17 23:02:30.650 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2022-11-17 23:02:30.650 [info] Auto Sync is enabled.
+2022-11-17 23:02:30.650 [info] Auto Sync: Suspended until auth token is available.
+2022-11-17 23:02:33.916 [info] Auto Sync: Triggered by Interval
+2022-11-17 23:02:33.998 [info] Sync started.
+2022-11-17 23:02:40.253 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:02:40.274 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:02:40.305 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:02:40.327 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:02:41.300 [info] GlobalState: Updated remote ui state. Removed: workbench.panel.markers.hidden,workbench.panel.output.hidden,terminal.hidden,workbench.explorer.views.state.hidden,workbench.scm.views.state.hidden,workbench.view.search.state.hidden,workbench.activity.pinnedViewlets2,nps/lastSessionDate,nps/sessionCount,workbench.telemetryOptOutShown,workbench.view.debug.state.hidden,workbench.statusbar.hidden,colorThemeData,workbench.panel.repl.hidden,memento/gettingStartedService,workbench.welcomePage.walkthroughMetadata,workbench.panel.alignment,workbench.view.extensions.state.hidden,ces/skipSurvey,cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount,views.customizations,tabs-list-width-vertical,tabs-list-width-horizontal,commandPalette.mru.cache,commandPalette.mru.counter,javascript.1.editedCount,javascript.1.editedDate.
+2022-11-17 23:02:41.311 [info] GlobalState: Updated last synchronized ui state
+2022-11-17 23:02:41.477 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:02:41.480 [info] Sync done. Took 7633ms
+2022-11-17 23:02:50.511 [info] Auto Sync: Triggered by Activity
+2022-11-17 23:02:50.512 [info] Sync started.
+2022-11-17 23:02:50.946 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:02:50.960 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:02:50.968 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:02:50.973 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:02:50.978 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-17 23:02:51.047 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:02:51.052 [info] Sync done. Took 548ms
+2022-11-17 23:03:30.103 [info] Auto Sync: Triggered by Activity
+2022-11-17 23:03:30.105 [info] Sync started.
+2022-11-17 23:03:30.567 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:03:30.580 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:03:30.587 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:03:30.594 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:03:30.602 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-17 23:03:30.716 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:03:30.719 [info] Sync done. Took 623ms
+2022-11-17 23:04:25.709 [info] Auto Sync: Triggered by Activity
+2022-11-17 23:04:25.712 [info] Sync started.
+2022-11-17 23:04:26.280 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:04:26.306 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:04:26.341 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:04:26.350 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:04:26.357 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-17 23:04:26.472 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:04:26.474 [info] Sync done. Took 772ms
+2022-11-17 23:09:26.497 [info] Auto Sync: Triggered by Interval
+2022-11-17 23:09:26.499 [info] Sync started.
+2022-11-17 23:09:27.492 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:09:27.519 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:09:27.540 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:09:27.549 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:09:27.557 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-17 23:09:27.669 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:09:27.672 [info] Sync done. Took 1180ms
+2022-11-17 23:14:27.675 [info] Auto Sync: Triggered by Interval
+2022-11-17 23:14:27.676 [info] Sync started.
+2022-11-17 23:14:28.640 [info] Settings: No changes found during synchronizing settings.
+2022-11-17 23:14:28.645 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-17 23:14:28.652 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-17 23:14:28.657 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-17 23:14:28.663 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-17 23:14:28.750 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-17 23:14:28.752 [info] Sync done. Took 1079ms

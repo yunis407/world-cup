@@ -15980,3 +15980,844 @@ You requested the state for teamOrEnterpriseId undefined, and the valid teamOrEn
 [11/17/22, 16:51:13:523] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
 [11/17/22, 16:53:13:517] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
 [11/17/22, 16:53:13:518] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 16:55:52:255] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 16:55:52:265] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 16:56:12:277] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 16:56:12:293] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 16:56:14:499] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 16:56:14:503] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 16:58:32:385] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 16:58:32:394] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 16:58:51:553] info: [RTM] (T0101L740P4) Processed 1 user_typing event(s) in channel(s) C048U0SSZLN over 46.20ms 
+[11/17/22, 17:01:15:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:01:15:508] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:05:52:735] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:05:52:736] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:06:16:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:06:16:508] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:06:32:757] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:06:32:776] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:07:32:810] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:07:32:830] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:08:13:506] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 17:08:13:506] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 17:08:22:831] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:08:22:837] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:11:17:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:11:17:509] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:12:33:033] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:12:33:052] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:13:03:046] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:13:03:065] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:14:13:555] info: [MIN-VERSION] Checking to see if we should reload 
+[11/17/22, 17:14:13:555] info: [MIN-VERSION] teamIds: T0101L740P4; versionTs: 1668490643; buildVersionTs: 1668490643; configVersionTs: 1668688554; All config versions: {"T0101L740P4":1668688554} 
+[11/17/22, 17:14:13:556] info: [API-Q] (T0101L740P4) be0d1181-1668694453.556 client.shouldReload called with reason: polling 
+[11/17/22, 17:14:13:557] info: [API-Q] (T0101L740P4) be0d1181-1668694453.556 client.shouldReload is ENQUEUED 
+[11/17/22, 17:14:13:575] info: [API-Q] (T0101L740P4) be0d1181-1668694453.556 client.shouldReload is ACTIVE 
+[11/17/22, 17:14:14:415] info: [API-Q] (T0101L740P4) be0d1181-1668694453.556 client.shouldReload is RESOLVED 
+[11/17/22, 17:14:14:415] info: [MIN-VERSION] No need to reload 
+[11/17/22, 17:16:18:505] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:16:18:508] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:16:43:222] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:16:43:237] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:17:13:234] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:17:13:254] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:18:13:288] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:18:13:292] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:18:33:290] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:18:33:298] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:20:33:403] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:20:33:425] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:21:19:519] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:21:19:532] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:23:13:515] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 17:23:13:516] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 17:24:05:271] info: [RTM] (T0101L740P4) Processed 1 bot_added event(s) over 47.70ms 
+[11/17/22, 17:25:25:135] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 17:25:25:168] info: [RTM] (T0101L740P4) Processed 1 message event(s) in channel(s) C049S3MGLLF over 36.30ms 
+[11/17/22, 17:25:25:174] info: [COUNTS] (T0101L740P4) Updated unread_cnt for C049S3MGLLF: 1 
+[11/17/22, 17:26:20:515] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:26:20:525] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:28:26:013] info: [RTM] (T0101L740P4) Processed 1 dnd_invalidated event(s) over 70.90ms 
+[11/17/22, 17:29:43:819] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:29:43:839] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:30:03:844] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:30:03:862] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:31:21:507] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:31:21:510] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:34:15:522] info: [API-Q] (T0101L740P4) noversion-1668695655.504 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 17:34:15:522] info: [API-Q] (T0101L740P4) noversion-1668695655.504 Flannel users/info is ENQUEUED 
+[11/17/22, 17:34:15:548] info: [API-Q] (T0101L740P4) noversion-1668695655.504 Flannel users/info is ACTIVE 
+[11/17/22, 17:34:16:253] info: [API-Q] (T0101L740P4) noversion-1668695655.504 Flannel users/info is RESOLVED 
+[11/17/22, 17:35:54:107] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:35:54:116] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:36:04:118] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:36:04:138] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:36:22:512] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:36:22:522] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:36:44:653] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 17:36:44:702] info: [RTM] (T0101L740P4) Processed 1 message event(s) in channel(s) C049S3MGLLF over 52.10ms 
+[11/17/22, 17:36:44:704] info: [UNREAD-COUNTS] (T0101L740P4) Short-circuiting re-count in C049S3MGLLF because channel is already unread 
+[11/17/22, 17:38:04:201] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:38:04:207] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:38:13:550] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 17:38:13:550] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 17:38:19:493] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 17:38:19:540] info: [RTM] (T0101L740P4) Processed 1 message event(s) in channel(s) C049S3MGLLF over 50.10ms 
+[11/17/22, 17:38:19:541] info: [UNREAD-COUNTS] (T0101L740P4) Short-circuiting re-count in C049S3MGLLF because channel is already unread 
+[11/17/22, 17:38:19:542] info: [RTM] Setting a timeout of 42 ms to process more rtm events 
+[11/17/22, 17:38:20:501] info: [RTM] Waited 42 ms, processing more rtm events now 
+[11/17/22, 17:38:34:219] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:38:34:224] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:39:14:246] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:39:14:253] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:39:54:277] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:39:54:281] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:40:54:321] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:40:54:330] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:41:14:350] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:41:14:368] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:41:23:507] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:41:23:511] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:44:04:483] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:44:04:505] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:44:23:928] info: [RTM] (T0101L740P4) Processed 1 file_deleted event(s) over 67.20ms 
+[11/17/22, 17:44:24:491] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:44:24:492] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:46:24:515] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:46:24:524] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:47:14:634] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:47:14:642] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:47:44:658] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:47:44:674] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:48:05:508] info: [API-Q] (T0101L740P4) noversion-1668696485.502 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 17:48:05:508] info: [API-Q] (T0101L740P4) noversion-1668696485.502 Flannel users/info is ENQUEUED 
+[11/17/22, 17:48:05:514] info: [API-Q] (T0101L740P4) noversion-1668696485.502 Flannel users/info is ACTIVE 
+[11/17/22, 17:48:05:958] info: [API-Q] (T0101L740P4) noversion-1668696485.502 Flannel users/info is RESOLVED 
+[11/17/22, 17:48:44:698] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:48:44:706] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:48:54:707] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:48:54:723] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:50:04:762] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:50:04:768] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:50:14:768] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:50:14:773] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:51:25:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:51:25:508] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 17:53:13:518] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 17:53:13:519] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 17:55:35:039] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 17:55:35:045] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 17:56:26:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 17:56:26:508] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 3.57 minutes 
+[11/17/22, 17:58:45:212] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 17:58:45:231] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 18:00:01:506] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 18:00:01:556] info: [DND_V2] (T0101L740P4) Members with DND changes: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 18:00:01:557] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 18:00:53:512] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 18:00:53:559] info: [RTM] (T0101L740P4) Processed 1 message:message_replied event(s) in channel(s) C049S3MGLLF over 47.00ms 
+[11/17/22, 18:00:53:599] info: [RTM] Setting a timeout of 10 ms to process more rtm events 
+[11/17/22, 18:00:54:500] info: [RTM] Waited 10 ms, processing more rtm events now 
+[11/17/22, 18:00:54:501] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 18:00:54:510] info: [UNREAD-COUNTS] (T0101L740P4) Short-circuiting re-count in C049S3MGLLF because channel is already unread 
+[11/17/22, 18:00:54:740] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 18:00:54:745] info: [UNREAD-COUNTS] (T0101L740P4) Short-circuiting re-count in C049S3MGLLF because channel is already unread 
+[11/17/22, 18:01:12:572] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 18:01:12:577] info: [RTM] (T0101L740P4) Processed 1 message:message_replied event(s) in channel(s) C049S3MGLLF over 18.80ms 
+[11/17/22, 18:01:12:578] info: [RTM] Setting a timeout of 71 ms to process more rtm events 
+[11/17/22, 18:01:13:503] info: [RTM] Waited 71 ms, processing more rtm events now 
+[11/17/22, 18:01:13:506] info: [MSG-SHARED-RTM] (T0101L740P4) dispatch to single store 1 msgs 
+[11/17/22, 18:01:13:551] info: [RTM] (T0101L740P4) Processed 1 message event(s) in channel(s) C049S3MGLLF over 47.30ms 
+[11/17/22, 18:01:13:554] info: [UNREAD-COUNTS] (T0101L740P4) Short-circuiting re-count in C049S3MGLLF because channel is already unread 
+[11/17/22, 18:05:02:517] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 18:05:02:596] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 18:06:05:499] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 18:06:05:507] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 18:06:45:523] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 18:06:45:537] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 18:07:04:040] info: [SOCKET-MANAGER] (T0101L740P4) got offline event; moving to DISCONNECT as needed 
+[11/17/22, 18:07:04:040] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connected to disconnect 
+[11/17/22, 18:07:04:045] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnect state for up to 10000 ms 
+[11/17/22, 18:07:04:048] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnect to disconnecting 
+[11/17/22, 18:07:04:048] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnecting state for up to 10000 ms 
+[11/17/22, 18:07:04:049] info: [SOCKET-MANAGER] (T0101L740P4) Closing socket because #4100: disconnect requested 
+[11/17/22, 18:07:04:050] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4100 and description disconnect requested 
+[11/17/22, 18:07:04:050] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnecting to disconnected 
+[11/17/22, 18:07:04:050] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnected state for up to 10000 ms 
+[11/17/22, 18:07:04:051] info: [SOCKET-MANAGER] (T0101L740P4) Disconnected! Online? true 
+[11/17/22, 18:07:04:051] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnected to wait_for_rate_limit 
+[11/17/22, 18:07:04:051] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 18:07:04:052] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 701 ms 
+[11/17/22, 18:07:04:055] info: [PERSIST] (T0101L740P4) Persisting state to storage because we just lost network connectivity 
+[11/17/22, 18:07:04:506] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 18:07:04:528] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 18:07:04:528] info: Network status check {
+  "elapsed_time_ms": 5,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[11/17/22, 18:07:04:532] info: Store: SET_NETWORK_STATUS offline 
+[11/17/22, 18:07:04:535] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 18:07:05:506] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[11/17/22, 18:07:05:508] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to wait_for_connectivity 
+[11/17/22, 18:07:05:509] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_connectivity state for up to 300000 ms 
+[11/17/22, 18:07:05:536] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[11/17/22, 18:07:06:506] info: [API-Q] (T0101L740P4) Pausing queue because client is offline 
+[11/17/22, 18:07:07:503] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[11/17/22, 18:07:08:504] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:10:25:394] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:10:25:895] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4998 and description Too long since we received a pong 
+[11/17/22, 21:10:26:896] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:10:27:899] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:10:28:898] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:10:28:918] info: [FLANNEL] (T0101L740P4) received a user_unsubscribe_request call while we are not connected; deferring 
+[11/17/22, 21:10:30:164] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[11/17/22, 21:10:30:902] info: [FLANNEL] (T0101L740P4) received a user_subscribe_request call while we are not connected; deferring 
+[11/17/22, 21:10:30:907] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 21:10:30:908] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is ENQUEUED 
+[11/17/22, 21:10:31:621] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[11/17/22, 21:10:31:623] info: [API-Q] (T0101L740P4) Unpausing queue, back online 
+[11/17/22, 21:10:31:625] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_connectivity to connect 
+[11/17/22, 21:10:31:626] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 21:10:31:638] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 21:10:31:639] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 21:10:31:640] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 21:10:31:641] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to prov_connect 
+[11/17/22, 21:10:31:642] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connect state for up to 10000 ms 
+[11/17/22, 21:10:31:643] info: [SOCKET-MANAGER] (T0101L740P4) Connecting with token ending: bb17 
+[11/17/22, 21:10:31:644] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connect to prov_connecting 
+[11/17/22, 21:10:31:644] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connecting state for up to 35000 ms 
+[11/17/22, 21:10:31:681] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is ACTIVE 
+[11/17/22, 21:10:31:787] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 21:10:31:817] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 21:10:31:818] info: Network status check {
+  "elapsed_time_ms": 881,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[11/17/22, 21:10:31:819] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is ERROR: request did not complete 
+[11/17/22, 21:10:32:279] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connecting to prov_connected 
+[11/17/22, 21:10:32:280] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connected state for up to 60000 ms 
+[11/17/22, 21:10:32:326] info: [API-Q] (T0101L740P4) be0d1181-1668708632.324 client.boot called with reason: provisionally-connected 
+[11/17/22, 21:10:32:327] info: [API-Q] (T0101L740P4) be0d1181-1668708632.324 client.boot is ENQUEUED 
+[11/17/22, 21:10:32:368] info: [FLANNEL] (T0101L740P4) connected and trouble free! Continuing deferred user_unsubscribe_request call 
+[11/17/22, 21:10:32:369] info: [FLANNEL] (T0101L740P4) connected and trouble free! Continuing deferred user_subscribe_request call 
+[11/17/22, 21:10:32:369] info: [DESKTOP-SIDE-EFFECT] (T0101L740P4) Reacting to  {"type":"[104] Set a value that represents whether we are currently in the boot phase","payload":true,"error":false} 
+[11/17/22, 21:10:32:370] info: [API-Q] (T0101L740P4) be0d1181-1668708632.324 client.boot is ACTIVE 
+[11/17/22, 21:10:32:456] info: [FLANNEL] (T0101L740P4) troubled! Exiting deferred user_unsubscribe_request call 
+[11/17/22, 21:10:33:026] warn: %cUnhandled rejection Error: Flannel call failed for command 'user_unsubscribe_request' -- error Error: Not currently subscribed to requested unsubscribe ids.
+    at https://a.slack-edge.com/bv1-10/gantry-shared.fa3ccb0.min.js?cacheKey=gantry-1668490643:1:116762
+    at u (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:79581)
+    at L._settlePromiseFromHandler (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:52592)
+    at L._settlePromise (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:53392)
+    at L._settlePromise0 (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:54091)
+    at L._settlePromises (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:55332)
+    at d (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:6705)
+    at f (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:6644)
+    at s._drainQueues (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:7758)
+    at drainQueues (https://a.slack-edge.com/bv1-10/gantry-vendors.d9e39b2.min.js?cacheKey=gantry-1668490643:33:6578) color: red 
+[11/17/22, 21:10:33:297] info: [API-Q] (T0101L740P4) be0d1181-1668708632.324 client.boot is RESOLVED 
+[11/17/22, 21:10:33:305] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connected to prov_finalize 
+[11/17/22, 21:10:33:307] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_finalize state for up to 10000 ms 
+[11/17/22, 21:10:33:314] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_finalize to prov_finalizing 
+[11/17/22, 21:10:33:315] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_finalizing state for up to 10000 ms 
+[11/17/22, 21:10:33:318] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_finalizing to connected 
+[11/17/22, 21:10:33:318] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connected state for up to Infinity ms 
+[11/17/22, 21:10:33:319] info: [SOCKET-MANAGER] (T0101L740P4) Connected to primary region 
+[11/17/22, 21:10:33:384] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[11/17/22, 21:10:33:385] info: [API-Q] (T0101L740P4) be0d1181-1668708633.384 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[11/17/22, 21:10:33:385] info: [API-Q] (T0101L740P4) be0d1181-1668708633.384 search.autocomplete.topEmojis is ENQUEUED 
+[11/17/22, 21:10:33:387] info: [API-Q] (T0101L740P4) be0d1181-1668708633.386 files.list called with reason: paperclip-recents 
+[11/17/22, 21:10:33:387] info: [API-Q] (T0101L740P4) be0d1181-1668708633.386 files.list is ENQUEUED 
+[11/17/22, 21:10:33:388] info: [API-Q] (T0101L740P4) be0d1181-1668708633.387 links.getDomains called with reason: siws-get-domains 
+[11/17/22, 21:10:33:388] info: [API-Q] (T0101L740P4) be0d1181-1668708633.387 links.getDomains is ENQUEUED 
+[11/17/22, 21:10:33:390] info: [EVENTLOG] (T0101L740P4) fr=false, lc=false, lt=1668697272.316719 
+[11/17/22, 21:10:33:390] info: [EVENTLOG] (T0101L740P4) fetching events since 1668697272.316719 (11362 seconds ago) 
+[11/17/22, 21:10:33:391] info: [API-Q] (T0101L740P4) be0d1181-1668708633.390 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[11/17/22, 21:10:33:391] info: [API-Q] (T0101L740P4) be0d1181-1668708633.390 ublockworkaround.history is ENQUEUED 
+[11/17/22, 21:10:33:392] info: [MESSAGE-HISTORY] (T0101L740P4) Resetting reachedEnd 
+[11/17/22, 21:10:33:393] info: [API-Q] (T0101L740P4) be0d1181-1668708633.392 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[11/17/22, 21:10:33:393] info: [API-Q] (T0101L740P4) be0d1181-1668708633.392 users.customStatus.list is ENQUEUED 
+[11/17/22, 21:10:33:394] info: [DND_V2] (T0101L740P4) Marking all DND times as stale for the following members after connecting to the websocket: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 21:10:33:398] info: [API-Q] (T0101L740P4) be0d1181-1668708633.394 drafts.list called with reason: fetchDraftsOnReconnect 
+[11/17/22, 21:10:33:398] info: [API-Q] (T0101L740P4) be0d1181-1668708633.394 drafts.list is ENQUEUED 
+[11/17/22, 21:10:33:399] info: [DRAFTS] (T0101L740P4) No local drafts - skipping fetch to purge inactive drafts 
+[11/17/22, 21:10:33:400] info: [API-Q] (T0101L740P4) be0d1181-1668708633.400 usergroups.membership called with reason: user-group-membership-api/fetchUserGroupMembership 
+[11/17/22, 21:10:33:400] info: [API-Q] (T0101L740P4) be0d1181-1668708633.400 usergroups.membership is ENQUEUED 
+[11/17/22, 21:10:33:403] info: [UNREAD-COUNTS] (T0101L740P4) Fetching counts 
+[11/17/22, 21:10:33:403] info: [API-Q] (T0101L740P4) be0d1181-1668708633.403 client.counts called with reason: client-counts-api/fetchClientCounts 
+[11/17/22, 21:10:33:403] info: [API-Q] (T0101L740P4) be0d1181-1668708633.403 client.counts is ENQUEUED 
+[11/17/22, 21:10:33:405] info: [PRESENCE_PROMPT] (T0101L740P4) ignoring prompt due to presence (active) 
+[11/17/22, 21:10:33:407] info: [API-Q] (T0101L740P4) be0d1181-1668708633.406 users.prefs.set called with reason: maybeSetReachedAllDMsDisclosure 
+[11/17/22, 21:10:33:408] info: [API-Q] (T0101L740P4) be0d1181-1668708633.406 users.prefs.set is ENQUEUED 
+[11/17/22, 21:10:33:408] info: [API-Q] (T0101L740P4) be0d1181-1668708633.384 search.autocomplete.topEmojis is ACTIVE 
+[11/17/22, 21:10:33:410] info: [API-Q] (T0101L740P4) be0d1181-1668708633.386 files.list is ACTIVE 
+[11/17/22, 21:10:33:410] info: [API-Q] (T0101L740P4) be0d1181-1668708633.387 links.getDomains is ACTIVE 
+[11/17/22, 21:10:33:410] info: [API-Q] (T0101L740P4) be0d1181-1668708633.390 ublockworkaround.history is ACTIVE 
+[11/17/22, 21:10:33:412] info: [API-Q] (T0101L740P4) be0d1181-1668708633.392 users.customStatus.list is ACTIVE 
+[11/17/22, 21:10:33:413] info: [API-Q] (T0101L740P4) be0d1181-1668708633.394 drafts.list is ACTIVE 
+[11/17/22, 21:10:33:413] info: [API-Q] (T0101L740P4) be0d1181-1668708633.400 usergroups.membership is ACTIVE 
+[11/17/22, 21:10:33:413] info: [API-Q] (T0101L740P4) be0d1181-1668708633.403 client.counts is ACTIVE 
+[11/17/22, 21:10:33:414] info: [API-Q] (T0101L740P4) be0d1181-1668708633.406 users.prefs.set is ACTIVE 
+[11/17/22, 21:10:33:417] info: [DESKTOP-SIDE-EFFECT] (T0101L740P4) Reacting to  {"type":"[104] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[11/17/22, 21:10:33:418] info: [(T0101L740P4)] Will collect additional stats for the first 10 minutes of this session 
+[11/17/22, 21:10:33:694] info: [API-Q] (T0101L740P4) be0d1181-1668708633.384 search.autocomplete.topEmojis is RESOLVED 
+[11/17/22, 21:10:33:792] info: [API-Q] (T0101L740P4) be0d1181-1668708633.387 links.getDomains is RESOLVED 
+[11/17/22, 21:10:33:793] info: [API-Q] (T0101L740P4) be0d1181-1668708633.394 drafts.list is RESOLVED 
+[11/17/22, 21:10:33:799] info: [API-Q] (T0101L740P4) be0d1181-1668708633.406 users.prefs.set is RESOLVED 
+[11/17/22, 21:10:33:800] info: [API-Q] (T0101L740P4) be0d1181-1668708633.392 users.customStatus.list is RESOLVED 
+[11/17/22, 21:10:33:802] info: [API-Q] (T0101L740P4) be0d1181-1668708633.400 usergroups.membership is REJECTED: API not ok user_is_restricted 
+[11/17/22, 21:10:33:805] warn: USER_GROUP_MEMBERSHIP (T0101L740P4) usergroups.membership failed with user_is_restricted: Guests are not allowed to have user groups 
+[11/17/22, 21:10:33:808] info: [USER_GROUP_MEMBERSHIP] (T0101L740P4) Completed usergroups.membership processing 
+[11/17/22, 21:10:33:810] info: [DRAFTS] (T0101L740P4) No active drafts 
+[11/17/22, 21:10:33:810] info: [DRAFTS] (T0101L740P4) Successfully fetched all active and inactive drafts ✨ 
+[11/17/22, 21:10:33:816] info: [API-Q] (T0101L740P4) be0d1181-1668708633.390 ublockworkaround.history is RESOLVED 
+[11/17/22, 21:10:33:816] info: [DND_V2] (T0101L740P4) fetchAndUpsertDndForUsers - Preparing to fetch DND times for the following members: U048L53AUT1 
+[11/17/22, 21:10:33:817] info: [API-Q] (T0101L740P4) be0d1181-1668708633.817 dnd.info called with reason: fetchAndUpsertDndForUsers-getDndTimesFor:self 
+[11/17/22, 21:10:33:818] info: [API-Q] (T0101L740P4) be0d1181-1668708633.817 dnd.info is ENQUEUED 
+[11/17/22, 21:10:33:819] info: [API-Q] (T0101L740P4) be0d1181-1668708633.817 dnd.info is ACTIVE 
+[11/17/22, 21:10:33:820] info: [API-Q] (T0101L740P4) be0d1181-1668708633.403 client.counts is RESOLVED 
+[11/17/22, 21:10:33:821] info: [EVENTLOG] (T0101L740P4) processing 1 events out of a total set of 1 
+[11/17/22, 21:10:33:821] info: [RTM] Setting a timeout of 93 ms to process more rtm events 
+[11/17/22, 21:10:33:822] info: [EVENTLOG] (T0101L740P4) fetched finish (cancelled? false) 
+[11/17/22, 21:10:33:822] info: [EVENTLOG] (T0101L740P4) dispatching signal and clearing timestamp 
+[11/17/22, 21:10:33:825] info: [COUNTS] (T0101L740P4) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[11/17/22, 21:10:33:825] info: [COUNTS] (T0101L740P4) invalidating history for channel C049S3MGLLF since counts updated 1668700056.003900 > cached updatedTs 1668697272.003800 
+[11/17/22, 21:10:33:831] info: [COUNTS] (T0101L740P4) Threads has_unreads:true mention_count:0 
+[11/17/22, 21:10:33:832] info: [COUNTS] (T0101L740P4) Completed counts processing 
+[11/17/22, 21:10:33:955] info: [API-Q] (T0101L740P4) be0d1181-1668708633.386 files.list is RESOLVED 
+[11/17/22, 21:10:34:097] info: [API-Q] (T0101L740P4) be0d1181-1668708633.817 dnd.info is RESOLVED 
+[11/17/22, 21:10:34:098] info: [DND] (T0101L740P4) Fetched DND info for the following member: U048L53AUT1 
+[11/17/22, 21:10:34:116] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 21:10:34:894] info: [RTM] Waited 93 ms, processing more rtm events now 
+[11/17/22, 21:10:36:895] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is retrying, attempt 2 
+[11/17/22, 21:10:36:895] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is ENQUEUED 
+[11/17/22, 21:10:36:896] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is ACTIVE 
+[11/17/22, 21:10:38:247] info: [API-Q] (T0101L740P4) noversion-1668708630.899 Flannel users/info is RESOLVED 
+[11/17/22, 21:10:38:262] info: [API-Q] (T0101L740P4) noversion-1668708638.260 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 21:10:38:262] info: [API-Q] (T0101L740P4) noversion-1668708638.260 Flannel users/info is ENQUEUED 
+[11/17/22, 21:10:38:264] info: [API-Q] (T0101L740P4) noversion-1668708638.260 Flannel users/info is ACTIVE 
+[11/17/22, 21:10:38:393] info: [API-Q] (T0101L740P4) noversion-1668708638.260 Flannel users/info is RESOLVED 
+[11/17/22, 21:11:28:945] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 21:11:28:953] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:11:33:951] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 21:11:33:951] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 21:11:33:952] info: [API-Q] (T0101L740P4) be0d1181-1668708693.951 users.channelSections.list called with reason: conditional-fetch-manager 
+[11/17/22, 21:11:33:952] info: [API-Q] (T0101L740P4) be0d1181-1668708693.951 users.channelSections.list is ENQUEUED 
+[11/17/22, 21:11:33:975] info: [API-Q] (T0101L740P4) be0d1181-1668708693.951 users.channelSections.list is ACTIVE 
+[11/17/22, 21:11:34:253] info: [API-Q] (T0101L740P4) be0d1181-1668708693.951 users.channelSections.list is RESOLVED 
+[11/17/22, 21:11:41:944] info: [API-Q] (T0101L740P4) be0d1181-1668708701.940 client.counts called with reason: client-counts-api/fetchClientCounts 
+[11/17/22, 21:11:41:944] info: [API-Q] (T0101L740P4) be0d1181-1668708701.940 client.counts is ENQUEUED 
+[11/17/22, 21:11:41:966] info: [API-Q] (T0101L740P4) be0d1181-1668708701.940 client.counts is ACTIVE 
+[11/17/22, 21:11:42:262] info: [API-Q] (T0101L740P4) be0d1181-1668708701.940 client.counts is RESOLVED 
+[11/17/22, 21:11:42:266] info: [COUNTS] (T0101L740P4) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[11/17/22, 21:11:42:269] info: [COUNTS] (T0101L740P4) Threads has_unreads:true mention_count:0 
+[11/17/22, 21:11:42:269] info: [COUNTS] (T0101L740P4) Completed counts processing 
+[11/17/22, 21:12:49:014] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 21:12:49:028] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:15:34:901] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 21:15:34:903] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 21:15:59:146] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 21:15:59:157] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:16:19:160] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 21:16:19:165] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:19:20:884] info: [SOCKET-MANAGER] (T0101L740P4) got offline event; moving to DISCONNECT as needed 
+[11/17/22, 21:19:20:885] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connected to disconnect 
+[11/17/22, 21:19:20:891] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnect state for up to 10000 ms 
+[11/17/22, 21:19:20:893] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnect to disconnecting 
+[11/17/22, 21:19:20:894] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnecting state for up to 10000 ms 
+[11/17/22, 21:19:20:895] info: [SOCKET-MANAGER] (T0101L740P4) Closing socket because #4100: disconnect requested 
+[11/17/22, 21:19:20:895] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4100 and description disconnect requested 
+[11/17/22, 21:19:20:895] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnecting to disconnected 
+[11/17/22, 21:19:20:895] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnected state for up to 10000 ms 
+[11/17/22, 21:19:20:897] info: [SOCKET-MANAGER] (T0101L740P4) Disconnected! Online? true 
+[11/17/22, 21:19:20:897] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnected to wait_for_rate_limit 
+[11/17/22, 21:19:20:897] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 21:19:20:898] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 180 ms 
+[11/17/22, 21:19:20:903] info: [PERSIST] (T0101L740P4) Persisting state to storage because we just lost network connectivity 
+[11/17/22, 21:19:21:906] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to connect 
+[11/17/22, 21:19:21:951] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 21:19:21:952] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 21:19:21:952] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 21:19:21:953] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 21:19:21:953] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to fast_reconnecting 
+[11/17/22, 21:19:21:954] info: [SOCKET-MANAGER] (T0101L740P4) will stay in fast_reconnecting state for up to 20000 ms 
+[11/17/22, 21:19:21:963] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[11/17/22, 21:19:21:965] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 21:19:21:986] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 21:19:21:986] info: Network status check {
+  "elapsed_time_ms": 3,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[11/17/22, 21:19:21:987] warn: SOCKET-MANAGER (T0101L740P4) Socket was closed because #1006: generic error 
+[11/17/22, 21:19:21:987] info: [SOCKET-MANAGER] (T0101L740P4) Changing from fast_reconnecting to error 
+[11/17/22, 21:19:21:988] info: [SOCKET-MANAGER] (T0101L740P4) will stay in error state for up to 10000 ms 
+[11/17/22, 21:19:21:988] info: [SOCKET-MANAGER] (T0101L740P4) Changing from error to wait_for_rate_limit 
+[11/17/22, 21:19:21:988] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 21:19:21:988] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 569 ms 
+[11/17/22, 21:19:22:898] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 21:19:22:902] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to wait_for_connectivity 
+[11/17/22, 21:19:22:904] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_connectivity state for up to 300000 ms 
+[11/17/22, 21:19:22:927] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:19:23:896] info: [API-Q] (T0101L740P4) Pausing queue because client is offline 
+[11/17/22, 21:19:24:896] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:44:59:395] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:45:00:974] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:45:01:975] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:45:02:977] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:45:03:817] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[11/17/22, 21:45:03:973] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4998 and description Too long since we received a pong 
+[11/17/22, 21:45:05:180] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[11/17/22, 21:45:05:181] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 21:45:05:208] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 21:45:05:209] info: Network status check {
+  "elapsed_time_ms": 184,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[11/17/22, 21:45:06:975] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 2000ms. 
+[11/17/22, 21:45:09:056] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[11/17/22, 21:45:09:058] info: [API-Q] (T0101L740P4) Unpausing queue, back online 
+[11/17/22, 21:45:09:058] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_connectivity to connect 
+[11/17/22, 21:45:09:059] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 21:45:09:065] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 21:45:09:066] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 21:45:09:068] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 21:45:09:068] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to prov_connect 
+[11/17/22, 21:45:09:069] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connect state for up to 10000 ms 
+[11/17/22, 21:45:09:070] info: [SOCKET-MANAGER] (T0101L740P4) Connecting with token ending: bb17 
+[11/17/22, 21:45:09:071] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connect to prov_connecting 
+[11/17/22, 21:45:09:072] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connecting state for up to 35000 ms 
+[11/17/22, 21:45:09:687] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connecting to prov_connected 
+[11/17/22, 21:45:09:688] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_connected state for up to 60000 ms 
+[11/17/22, 21:45:09:694] info: [API-Q] (T0101L740P4) be0d1181-1668710709.693 client.boot called with reason: provisionally-connected 
+[11/17/22, 21:45:09:694] info: [API-Q] (T0101L740P4) be0d1181-1668710709.693 client.boot is ENQUEUED 
+[11/17/22, 21:45:09:712] info: [DESKTOP-SIDE-EFFECT] (T0101L740P4) Reacting to  {"type":"[104] Set a value that represents whether we are currently in the boot phase","payload":true,"error":false} 
+[11/17/22, 21:45:09:712] info: [API-Q] (T0101L740P4) be0d1181-1668710709.693 client.boot is ACTIVE 
+[11/17/22, 21:45:10:649] info: [API-Q] (T0101L740P4) be0d1181-1668710709.693 client.boot is RESOLVED 
+[11/17/22, 21:45:10:651] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_connected to prov_finalize 
+[11/17/22, 21:45:10:651] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_finalize state for up to 10000 ms 
+[11/17/22, 21:45:10:654] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_finalize to prov_finalizing 
+[11/17/22, 21:45:10:654] info: [SOCKET-MANAGER] (T0101L740P4) will stay in prov_finalizing state for up to 10000 ms 
+[11/17/22, 21:45:10:654] info: [SOCKET-MANAGER] (T0101L740P4) Changing from prov_finalizing to connected 
+[11/17/22, 21:45:10:654] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connected state for up to Infinity ms 
+[11/17/22, 21:45:10:655] info: [SOCKET-MANAGER] (T0101L740P4) Connected to primary region 
+[11/17/22, 21:45:10:686] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[11/17/22, 21:45:10:686] info: [API-Q] (T0101L740P4) be0d1181-1668710710.686 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[11/17/22, 21:45:10:687] info: [API-Q] (T0101L740P4) be0d1181-1668710710.686 search.autocomplete.topEmojis is ENQUEUED 
+[11/17/22, 21:45:10:688] info: [API-Q] (T0101L740P4) be0d1181-1668710710.687 files.list called with reason: paperclip-recents 
+[11/17/22, 21:45:10:688] info: [API-Q] (T0101L740P4) be0d1181-1668710710.687 files.list is ENQUEUED 
+[11/17/22, 21:45:10:690] info: [EVENTLOG] (T0101L740P4) fr=false, lc=false, lt=1668708633.390000 
+[11/17/22, 21:45:10:690] info: [EVENTLOG] (T0101L740P4) fetching events since 1668708633.390000 (2078 seconds ago) 
+[11/17/22, 21:45:10:690] info: [API-Q] (T0101L740P4) be0d1181-1668710710.690 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[11/17/22, 21:45:10:690] info: [API-Q] (T0101L740P4) be0d1181-1668710710.690 ublockworkaround.history is ENQUEUED 
+[11/17/22, 21:45:10:691] info: [MESSAGE-HISTORY] (T0101L740P4) Resetting reachedEnd 
+[11/17/22, 21:45:10:692] info: [API-Q] (T0101L740P4) be0d1181-1668710710.691 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[11/17/22, 21:45:10:692] info: [API-Q] (T0101L740P4) be0d1181-1668710710.691 users.customStatus.list is ENQUEUED 
+[11/17/22, 21:45:10:692] info: [DND_V2] (T0101L740P4) Marking all DND times as stale for the following members after connecting to the websocket: U03GQ70HFUJ,U048L53AUT1 
+[11/17/22, 21:45:10:693] info: [API-Q] (T0101L740P4) be0d1181-1668710710.692 drafts.list called with reason: fetchDraftsOnReconnect 
+[11/17/22, 21:45:10:693] info: [API-Q] (T0101L740P4) be0d1181-1668710710.692 drafts.list is ENQUEUED 
+[11/17/22, 21:45:10:693] info: [DRAFTS] (T0101L740P4) No local drafts - skipping fetch to purge inactive drafts 
+[11/17/22, 21:45:10:695] info: [API-Q] (T0101L740P4) be0d1181-1668710710.694 usergroups.membership called with reason: user-group-membership-api/fetchUserGroupMembership 
+[11/17/22, 21:45:10:695] info: [API-Q] (T0101L740P4) be0d1181-1668710710.694 usergroups.membership is ENQUEUED 
+[11/17/22, 21:45:10:696] info: [UNREAD-COUNTS] (T0101L740P4) Fetching counts 
+[11/17/22, 21:45:10:697] info: [API-Q] (T0101L740P4) be0d1181-1668710710.696 client.counts called with reason: client-counts-api/fetchClientCounts 
+[11/17/22, 21:45:10:697] info: [API-Q] (T0101L740P4) be0d1181-1668710710.696 client.counts is ENQUEUED 
+[11/17/22, 21:45:10:698] info: [PRESENCE_PROMPT] (T0101L740P4) ignoring prompt due to presence (active) 
+[11/17/22, 21:45:10:699] info: [API-Q] (T0101L740P4) be0d1181-1668710710.686 search.autocomplete.topEmojis is ACTIVE 
+[11/17/22, 21:45:10:700] info: [API-Q] (T0101L740P4) be0d1181-1668710710.687 files.list is ACTIVE 
+[11/17/22, 21:45:10:702] info: [API-Q] (T0101L740P4) be0d1181-1668710710.690 ublockworkaround.history is ACTIVE 
+[11/17/22, 21:45:10:703] info: [API-Q] (T0101L740P4) be0d1181-1668710710.691 users.customStatus.list is ACTIVE 
+[11/17/22, 21:45:10:703] info: [API-Q] (T0101L740P4) be0d1181-1668710710.692 drafts.list is ACTIVE 
+[11/17/22, 21:45:10:704] info: [API-Q] (T0101L740P4) be0d1181-1668710710.694 usergroups.membership is ACTIVE 
+[11/17/22, 21:45:10:704] info: [API-Q] (T0101L740P4) be0d1181-1668710710.696 client.counts is ACTIVE 
+[11/17/22, 21:45:10:705] info: [DESKTOP-SIDE-EFFECT] (T0101L740P4) Reacting to  {"type":"[104] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[11/17/22, 21:45:10:706] info: [API-Q] (T0101L740P4) noversion-1668710710.705 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 21:45:10:706] info: [API-Q] (T0101L740P4) noversion-1668710710.705 Flannel users/info is ENQUEUED 
+[11/17/22, 21:45:10:707] info: [API-Q] (T0101L740P4) noversion-1668710710.705 Flannel users/info is ACTIVE 
+[11/17/22, 21:45:11:426] info: [API-Q] (T0101L740P4) be0d1181-1668710710.696 client.counts is RESOLVED 
+[11/17/22, 21:45:11:427] info: [API-Q] (T0101L740P4) be0d1181-1668710710.686 search.autocomplete.topEmojis is RESOLVED 
+[11/17/22, 21:45:11:428] info: [API-Q] (T0101L740P4) be0d1181-1668710710.691 users.customStatus.list is RESOLVED 
+[11/17/22, 21:45:11:429] info: [API-Q] (T0101L740P4) be0d1181-1668710710.694 usergroups.membership is REJECTED: API not ok user_is_restricted 
+[11/17/22, 21:45:11:429] warn: USER_GROUP_MEMBERSHIP (T0101L740P4) usergroups.membership failed with user_is_restricted: Guests are not allowed to have user groups 
+[11/17/22, 21:45:11:432] info: [USER_GROUP_MEMBERSHIP] (T0101L740P4) Completed usergroups.membership processing 
+[11/17/22, 21:45:11:433] info: [API-Q] (T0101L740P4) be0d1181-1668710710.692 drafts.list is RESOLVED 
+[11/17/22, 21:45:11:434] info: [API-Q] (T0101L740P4) be0d1181-1668710710.690 ublockworkaround.history is RESOLVED 
+[11/17/22, 21:45:11:435] info: [API-Q] (T0101L740P4) be0d1181-1668710710.687 files.list is RESOLVED 
+[11/17/22, 21:45:11:437] info: [COUNTS] (T0101L740P4) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[11/17/22, 21:45:11:440] info: [COUNTS] (T0101L740P4) Threads has_unreads:true mention_count:0 
+[11/17/22, 21:45:11:441] info: [COUNTS] (T0101L740P4) Completed counts processing 
+[11/17/22, 21:45:11:444] info: [DND_V2] (T0101L740P4) fetchAndUpsertDndForUsers - Preparing to fetch DND times for the following members: U048L53AUT1 
+[11/17/22, 21:45:11:444] info: [API-Q] (T0101L740P4) be0d1181-1668710711.443 dnd.info called with reason: fetchAndUpsertDndForUsers-getDndTimesFor:self 
+[11/17/22, 21:45:11:444] info: [API-Q] (T0101L740P4) be0d1181-1668710711.443 dnd.info is ENQUEUED 
+[11/17/22, 21:45:11:445] info: [API-Q] (T0101L740P4) be0d1181-1668710711.443 dnd.info is ACTIVE 
+[11/17/22, 21:45:11:446] info: [DRAFTS] (T0101L740P4) No active drafts 
+[11/17/22, 21:45:11:446] info: [DRAFTS] (T0101L740P4) Successfully fetched all active and inactive drafts ✨ 
+[11/17/22, 21:45:11:446] info: [EVENTLOG] (T0101L740P4) nothing to process 
+[11/17/22, 21:45:11:447] info: [EVENTLOG] (T0101L740P4) fetched finish (cancelled? false) 
+[11/17/22, 21:45:11:447] info: [EVENTLOG] (T0101L740P4) dispatching signal and clearing timestamp 
+[11/17/22, 21:45:11:908] info: [API-Q] (T0101L740P4) be0d1181-1668710711.443 dnd.info is RESOLVED 
+[11/17/22, 21:45:11:909] info: [DND] (T0101L740P4) Fetched DND info for the following member: U048L53AUT1 
+[11/17/22, 21:45:11:914] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 21:45:12:676] info: [API-Q] (T0101L740P4) noversion-1668710710.705 Flannel users/info is RESOLVED 
+[11/17/22, 21:45:12:680] info: [API-Q] (T0101L740P4) noversion-1668710712.680 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 21:45:12:681] info: [API-Q] (T0101L740P4) noversion-1668710712.680 Flannel users/info is ENQUEUED 
+[11/17/22, 21:45:12:681] info: [API-Q] (T0101L740P4) noversion-1668710712.680 Flannel users/info is ACTIVE 
+[11/17/22, 21:45:12:774] info: [API-Q] (T0101L740P4) noversion-1668710712.680 Flannel users/info is RESOLVED 
+[11/17/22, 21:45:40:380] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 21:45:40:398] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:46:11:021] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 21:46:11:021] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 21:46:11:022] info: [API-Q] (T0101L740P4) be0d1181-1668710771.021 users.channelSections.list called with reason: conditional-fetch-manager 
+[11/17/22, 21:46:11:022] info: [API-Q] (T0101L740P4) be0d1181-1668710771.021 users.channelSections.list is ENQUEUED 
+[11/17/22, 21:46:11:044] info: [API-Q] (T0101L740P4) be0d1181-1668710771.021 users.channelSections.list is ACTIVE 
+[11/17/22, 21:46:11:408] info: [API-Q] (T0101L740P4) be0d1181-1668710771.021 users.channelSections.list is RESOLVED 
+[11/17/22, 21:46:18:979] info: [API-Q] (T0101L740P4) be0d1181-1668710778.973 client.counts called with reason: client-counts-api/fetchClientCounts 
+[11/17/22, 21:46:18:980] info: [API-Q] (T0101L740P4) be0d1181-1668710778.973 client.counts is ENQUEUED 
+[11/17/22, 21:46:19:045] info: [API-Q] (T0101L740P4) be0d1181-1668710778.973 client.counts is ACTIVE 
+[11/17/22, 21:46:19:568] info: [API-Q] (T0101L740P4) be0d1181-1668710778.973 client.counts is RESOLVED 
+[11/17/22, 21:46:19:578] info: [COUNTS] (T0101L740P4) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[11/17/22, 21:46:19:586] info: [COUNTS] (T0101L740P4) Threads has_unreads:true mention_count:0 
+[11/17/22, 21:46:19:589] info: [COUNTS] (T0101L740P4) Completed counts processing 
+[11/17/22, 21:47:40:474] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 21:47:40:479] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:48:00:482] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 21:48:00:490] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:48:30:501] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 21:48:30:510] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:49:00:518] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 21:49:00:524] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 21:50:11:974] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 21:50:11:978] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 21:55:12:980] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 21:55:12:982] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:00:13:979] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:00:13:981] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:02:11:979] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 22:02:11:979] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 22:04:41:261] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:04:41:266] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:05:14:981] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:05:14:983] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:05:31:289] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:05:31:297] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:05:51:311] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:05:51:326] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:07:11:354] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:07:11:363] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:07:31:374] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:07:31:387] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:09:31:446] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:09:31:471] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:09:51:462] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:09:51:468] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:10:11:469] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:10:11:477] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:10:15:979] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:10:15:982] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:11:11:525] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:11:11:540] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:13:11:599] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:13:11:607] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:14:01:647] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:14:01:665] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:14:31:647] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:14:31:655] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:15:01:677] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:15:01:692] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:15:16:984] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:15:16:990] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:15:41:689] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:15:41:696] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:15:51:695] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:15:51:701] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:16:51:717] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:16:51:726] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:17:11:979] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 22:17:11:979] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 22:17:21:750] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:17:21:767] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:17:51:759] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:17:51:768] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:18:31:788] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:18:31:793] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:18:51:797] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:18:51:804] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:20:18:434] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:20:18:442] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:21:16:477] info: [MIN-VERSION] Checking to see if we should reload 
+[11/17/22, 22:21:16:477] info: [MIN-VERSION] teamIds: T0101L740P4; versionTs: 1668490643; buildVersionTs: 1668490643; configVersionTs: 1668688554; All config versions: {"T0101L740P4":1668688554} 
+[11/17/22, 22:21:16:478] info: [API-Q] (T0101L740P4) be0d1181-1668712876.477 client.shouldReload called with reason: polling 
+[11/17/22, 22:21:16:478] info: [API-Q] (T0101L740P4) be0d1181-1668712876.477 client.shouldReload is ENQUEUED 
+[11/17/22, 22:21:16:497] info: [API-Q] (T0101L740P4) be0d1181-1668712876.477 client.shouldReload is ACTIVE 
+[11/17/22, 22:21:17:202] info: [API-Q] (T0101L740P4) be0d1181-1668712876.477 client.shouldReload is RESOLVED 
+[11/17/22, 22:21:17:202] info: [MIN-VERSION] No need to reload 
+[11/17/22, 22:23:02:427] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:23:02:432] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:23:32:435] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:23:32:444] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:24:02:465] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:24:02:470] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:25:19:426] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:25:19:429] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:26:22:576] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:26:22:584] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:26:32:588] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:26:32:605] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:27:02:604] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:27:02:612] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:27:12:618] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:27:12:640] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:29:22:713] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:29:22:720] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:29:42:736] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:29:42:756] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:30:20:428] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:30:20:430] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:30:32:754] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:30:32:762] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:30:52:771] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:30:52:776] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:31:22:787] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:31:22:795] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:32:12:433] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 22:32:12:434] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 22:34:22:949] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:34:22:967] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:34:52:958] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:34:52:977] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:35:02:968] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:35:02:984] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:35:21:433] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:35:21:441] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:35:32:970] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:35:32:977] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:35:42:981] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:35:42:990] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:37:03:034] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:37:03:043] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:37:03:044] info: [API-Q] (T0101L740P4) noversion-1668713823.044 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 22:37:03:045] info: [API-Q] (T0101L740P4) noversion-1668713823.044 Flannel users/info is ENQUEUED 
+[11/17/22, 22:37:03:051] info: [API-Q] (T0101L740P4) noversion-1668713823.044 Flannel users/info is ACTIVE 
+[11/17/22, 22:37:03:725] info: [API-Q] (T0101L740P4) noversion-1668713823.044 Flannel users/info is RESOLVED 
+[11/17/22, 22:37:13:045] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:37:13:061] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:37:33:041] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:37:33:061] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:38:33:094] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:38:33:110] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:39:03:101] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:39:03:120] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:40:22:425] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:40:22:430] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:40:23:167] info: [API-Q] (T0101L740P4) noversion-1668714023.165 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 22:40:23:168] info: [API-Q] (T0101L740P4) noversion-1668714023.165 Flannel users/info is ENQUEUED 
+[11/17/22, 22:40:23:188] info: [API-Q] (T0101L740P4) noversion-1668714023.165 Flannel users/info is ACTIVE 
+[11/17/22, 22:40:23:189] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:40:23:190] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:40:23:675] info: [API-Q] (T0101L740P4) noversion-1668714023.165 Flannel users/info is RESOLVED 
+[11/17/22, 22:42:43:257] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:42:43:276] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:45:23:429] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:45:23:434] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:47:12:437] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 22:47:12:439] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 22:47:13:433] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:47:13:435] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:50:24:427] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:50:24:430] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:51:33:790] info: [SOCKET-MANAGER] (T0101L740P4) got offline event; moving to DISCONNECT as needed 
+[11/17/22, 22:51:33:798] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connected to disconnect 
+[11/17/22, 22:51:33:798] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnect state for up to 10000 ms 
+[11/17/22, 22:51:33:799] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnect to disconnecting 
+[11/17/22, 22:51:33:799] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnecting state for up to 10000 ms 
+[11/17/22, 22:51:33:799] info: [SOCKET-MANAGER] (T0101L740P4) Closing socket because #4100: disconnect requested 
+[11/17/22, 22:51:33:799] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4100 and description disconnect requested 
+[11/17/22, 22:51:33:799] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnecting to disconnected 
+[11/17/22, 22:51:33:799] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnected state for up to 10000 ms 
+[11/17/22, 22:51:33:800] info: [SOCKET-MANAGER] (T0101L740P4) Disconnected! Online? true 
+[11/17/22, 22:51:33:800] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnected to wait_for_rate_limit 
+[11/17/22, 22:51:33:800] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 22:51:33:805] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 410 ms 
+[11/17/22, 22:51:33:806] info: [PERSIST] (T0101L740P4) Persisting state to storage because we just lost network connectivity 
+[11/17/22, 22:51:34:425] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to connect 
+[11/17/22, 22:51:34:425] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 22:51:34:429] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 22:51:34:429] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 22:51:34:430] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 22:51:34:431] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to fast_reconnecting 
+[11/17/22, 22:51:34:431] info: [SOCKET-MANAGER] (T0101L740P4) will stay in fast_reconnecting state for up to 20000 ms 
+[11/17/22, 22:51:34:497] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[11/17/22, 22:51:34:498] info: [API-Q] (T0101L740P4) Pausing queue because client is offline 
+[11/17/22, 22:51:34:516] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:34:517] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 22:51:34:538] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 22:51:34:538] info: Network status check {
+  "elapsed_time_ms": 22,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[11/17/22, 22:51:34:539] warn: SOCKET-MANAGER (T0101L740P4) Socket was closed because #1006: generic error 
+[11/17/22, 22:51:34:539] info: [SOCKET-MANAGER] (T0101L740P4) Changing from fast_reconnecting to error 
+[11/17/22, 22:51:34:539] info: [SOCKET-MANAGER] (T0101L740P4) will stay in error state for up to 10000 ms 
+[11/17/22, 22:51:34:539] info: [SOCKET-MANAGER] (T0101L740P4) Changing from error to wait_for_rate_limit 
+[11/17/22, 22:51:34:539] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 22:51:34:540] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 1061 ms 
+[11/17/22, 22:51:36:423] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:36:427] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to wait_for_connectivity 
+[11/17/22, 22:51:36:427] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_connectivity state for up to 300000 ms 
+[11/17/22, 22:51:37:424] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:38:425] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:40:422] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:40:423] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 22:51:41:423] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:42:422] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:43:423] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 8 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:53:406] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 9 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:51:54:969] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 10 attempt(s). 
+[11/17/22, 22:51:56:969] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 22:51:57:882] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[11/17/22, 22:51:59:869] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[11/17/22, 22:51:59:892] info: Network status check {
+  "elapsed_time_ms": 901,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[11/17/22, 22:51:59:895] info: Store: SET_NETWORK_STATUS online 
+[11/17/22, 22:51:59:905] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:52:01:034] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[11/17/22, 22:52:01:035] info: [API-Q] (T0101L740P4) Unpausing queue, back online 
+[11/17/22, 22:52:01:038] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_connectivity to connect 
+[11/17/22, 22:52:01:038] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 22:52:01:044] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 22:52:01:044] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 22:52:01:048] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 22:52:01:049] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to fast_reconnecting 
+[11/17/22, 22:52:01:049] info: [SOCKET-MANAGER] (T0101L740P4) will stay in fast_reconnecting state for up to 20000 ms 
+[11/17/22, 22:52:01:379] info: [SOCKET-MANAGER] (T0101L740P4) Changing from fast_reconnecting to connected 
+[11/17/22, 22:52:01:380] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connected state for up to Infinity ms 
+[11/17/22, 22:52:01:387] info: [SOCKET-MANAGER] (T0101L740P4) Connected to primary region 
+[11/17/22, 22:52:01:394] info: [EVENTLOG] (T0101L740P4) fr=true, lc=false, lt=1668714205.306200 
+[11/17/22, 22:52:01:679] info: [API-Q] (T0101L740P4) noversion-1668714721.676 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 22:52:01:680] info: [API-Q] (T0101L740P4) noversion-1668714721.676 Flannel users/info is ENQUEUED 
+[11/17/22, 22:52:01:685] info: [API-Q] (T0101L740P4) noversion-1668714721.676 Flannel users/info is ACTIVE 
+[11/17/22, 22:52:01:686] info: [RTM] Setting a timeout of 80 ms to process more rtm events 
+[11/17/22, 22:52:01:970] info: [RTM] Waited 80 ms, processing more rtm events now 
+[11/17/22, 22:52:02:181] info: [API-Q] (T0101L740P4) noversion-1668714721.676 Flannel users/info is RESOLVED 
+[11/17/22, 22:52:02:930] info: [RTM] Setting a timeout of 94 ms to process more rtm events 
+[11/17/22, 22:52:03:971] info: [RTM] Waited 94 ms, processing more rtm events now 
+[11/17/22, 22:52:31:765] info: [SOCKET-MANAGER] (T0101L740P4) got offline event; moving to DISCONNECT as needed 
+[11/17/22, 22:52:31:766] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connected to disconnect 
+[11/17/22, 22:52:31:769] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnect state for up to 10000 ms 
+[11/17/22, 22:52:31:770] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnect to disconnecting 
+[11/17/22, 22:52:31:771] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnecting state for up to 10000 ms 
+[11/17/22, 22:52:31:783] info: [SOCKET-MANAGER] (T0101L740P4) Closing socket because #4100: disconnect requested 
+[11/17/22, 22:52:31:783] info: [SLACK-SOCKET] socket.close() has been initiated with statusCode 4100 and description disconnect requested 
+[11/17/22, 22:52:31:783] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnecting to disconnected 
+[11/17/22, 22:52:31:783] info: [SOCKET-MANAGER] (T0101L740P4) will stay in disconnected state for up to 10000 ms 
+[11/17/22, 22:52:31:783] info: [SOCKET-MANAGER] (T0101L740P4) Disconnected! Online? true 
+[11/17/22, 22:52:31:783] info: [SOCKET-MANAGER] (T0101L740P4) Changing from disconnected to wait_for_rate_limit 
+[11/17/22, 22:52:31:784] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_rate_limit state for up to 120000 ms 
+[11/17/22, 22:52:31:784] info: [SOCKET-MANAGER] (T0101L740P4) backing off: will wait for 532 ms 
+[11/17/22, 22:52:31:968] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 22:52:32:984] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[11/17/22, 22:52:32:985] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_rate_limit to wait_for_connectivity 
+[11/17/22, 22:52:32:985] info: [SOCKET-MANAGER] (T0101L740P4) will stay in wait_for_connectivity state for up to 300000 ms 
+[11/17/22, 22:52:33:053] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:33:054] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error="
+} 
+[11/17/22, 22:52:33:074] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[11/17/22, 22:52:33:074] info: Network status check {
+  "elapsed_time_ms": 79,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[11/17/22, 22:52:33:079] info: Store: SET_NETWORK_STATUS offline 
+[11/17/22, 22:52:33:085] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:52:33:972] info: [API-Q] (T0101L740P4) Pausing queue because client is offline 
+[11/17/22, 22:52:34:968] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:35:970] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:45:397] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:47:059] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:48:060] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 22:52:49:060] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:50:041] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[11/17/22, 22:52:50:145] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[11/17/22, 22:52:52:060] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 5003ms. 
+[11/17/22, 22:52:52:091] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[11/17/22, 22:52:52:117] info: Network status check {
+  "elapsed_time_ms": 1032,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[11/17/22, 22:52:52:122] info: Store: SET_NETWORK_STATUS online 
+[11/17/22, 22:52:52:128] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:52:58:066] warn: SLACK-SOCKET SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[11/17/22, 22:52:58:700] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[11/17/22, 22:52:58:701] info: [API-Q] (T0101L740P4) Unpausing queue, back online 
+[11/17/22, 22:52:58:701] info: [SOCKET-MANAGER] (T0101L740P4) Changing from wait_for_connectivity to connect 
+[11/17/22, 22:52:58:701] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connect state for up to 10000 ms 
+[11/17/22, 22:52:58:705] info: [SOCKET-MANAGER] (T0101L740P4) Changing from connect to checking_fast_reconnect 
+[11/17/22, 22:52:58:705] info: [SOCKET-MANAGER] (T0101L740P4) will stay in checking_fast_reconnect state for up to 60000 ms 
+[11/17/22, 22:52:58:705] info: [SOCKET-MANAGER] (T0101L740P4) Attempting to connect to primary region 
+[11/17/22, 22:52:58:706] info: [SOCKET-MANAGER] (T0101L740P4) Changing from checking_fast_reconnect to fast_reconnecting 
+[11/17/22, 22:52:58:706] info: [SOCKET-MANAGER] (T0101L740P4) will stay in fast_reconnecting state for up to 20000 ms 
+[11/17/22, 22:52:59:655] info: [SOCKET-MANAGER] (T0101L740P4) Changing from fast_reconnecting to connected 
+[11/17/22, 22:52:59:656] info: [SOCKET-MANAGER] (T0101L740P4) will stay in connected state for up to Infinity ms 
+[11/17/22, 22:52:59:658] info: [SOCKET-MANAGER] (T0101L740P4) Connected to primary region 
+[11/17/22, 22:52:59:661] info: [EVENTLOG] (T0101L740P4) fr=true, lc=false, lt=1668714742.317600 
+[11/17/22, 22:52:59:941] info: [API-Q] (T0101L740P4) noversion-1668714779.939 Flannel users/info called with reason: flannel-call:users/info 
+[11/17/22, 22:52:59:942] info: [API-Q] (T0101L740P4) noversion-1668714779.939 Flannel users/info is ENQUEUED 
+[11/17/22, 22:52:59:944] info: [API-Q] (T0101L740P4) noversion-1668714779.939 Flannel users/info is ACTIVE 
+[11/17/22, 22:52:59:945] info: [RTM] Setting a timeout of 84 ms to process more rtm events 
+[11/17/22, 22:53:00:064] info: [RTM] Waited 84 ms, processing more rtm events now 
+[11/17/22, 22:53:00:095] info: [RTM] Setting a timeout of 67 ms to process more rtm events 
+[11/17/22, 22:53:00:897] info: [API-Q] (T0101L740P4) noversion-1668714779.939 Flannel users/info is RESOLVED 
+[11/17/22, 22:53:01:060] info: [RTM] Waited 67 ms, processing more rtm events now 
+[11/17/22, 22:54:00:067] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [external DMs]: 0 
+[11/17/22, 22:54:00:068] info: [CHECK-FOR-OLD-IMS] (T0101L740P4) Within limit [internal DMs]: 11 
+[11/17/22, 22:55:06:346] info: Store: SET_SYSTEM_IDLE idle 
+[11/17/22, 22:55:06:354] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[11/17/22, 22:55:38:066] info: [DND_V2] (T0101L740P4) Checking for changes in DND status for the following members: U048L53AUT1 
+[11/17/22, 22:55:38:068] info: [DND_V2] (T0101L740P4) Will check for changes in DND status again in 5 minutes 
+[11/17/22, 22:55:56:389] info: Store: SET_SYSTEM_IDLE active 
+[11/17/22, 22:55:56:404] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 

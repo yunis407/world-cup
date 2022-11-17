@@ -1,15 +1,3 @@
-2022/11/17-10:54:12.373 360f Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/17-10:54:12.374 360f Recovering log #40
-2022/11/17-10:54:12.404 360f Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000040.log 
-2022/11/17-10:54:23.114 360f Level-0 table #45: started
-2022/11/17-10:54:23.126 360f Level-0 table #45: 196648 bytes OK
-2022/11/17-10:54:23.130 360f Delete type=0 #40
-2022/11/17-10:54:23.131 360f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/11/17-10:54:23.131 360f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xd4MIHxB\x00\x03\x00\x00\x00\x00\x00@f@' @ 6012 : 1
-2022/11/17-10:54:23.131 360f Compacting 1@1 + 1@2 files
-2022/11/17-10:54:23.138 360f Generated table #46@1: 59 keys, 1346 bytes
-2022/11/17-10:54:23.138 360f Compacted 1@1 + 1@2 files => 1346 bytes
-2022/11/17-10:54:23.142 360f compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/17-10:54:23.142 360f Delete type=2 #42
-2022/11/17-10:54:23.142 360f Delete type=2 #45
-2022/11/17-10:54:23.142 360f Manual compaction at level-1 from '\x00\x09\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xd4MIHxB\x00\x03\x00\x00\x00\x00\x00@f@' @ 6012 : 1 .. (end); will stop at (end)
+2022/11/17-22:08:41.039 4b3e Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/17-22:08:41.039 4b3e Recovering log #44
+2022/11/17-22:08:41.039 4b3e Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000044.log 

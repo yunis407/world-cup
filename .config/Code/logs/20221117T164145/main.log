@@ -2,3 +2,6 @@
 2022-11-17 16:41:47.073 [info] Starting extension host with pid 14332 (fork() took 39 ms).
 2022-11-17 16:42:15.761 [info] update#setState checking for updates
 2022-11-17 16:42:15.769 [info] update#setState available for download
+2022-11-17 17:24:23.888 [info] Starting extension host with pid 15631 (fork() took 31 ms).
+2022-11-17 21:16:35.563 [info] Starting extension host with pid 18227 (fork() took 16 ms).
+2022-11-17 22:49:08.190 [info] Extension host with pid 14332 exited with code: 0, signal: null.

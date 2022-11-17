@@ -16,3 +16,5 @@
 2022-11-17 16:53:31.240 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
 2022-11-17 16:53:31.241 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 2022-11-17 16:53:31.851 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2022-11-17 22:49:08.094 [info] Extension host terminating: received terminate message from renderer
+2022-11-17 22:49:08.168 [info] Extension host with pid 14332 exiting with code 0

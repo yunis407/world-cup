@@ -1,3 +1,6 @@
 2022/11/17-15:35:46.342 1921 Reusing MANIFEST /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/MANIFEST-000001
 2022/11/17-15:35:46.344 1921 Recovering log #12
 2022/11/17-15:35:46.350 1921 Reusing old log /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/000012.log 
+2022/11/17-16:58:48.420 3550 Level-0 table #16: started
+2022/11/17-16:58:48.426 3550 Level-0 table #16: 9671 bytes OK
+2022/11/17-16:58:48.431 3550 Delete type=0 #12
