@@ -1,0 +1,9 @@
+[Trace 13:53:31.796] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Trace 13:53:31.799] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Trace 13:53:31.801] Server: connection.languages.diagnostics.on: file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Trace 13:53:31.802] Server: connection.languages.diagnostics.on: file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Trace 13:53:31.818] DocumentSymbolProvider: provideDocumentSymbols — file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas 1
+[Debug 13:53:31.818] LinkProvider: compute - file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Debug 13:53:31.887] TableOfContentsProvider: create - file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas
+[Debug 13:53:32.001] MdFoldingProvider: provideFoldingRanges — file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas 1
+[Trace 13:53:51.885] Server: connection.languages.diagnostics.on: file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/.canvas

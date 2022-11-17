@@ -1,17 +1,20 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="google-chrome.desktop" score="24436.75" last-seen="1668669002"/>
-    <application id="org.gnome.Evolution-alarm-notify.desktop" score="70.75" last-seen="1668667107"/>
-    <application id="gnome-control-center.desktop" score="105.5" last-seen="1668590735"/>
-    <application id="org.gnome.gedit.desktop" score="18.5" last-seen="1668171239"/>
-    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
-    <application id="org.gnome.Nautilus.desktop" score="51" last-seen="1668598591"/>
+    <application id="google-chrome.desktop" score="13295.875" last-seen="1668692921"/>
+    <application id="org.gnome.Evolution-alarm-notify.desktop" score="35.375" last-seen="1668671400"/>
+    <application id="software-properties-gtk.desktop" score="6" last-seen="1668688533"/>
+    <application id="gnome-control-center.desktop" score="55.25" last-seen="1668692174"/>
+    <application id="org.gnome.gedit.desktop" score="16.25" last-seen="1668685865"/>
     <application id="apport-gtk.desktop" score="0" last-seen="1668499014"/>
-    <application id="snap-store_ubuntu-software.desktop" score="330.75" last-seen="1668180017"/>
-    <application id="gnome-initial-setup.desktop" score="1584.75" last-seen="1668177630"/>
-    <application id="org.gnome.Terminal.desktop" score="13547.25" last-seen="1668669135"/>
-    <application id="slack_slack.desktop" score="141" last-seen="1668513691"/>
-    <application id="code.desktop" score="674.25" last-seen="1668668908"/>
+    <application id="gnome-wifi-panel.desktop" score="0" last-seen="0"/>
+    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
+    <application id="snap-store_ubuntu-software.desktop" score="168.375" last-seen="1668687700"/>
+    <application id="gnome-initial-setup.desktop" score="792.375" last-seen="1668177630"/>
+    <application id="org.gnome.Nautilus.desktop" score="37.5" last-seen="1668686747"/>
+    <application id="org.gnome.Terminal.desktop" score="7045.625" last-seen="1668692505"/>
+    <application id="slack_slack.desktop" score="70.5" last-seen="1668688552"/>
+    <application id="yelp.desktop" score="0" last-seen="1668688831"/>
+    <application id="code.desktop" score="1179.625" last-seen="1668692864"/>
   </context>
 </application-state>

@@ -1,0 +1,28 @@
+2022-11-17 15:40:37.478 [info] Validating found git in: git
+2022-11-17 15:40:37.478 [info] Using git 2.38.1 from git
+2022-11-17 15:40:37.478 [info] > git rev-parse --show-toplevel [7ms]
+2022-11-17 15:40:37.478 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-11-17 15:40:37.478 [info] Log level: Info
+2022-11-17 15:40:37.478 [info] Open repository: /home/yunis/phase-0-html-document-structure-lab
+2022-11-17 15:40:37.478 [info] > git status -z -uall [83ms]
+2022-11-17 15:40:37.478 [info] > git remote --verbose [91ms]
+2022-11-17 15:40:37.478 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [111ms]
+2022-11-17 15:40:37.478 [info] > git config --get commit.template [114ms]
+2022-11-17 15:40:37.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2022-11-17 15:40:37.481 [info] > git status -z -uall [21ms]
+2022-11-17 15:40:37.482 [info] > git remote --verbose [28ms]
+2022-11-17 15:40:37.483 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [56ms]
+2022-11-17 15:40:37.485 [info] > git config --get commit.template [13ms]
+2022-11-17 15:40:37.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [71ms]
+2022-11-17 15:40:37.882 [info] > git check-ignore -v -z --stdin [3ms]
+2022-11-17 15:40:37.957 [info] > git show --textconv :index.html [21ms]
+2022-11-17 15:40:37.965 [info] > git ls-files --stage -- /home/yunis/phase-0-html-document-structure-lab/index.html [8ms]
+2022-11-17 15:40:37.979 [info] > git cat-file -s 4ee34e565b001351951639c67fbe5c7b221a9b45 [2ms]
+2022-11-17 15:44:10.535 [info] > git status -z -uall [12ms]
+2022-11-17 15:44:10.537 [info] > git remote --verbose [31ms]
+2022-11-17 15:44:10.538 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [44ms]
+2022-11-17 15:44:10.559 [info] > git config --get commit.template [23ms]
+2022-11-17 15:44:10.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2022-11-17 15:44:10.603 [info] > git ls-files --stage -- /home/yunis/phase-0-html-document-structure-lab/index.html [3ms]
+2022-11-17 15:44:10.616 [info] > git cat-file -s 4ee34e565b001351951639c67fbe5c7b221a9b45 [7ms]
+2022-11-17 15:44:10.641 [info] > git show --textconv :index.html [15ms]

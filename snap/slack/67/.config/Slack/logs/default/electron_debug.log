@@ -45,3 +45,15 @@
 [30476:1115/141949.147569:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
 [30476:1115/141949.289539:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
 [30476:1115/141949.290298:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153546.858680:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[6235:1117/153547.455875:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153547.457030:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153547.602514:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.131" (uid=1000 pid=6235 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=746 comm="/lib/systemd/systemd-logind " label="unconfined")
+[6235:1117/153547.880724:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[6235:1117/153554.123492:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153554.257417:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153554.258107:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6575:1117/153627.362036:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 27
+[6575:1117/153629.769595:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 25
+[6575:1117/153633.143417:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 23
+[6575:1117/153634.179604:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 37

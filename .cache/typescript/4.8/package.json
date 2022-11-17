@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.618"},"devDependencies":{"@types/chai":"^4.3.4","@types/chai-dom":"^1.11.0","@types/html-encoding-sniffer":"^3.0.0","@types/jsdom":"^20.0.1","@types/node":"^18.11.9","@types/tough-cookie":"^4.0.2","@types/whatwg-encoding":"^2.0.0","@types/whatwg-mimetype":"^3.0.0","@types/whatwg-url":"^11.0.0"}}

@@ -1,0 +1,2 @@
+2022-11-17 15:40:37.028 [info] Starting worker process with pid 7464 (type: fileWatcher, window: 1).
+2022-11-17 15:43:36.431 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}

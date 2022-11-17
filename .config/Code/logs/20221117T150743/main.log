@@ -1,0 +1,14 @@
+2022-11-17 15:07:44.173 [info] update#setState idle
+2022-11-17 15:07:47.913 [info] Starting extension host with pid 4149 (fork() took 22 ms).
+2022-11-17 15:07:48.249 [info] Starting extension host with pid 4157 (fork() took 15 ms).
+2022-11-17 15:07:48.431 [info] Starting extension host with pid 4169 (fork() took 22 ms).
+2022-11-17 15:07:48.904 [info] Starting extension host with pid 4184 (fork() took 39 ms).
+2022-11-17 15:08:13.255 [info] Extension host with pid 4184 exited with code: 0, signal: null.
+2022-11-17 15:08:14.175 [info] update#setState checking for updates
+2022-11-17 15:08:14.185 [info] update#setState available for download
+2022-11-17 15:08:16.578 [info] Extension host with pid 4149 exited with code: 0, signal: null.
+2022-11-17 15:08:19.690 [info] Extension host with pid 4157 exited with code: 0, signal: null.
+2022-11-17 15:33:54.342 [info] Extension host with pid 4169 exited with code: 0, signal: null.
+2022-11-17 15:33:55.436 [info] Starting extension host with pid 5797 (fork() took 14 ms).
+2022-11-17 15:35:29.706 [info] Waiting for extension host with pid 5797 to exit.
+2022-11-17 15:35:29.725 [info] Extension host with pid 5797 exited with code: 0, signal: null.

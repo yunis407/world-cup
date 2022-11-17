@@ -1,0 +1,75 @@
+2022-11-17 15:07:50.407 [info] Extension host with pid 4169 started
+2022-11-17 15:07:50.667 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2022-11-17 15:07:50.668 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2022-11-17 15:07:50.669 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-17 15:07:51.587 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-17 15:07:51.587 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-17 15:07:51.802 [info] Eager extensions activated
+2022-11-17 15:07:52.015 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:07:52.015 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:07:52.016 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:07:52.106 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2022-11-17 15:07:56.051 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-17 15:07:56.051 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-17 15:07:56.052 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-11-17 15:28:03.482 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2022-11-17 15:28:03.527 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:29:07.824 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:32:18.502 [error] TypeError: Cannot read properties of undefined (reading 'map')
+	at setOrChangeWorkspace (/home/yunis/.vscode/extensions/ritwickdey.liveserver-5.7.9/out/src/workspaceResolver.js:8:45)
+	at AppModel.changeWorkspaceRoot (/home/yunis/.vscode/extensions/ritwickdey.liveserver-5.7.9/out/src/appModel.js:112:54)
+	at /home/yunis/.vscode/extensions/ritwickdey.liveserver-5.7.9/out/src/extension.js:33:18
+	at s._executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:111375)
+	at s.$executeContributedCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:112079)
+	at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) extension.liveServer.changeWorkspace {"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"}
+2022-11-17 15:33:54.277 [info] Extension host terminating: received terminate message from renderer
+2022-11-17 15:33:54.306 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2022-11-17 15:33:54.318 [info] Extension host with pid 4169 exiting with code 0
+2022-11-17 15:33:56.764 [info] Extension host with pid 5797 started
+2022-11-17 15:33:56.764 [info] Skipping acquiring lock for /home/yunis/.config/Code/User/workspaceStorage/0625b9ceb41ee3dc021c365e6ed4037e.
+2022-11-17 15:33:56.963 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2022-11-17 15:33:56.964 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2022-11-17 15:33:57.101 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-17 15:33:57.111 [info] Eager extensions activated
+2022-11-17 15:33:57.168 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:33:57.168 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:33:57.168 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:33:57.169 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2022-11-17 15:33:57.264 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2022-11-17 15:33:57.437 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:33:59.831 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2022-11-17 15:33:59.854 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-11-17 15:34:04.828 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2022-11-17 15:34:10.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-11-17 15:34:12.843 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-11-17 15:34:14.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-11-17 15:34:16.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2022-11-17 15:35:29.674 [info] Extension host terminating: received terminate message from renderer
+2022-11-17 15:35:29.688 [info] Extension host with pid 5797 exiting with code 0

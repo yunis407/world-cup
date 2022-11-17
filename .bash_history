@@ -494,3 +494,88 @@ learn-lab test
 learn-lab test
 npm i first
 learn-lab test
+bundle
+npm npm install
+npnpnpm test
+rrsprspec
+touch my_list.txt
+rspec
+sudo apt install ruby-rspec-core
+apt-get update
+git clone git@github.com:yunis407/phase-0-html-document-structure-lab.git
+cd phase-0-html-document-structure-lab
+code
+git clone git@github.com:learn-co-curriculum/phase-0-git-basics-lab.git
+cd phase-0-git-basics-lab
+npm install
+npm test
+mkdir my-repository
+npm test
+cd my-repository
+ls
+npm test
+git clone git@github.com:learn-co-curriculum/phase-0-html-experiencing-html-lab.git
+cd phase-0-html-experiencing-html-lab
+code
+touch my_list.txt
+code touch my_list.txt
+touch my_list.html
+code my_list.html
+rspec
+npm test
+git add .
+git commit -m "completed assignment"
+git push
+git remote origin
+git origin
+git commit -m "completed assignment"
+git push
+git commit -m "completed assignment"
+npm test
+git clone git@github.com:yunis407/phase-0-html-experiencing-html-lab.git
+git add .
+git commit -m "completed assignment"
+git push
+git push git@github.com:yunis407/phase-0-html-experiencing-html-lab.git
+git clone git@github.com:facebook/react.git
+cd git remote
+git remote
+ls
+cd react
+git remote
+git remote show origin
+git clone
+git clone your-copied-github-url
+ls
+git remote
+ls
+git clone
+git clone
+git clone git@github.com:facebook/react.git
+cat id_rsa.pub
+cd Development
+ls
+cd code
+mkdir my_new_directory
+ls
+cd my_new_directory
+ls
+code
+cd README.md
+cd Development
+echo "this is my readme file" > README.md
+echo "this is my readme file">  README.md
+code
+git clone
+npm test
+npm test
+git add .
+git status
+rspec test
+learn-tab test
+npm test
+npm run
+npm test
+git commit -m "completed assignment"
+git push
+explorer.exe index.html

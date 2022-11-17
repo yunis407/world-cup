@@ -2,17 +2,10 @@
     "telemetry.machineId": "468f3e3c2c0411d2ea6b5f8d0414a04b083904ed1fc19ec0fd68efc17da3c4bb",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
-            {
-                "folderUri": "file:///home/yunis/my_list.html"
-            }
-        ],
+        "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1668406902502"
-            },
-            {
-                "backupFolder": "1668669136135"
+                "backupFolder": "1668692505915"
             }
         ]
     },
@@ -64,6 +57,39 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/yunis/my_list.html",
+                                        "path": "/home/yunis/my_list.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/my_list.html"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/Downloads",
+                                        "path": "/home/yunis/Downloads",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
+                                        "path": "/home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Development/code/phase-0/phase-0-html-experiencing-html-lab"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem",
                                         "path": "/home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem",
                                         "scheme": "file"
@@ -83,62 +109,117 @@
                                     "label": "~/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yunis/my_list.html",
-                                        "path": "/home/yunis/my_list.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/my_list.html"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
-                                        "path": "/home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Development/code/phase-0/phase-0-html-experiencing-html-lab"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/my_list.txt",
-                                        "path": "/home/yunis/my_list.txt",
+                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js",
+                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/my_list.txt"
+                                    "label": "~/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/my_file.txt",
-                                        "path": "/home/yunis/my_file.txt",
+                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html",
+                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/my_file.txt"
+                                    "label": "~/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/example.html",
-                                        "path": "/home/yunis/example.html",
+                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js",
+                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/example.html"
+                                    "label": "~/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/test/index.html.test.js",
+                                        "path": "/home/yunis/phase-0-html-document-structure-lab/test/index.html.test.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-document-structure-lab/test/index.html.test.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-tag-lab/test/helpers.js",
+                                        "path": "/home/yunis/phase-0-html-tag-lab/test/helpers.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-tag-lab/test/helpers.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/index.html",
+                                        "path": "/home/yunis/phase-0-html-document-structure-lab/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-document-structure-lab/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/CONTRIBUTING.md",
+                                        "path": "/home/yunis/phase-0-html-document-structure-lab/CONTRIBUTING.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-document-structure-lab/CONTRIBUTING.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-experiencing-html-lab/my_list.html",
+                                        "path": "/home/yunis/phase-0-html-experiencing-html-lab/my_list.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-experiencing-html-lab/my_list.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-experiencing-html-lab/touch",
+                                        "path": "/home/yunis/phase-0-html-experiencing-html-lab/touch",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-experiencing-html-lab/touch"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-html-experiencing-html-lab/my_list.txt",
+                                        "path": "/home/yunis/phase-0-html-experiencing-html-lab/my_list.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-html-experiencing-html-lab/my_list.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -480,8 +561,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -620,6 +700,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -708,8 +795,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -721,8 +807,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -731,8 +816,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1049,7 +1133,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1383,6 +1468,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1625,20 +1715,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 676,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/yunis/.config/Code/Backups/1668406902502",
+            "backupPath": "/home/yunis/.config/Code/Backups/1668692505915",
             "uiState": {
                 "mode": 1,
-                "x": 655,
-                "y": 197,
-                "width": 631,
-                "height": 472
+                "x": 663,
+                "y": 64,
+                "width": 676,
+                "height": 642
             }
         },
         "openedWindows": []

@@ -1,0 +1,36 @@
+2022-11-17 15:07:52.664 [info] Starting worker process with pid 4268 (type: fileWatcher, window: 3).
+2022-11-17 15:07:52.812 [info] Starting worker process with pid 4269 (type: fileWatcher, window: 4).
+2022-11-17 15:07:52.812 [info] Starting worker process with pid 4272 (type: fileWatcher, window: 1).
+2022-11-17 15:07:52.812 [info] Starting worker process with pid 4274 (type: fileWatcher, window: 2).
+2022-11-17 15:07:55.848 [error] [uncaught exception in sharedProcess]: Could not find pty on pty host: CodeExpectedError: Could not find pty on pty host
+    at h._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at h.attachToProcess (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:27:2712)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.O (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-11-17 15:08:13.238 [info] Worker process with pid 4274 terminated normally (type: fileWatcher, window: 2).
+2022-11-17 15:08:16.574 [info] Worker process with pid 4268 terminated normally (type: fileWatcher, window: 3).
+2022-11-17 15:08:19.688 [info] Worker process with pid 4272 terminated normally (type: fileWatcher, window: 1).
+2022-11-17 15:25:21.265 [info] Getting Manifest... esbenp.prettier-vscode
+2022-11-17 15:25:21.302 [info] Installing extension: esbenp.prettier-vscode
+2022-11-17 15:26:46.413 [error] RequestService#request (browser) - error https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.9.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true {}
+2022-11-17 15:27:01.122 [info] Getting Manifest... ritwickdey.liveserver
+2022-11-17 15:27:01.137 [info] Installing extension: ritwickdey.liveserver
+2022-11-17 15:28:03.226 [info] Extracted extension to /home/yunis/.vscode/extensions/.c160f1fd-5a91-4d85-a745-f5b13ee41b55: esbenp.prettier-vscode
+2022-11-17 15:28:03.237 [info] Renamed to /home/yunis/.vscode/extensions/esbenp.prettier-vscode-9.9.0
+2022-11-17 15:28:03.244 [info] Extracting completed. esbenp.prettier-vscode
+2022-11-17 15:28:03.247 [info] Extension installed successfully: esbenp.prettier-vscode
+2022-11-17 15:29:07.270 [info] Extracted extension to /home/yunis/.vscode/extensions/.749f9150-8b1c-4a9d-abe4-065092a876a4: ritwickdey.liveserver
+2022-11-17 15:29:07.509 [info] Renamed to /home/yunis/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2022-11-17 15:29:07.516 [info] Extracting completed. ritwickdey.liveserver
+2022-11-17 15:29:07.523 [info] Extension installed successfully: ritwickdey.liveserver
+2022-11-17 15:33:54.325 [info] Worker process with pid 4269 terminated normally (type: fileWatcher, window: 4).
+2022-11-17 15:33:55.454 [info] Starting worker process with pid 5798 (type: fileWatcher, window: 4).

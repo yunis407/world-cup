@@ -1,0 +1,24 @@
+2022-11-17 16:18:03.245 [info] Validating found git in: git
+2022-11-17 16:18:03.245 [info] Using git 2.38.1 from git
+2022-11-17 16:18:03.245 [info] > git rev-parse --show-toplevel [7ms]
+2022-11-17 16:18:03.278 [info] > git rev-parse --git-dir --git-common-dir [91ms]
+2022-11-17 16:18:03.291 [info] Log level: Info
+2022-11-17 16:18:03.291 [info] Open repository: /home/yunis/phase-0-html-document-structure-lab
+2022-11-17 16:18:03.343 [info] > git status -z -uall [28ms]
+2022-11-17 16:18:03.344 [info] > git remote --verbose [37ms]
+2022-11-17 16:18:03.345 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [47ms]
+2022-11-17 16:18:03.349 [info] > git config --get commit.template [18ms]
+2022-11-17 16:18:03.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2022-11-17 16:18:03.437 [info] > git status -z -uall [35ms]
+2022-11-17 16:18:03.439 [info] > git remote --verbose [47ms]
+2022-11-17 16:18:03.440 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [60ms]
+2022-11-17 16:18:03.444 [info] > git config --get commit.template [7ms]
+2022-11-17 16:18:03.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2022-11-17 16:18:03.948 [info] > git show --textconv :index.html [25ms]
+2022-11-17 16:18:03.949 [info] > git ls-files --stage -- /home/yunis/phase-0-html-document-structure-lab/index.html [16ms]
+2022-11-17 16:18:03.965 [info] > git check-ignore -v -z --stdin [20ms]
+2022-11-17 16:18:03.967 [info] > git cat-file -s 4ee34e565b001351951639c67fbe5c7b221a9b45 [3ms]
+2022-11-17 16:18:34.696 [info] > git check-ignore -v -z --stdin [2ms]
+2022-11-17 16:18:34.803 [info] > git show --textconv :test/index.html.test.js [21ms]
+2022-11-17 16:18:34.805 [info] > git ls-files --stage -- /home/yunis/phase-0-html-document-structure-lab/test/index.html.test.js [2ms]
+2022-11-17 16:18:34.819 [info] > git cat-file -s bcd184a3b7814943db39eaf257bedc0a0491173c [3ms]

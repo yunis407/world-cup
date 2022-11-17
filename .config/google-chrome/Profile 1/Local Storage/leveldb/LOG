@@ -1,6 +1,6 @@
-2022/11/16-14:40:05.269 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2022/11/16-14:40:05.271 3 Recovering log #29
-2022/11/16-14:40:05.275 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/000029.log 
-2022/11/17-09:54:08.523 3c Level-0 table #33: started
-2022/11/17-09:54:08.532 3c Level-0 table #33: 13793 bytes OK
-2022/11/17-09:54:08.540 3c Delete type=0 #29
+2022/11/17-14:51:53.715 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2022/11/17-14:51:53.722 3 Recovering log #32
+2022/11/17-14:51:53.723 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/000032.log 
+2022/11/17-15:22:02.571 14 Level-0 table #36: started
+2022/11/17-15:22:02.578 14 Level-0 table #36: 15231 bytes OK
+2022/11/17-15:22:02.584 14 Delete type=0 #32
