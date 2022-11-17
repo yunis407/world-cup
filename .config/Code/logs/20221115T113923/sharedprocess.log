@@ -1,0 +1,4 @@
+2022-11-15 11:39:25.990 [info] Starting worker process with pid 25561 (type: fileWatcher, window: 1).
+2022-11-15 11:59:25.364 [warning] No ptyHost heartbeat after 6 seconds
+2022-11-15 12:06:44.121 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2022-11-15 12:16:39.409 [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,32 @@
+2022-11-15 12:37:27.222 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2022-11-15 12:37:27.222 [info] Auto Sync is enabled.
+2022-11-15 12:37:27.222 [info] Auto Sync: Suspended until auth token is available.
+2022-11-15 12:37:27.963 [info] Auto Sync: Triggered by Interval
+2022-11-15 12:37:27.964 [info] Sync started.
+2022-11-15 12:37:32.249 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:37:32.262 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:37:32.272 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:37:32.277 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:37:32.285 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:37:32.361 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:37:32.363 [info] Sync done. Took 4401ms
+2022-11-15 12:38:06.331 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:38:06.332 [info] Sync started.
+2022-11-15 12:38:06.972 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:38:06.995 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:38:07.018 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:38:07.037 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:38:08.115 [info] GlobalState: Updated remote ui state. Added: views.customizations. Updated: workbench.explorer.views.state.hidden,workbench.panel.pinnedPanels.
+2022-11-15 12:38:08.137 [info] GlobalState: Updated last synchronized ui state
+2022-11-15 12:38:08.265 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:38:08.267 [info] Sync done. Took 1945ms
+2022-11-15 12:38:11.641 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:38:11.643 [info] Sync started.
+2022-11-15 12:38:12.424 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:38:12.442 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:38:12.460 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:38:12.469 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:38:13.583 [info] GlobalState: Updated remote ui state. Added: tabs-list-width-vertical.
+2022-11-15 12:38:13.602 [info] GlobalState: Updated last synchronized ui state
+2022-11-15 12:38:13.727 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:38:13.730 [info] Sync done. Took 2094ms

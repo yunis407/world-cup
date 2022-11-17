@@ -1,0 +1,511 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=viewFlags)(B9=viewType)(BA=columnStates)(BB=sortColumns)
+  (BC=customSortCol)(BD=retainBy)(BE=daysToKeepHdrs)(BF=numHdrsToKeep)
+  (C0=daysToKeepBodies)(C1=useServerDefaults)(C2=cleanupBodies)
+  (C3=applyToFlaggedMessages)(C4=useServerRetention)(C5=gloda-id)
+  (C6=gloda-dirty)(C7=junkscore)(C8=keywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=bccList)
+  (8F=msgThreadId)(90=threadId)(91=threadFlags)(92=threadNewestMsgDate)
+  (93=children)(94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)(AD=forceReparse)
+  (AE=fixedBadRefThreading)(AF=folderName)(B0=storeToken)(B1=account)
+  (B2=dateReceived)(B3=ProtoThreadFlags)(B4=MRUTime)(B5=replyTo)
+  (B6=sortType)(B7=sortOrder)>
+<(171=17)(16F=63678daa)(81=0)(80=1)>
+[14:m(^9C=17)(^90=17)(^92^16F)(^91=0)(^93=1)(^94=1)]
+<(182=19)(17F=6367d5ea)>[15:m(^9C=19)(^90=19)(^92^17F)(^91=0)(^93=1)
+    (^94=1)]
+<(18E=1a)(193=6368d4ea)(98=2)>[16:m(^9C=1a)(^90=1a)(^92^193)(^91=0)
+    (^93=2)(^94=2)]
+<(19D=1c)(19B=6368d4fd)>[17:m(^9C=1c)(^90=1c)(^92^19B)(^91=0)(^93=1)
+    (^94=1)]
+<(1A2=1d)>[18:m(^9C=1d)(^90=1d)(^92^19B)(^91=0)(^93=1)(^94=1)]
+<(1AB=1e)(1A9=6368fa83)>[19:m(^9C=1e)(^90=1e)(^92^1A9)(^91=0)(^93=1)
+    (^94=1)]
+<(1B3=1f)(1B1=6368fc8a)>[1A:m(^9C=1f)(^90=1f)(^92^1B1)(^91=0)(^93=1)
+    (^94=1)]
+<(151=20)(1BA=6368fdb2)>[1B:m(^9C=20)(^90=20)(^92^1BA)(^91=0)(^93=1)
+    (^94=1)]
+<(152=21)(1C2=6368fe0e)>[1C:m(^9C=21)(^90=21)(^92^1C2)(^91=0)(^93=1)
+    (^94=1)]
+<(90=fffffffe)(8C=636107b5)>[1:m(^9C=1)(^90^90)(^92^8C)(^91=0)(^93=1)
+    (^94=1)]
+[2:m(^9C=2)(^90=2)(^92^8C)(^91=0)(^93=1)(^94=1)]
+<(A4=3)(A1=636151fe)>[3:m(^9C=3)(^90=3)(^92^A1)(^91=0)(^93=1)(^94=1)]
+<(AE=4)(AB=636231a7)>[4:m(^9C=4)(^90=4)(^92^AB)(^91=0)(^93=1)(^94=1)]
+<(BA=5)(B7=63637124)>[5:m(^9C=5)(^90=5)(^92^B7)(^91=0)(^93=1)(^94=1)]
+<(C5=6)(C2=6363a8ad)>[6:m(^9C=6)(^90=6)(^92^C2)(^91=0)(^93=1)(^94=1)]
+<(CE=7)(CB=6363a978)>[7:m(^9C=7)(^90=7)(^92^CB)(^91=0)(^93=1)(^94=1)]
+<(D9=8)(D6=6363a9a5)>[8:m(^9C=8)(^90=8)(^92^D6)(^91=0)(^93=1)(^94=1)]
+<(E6=9)(E3=6363aae4)>[9:m(^9C=9)(^90=9)(^92^E3)(^91=0)(^93=1)(^94=1)]
+<(F0=a)(ED=6363ad1c)>[A:m(^9C=a)(^90=a)(^92^ED)(^91=0)(^93=1)(^94=1)]
+<(FC=b)(176=63678e62)>[B:m(^9C=b)(^90=b)(^92^176)(^91=0)(^93=5)(^94=5)]
+<(106=c)(103=636434a0)>[C:m(^9C=c)(^90=c)(^92^103)(^91=0)(^93=1)(^94=1)]
+<(10F=d)(10C=63651392)>[D:m(^9C=d)(^90=d)(^92^10C)(^91=0)(^93=1)(^94=1)]
+<(118=e)(115=63667748)>[E:m(^9C=e)(^90=e)(^92^115)(^91=0)(^93=1)(^94=1)]
+<(121=f)(11E=63677c4a)>[F:m(^9C=f)(^90=f)(^92^11E)(^91=0)(^93=1)(^94=1)]
+<(12B=10)(128=63678040)>[10:m(^9C=10)(^90=10)(^92^128)(^91=0)(^93=1)
+    (^94=1)]
+<(134=11)(131=63678324)>[11:m(^9C=11)(^90=11)(^92^131)(^91=0)(^93=1)
+    (^94=1)]
+<(161=15)(15E=63678af0)>[12:m(^9C=15)(^90=15)(^92^15E)(^91=0)(^93=1)
+    (^94=1)]
+<(169=16)(166=63678cb2)>[13:m(^9C=16)(^90=16)(^92^166)(^91=0)(^93=1)
+    (^94=1)]
+
+<(86=58)(87=Gmail Team <mail-noreply@google.com>)(88
+    =Yunis Osman <yunis.osman@student.moringaschool.com>)(89
+    =Get the official Gmail app)(8A
+    =CAKy4c96oJu660mV-rZVnmUXsOwkhwkSychu9FZDBeNT3XNrDww@mail.gmail.com)
+  (8B=account1)(8D=18c3)(8E=60)(8F=ffffffff)(92=18c4)(93=6340)(94
+    =Tips for using your new inbox)(95
+    =CAKy4c94m-OXyKgn8J5BBfnFVFF=NZVusN4SZ8ODDOhCo5EQTtQ@mail.gmail.com)
+  (96=377a)(97=d3)(99=503f)(9A=20543)(9B=no-reply@slack.com)(9C
+    =Slack <no-reply-ivNjbY3E1YSZr35N4ApDck9y@slack.com>)(9D
+    ="" <yunis.osman@student.moringaschool.com>)(9E
+    =Student Support has invited you to work with them in Slack)(9F
+    =0101018434284993-cb8b2c59-ac89-4e13-893b-9de110a520c9-000000@us-west-2.am\
+azonses.com)(A0=636151ff)(A2=7c90)(A3=33f)(153=22)(A5=ccd0)(A6=52432)
+  (A7=Slack <no-reply-mVvAlxGSAJNYKPx26JSHMEKY@slack.com>)(A8
+    ==?utf-8?Q?Reminder=3a_You=e2=80=99re_invited_to_join_Moringa_Classroom_on\
+_Slack?=)(A9
+    =010101843791f540-fd7c2a0a-857c-4c82-9487-ae15588f7529-000000@us-west-2.am\
+azonses.com)(AA=636231a8)(AC=6a45)(AD=2c8)(FB=23)(AF=13716)(B0=79638)
+  (B1
+    =Slack <eb-T0101L740P4-U048L53AUT1-yryauswoioypltpwimkvhdjytu@slack-mail.c\
+om>)(B2=Josiah Nganga via Slack <notification@slack-mail.com>)(B3
+    ==?utf-8?Q?=f0=9f=94=92_Josiah_Nganga_sent_you_a_message_in_=23sdf=2dft=30\
+=33_on_Slack?=)(B4
+    =010001843c71f76a-8364ee34-ace2-41aa-9ab0-142016fe228d-000000@email.amazon\
+ses.com)(B5=<C048U0SSZLN@slack-mail.com>)(B6=63637125)(B8=96c5)(B9=357)
+  (154=25)(BB=1cddc)(BC=118236)(BD=Firefox Accounts <accounts@firefox.com>)
+  (BE=yunis.osman@student.moringaschool.com)(BF=Confirm your account)
+  (C0
+    =010101843d4ae569-75c8eeb6-404e-4f3f-8401-c1881757fd33-000000@us-west-2.am\
+azonses.com)(C1=6363a8ae)(C3=6760)(C4=27e)(155=26)(C6=2353d)(C7=144701)
+  (C8=Welcome to Firefox!)(C9
+    =010101843d4dfe2e-9e297210-3de3-437a-9921-f047a21172c8-000000@us-west-2.am\
+azonses.com)(CA=6363a979)(CC=8209)(CD=325)(156=27)(CF=2b747)(D0=177991)
+  (D1=firefox@email.mozilla.org)(D2=Firefox <firefox@email.mozilla.org>)
+  (D3=Now that you've got a Firefox account, let's get you set up)(D4
+    =877005026.160153121667475877676.JavaMail.app@bg92-ca-ue1.prod.awspr)
+  (D5=6363a9a6)(D7=d528)(D8=3fc)(157=28)(DE=38c70)(DF=232560)(E0
+    =Secondary email added)(E1
+    =010101843d538b23-bd0ff8c1-ba25-4586-bb3b-fb2a03e303de-000000@us-west-2.am\
+azonses.com)(E2=6363aae5)(E4=602d)(E5=244)(E7=3ec9e)(E8=257182)(E9
+    =Slack <no-reply-JqTcadyLZf63N0RYZpz1jDvp@slack.com>)(EA
+    =Moringa Classroom on Slack: New Account Details)(EB
+    =010001843d5c38c1-5de0e78d-d9ce-4dc6-b855-8c0824dd10fb-000000@email.amazon\
+ses.com)(EC=6363ad1d)(EE=892d)(EF=351)(F1=475cc)(F2=292300)(F9=10000000)
+  (F3=Student Support <student_support@moringaschool.com>)(F4
+    ="yunis.osman@student.moringaschool.com" <yunis.osman@student.moringaschoo\
+l.com>, "yunusaliosman67@gmail.com" <yunusaliosman67@gmail.com>)(F5
+    =Mornga School Two Factor Authentication Reminder)(F6
+    =chEIK000000000000000000000000000000000000000000000RKRXQD00ACPvGUeNSYe8dbv\
+8QTYrZw@sfdc.net)(F7=6363c38e)(F8=6363c38d)(FA=1ead)(FD=4947a)(FE=300154)
+  (FF=Google <no-reply@accounts.google.com>)(100
+    =2-Step Verification turned on)(101
+    =Tso5fjWAflQi7nRFk5HRQA@notifications.google.com)(102=636434a1)
+  (104=2ff3)(105=5d)(107=4c46e)(108=312430)(109
+    =Superpower #2: protect your whole device with a VPN)(10A
+    =177367353.300690981667568530265.JavaMail.app@bg93-ca-ue1.prod.awspr)
+  (10B=63651393)(10D=c134)(10E=391)(110=585a3)(111=361891)(112
+    =Superpower #3: Save fascinating articles in one place)(113
+    =1033413397.435877341667659592300.JavaMail.app@bg93-ca-ue1.prod.awspr)
+  (114=63667749)(116=c11f)(117=38c)(119=646c3)(11A=411331)(11B
+    =Security alert)(11C=FyL_bj7wqt887IeAssOTfQ@notifications.google.com)
+  (11D=63677c4d)(11F=2fe5)(120=5b)(122=676a9)(123=423593)(124
+    =yunusaliosman67@gmail.com)(125=Account recovery key created)(126
+    =010101844c4cfd30-4b864873-6e0c-4776-9eba-a78ce8a09838-000000@us-west-2.am\
+azonses.com)(127=63678041)(129=70f1)(12A=2c1)(12C=6e79b)(12D=452507)
+  (12E=Two-step authentication turned on)(12F
+    =010101844c584546-9cba863b-840a-4183-9d79-9a7e84f87b14-000000@us-west-2.am\
+azonses.com)(130=63678325)(132=65c9)(133=270)(135=74d65)(136=478565)
+  (137=CAKy4c96_ZkS2zB-xdYan09A3EwPbXAWZLpsSXtdb4SXRid8HJg@mail.gmail.com)
+  (138
+    =<chEIK000000000000000000000000000000000000000000000RKRXQD00ACPvGUeNSYe8db\
+v8QTYrZw@sfdc.net>)(139=63678379)(13A=e40)(13B=33)(13C=75ba6)(13D=482214)
+  (13E
+    =Student Support <student_support+id63980@moringasupport.zendesk.com>)
+  (13F=Student Support <student_support@moringasupport.zendesk.com>)
+  (140=[Request received])(141
+    =7908PEQRVZR_6367838ca6bf9_3df960397976_sprut@zendesk.com)(142
+    =<7908PEQRVZR@zendesk.com> <chEIK00000000000000000000000000000000000000000\
+0000RKRXQD00ACPvGUeNSYe8dbv8QTYrZw@sfdc.net> <CAKy4c96_ZkS2zB-xdYan09A3EwPbXAW\
+ZLpsSXtdb4SXRid8HJg@mail.gmail.com>)(143=6367838d)(144=6367838c)(145=utf-8)
+  (146=1d8a)(147=4f)(DB=12)(149=77931)(14A=489777)(14B
+    =CAKy4c96PD-ZfU_An3+53crYgQMvygBz6iyGPVmWxbHAH6E8kRg@mail.gmail.com)
+  (14C
+    =<7908PEQRVZR@zendesk.com> <chEIK00000000000000000000000000000000000000000\
+0000RKRXQD00ACPvGUeNSYe8dbv8QTYrZw@sfdc.net> <CAKy4c96_ZkS2zB-xdYan09A3EwPbXAW\
+ZLpsSXtdb4SXRid8HJg@mail.gmail.com> <7908PEQRVZR_6367838ca6bf9_3df960397976_sp\
+rut@zendesk.com>)(14D=636784c9)(14E=e87)(14F=41)(148=13)(158=787b9)
+  (159=493497)(15A=feedback@slack.com)(15B=Slack <feedback@slack.com>)
+  (15C=Slack account sign in from a new device)(15D
+    =010101844c76b9a6-4aca9107-8620-4b9f-a344-47db72f6d91a-000000@us-west-2.am\
+azonses.com)(15F=5dda)(160=292)(162=7e594)(163=517524)(164
+    =KwI2b_FHSzCymM9lhEYfbA@notifications.google.com)(165=63678cb5)
+  (167=2e73)(168=57)(16A=81408)(16B=529416)(16C
+    =Recovery email verified for your Google Account)(16D
+    =RBXhtVvUOMb8goCZSHmNBQ@notifications.google.com)(16E=63678dad)
+  (170=2f00)(172=84309)(173=541449)(174
+    =CAKy4c95ei2uGQ=PuyeEm1TppHtsAgH8NZ1OU8aLGBFQ866ACnA@mail.gmail.com)
+  (175
+    =<7908PEQRVZR@zendesk.com> <chEIK00000000000000000000000000000000000000000\
+0000RKRXQD00ACPvGUeNSYe8dbv8QTYrZw@sfdc.net> <CAKy4c96_ZkS2zB-xdYan09A3EwPbXAW\
+ZLpsSXtdb4SXRid8HJg@mail.gmail.com> <7908PEQRVZR_6367838ca6bf9_3df960397976_sp\
+rut@zendesk.com> <CAKy4c96PD-ZfU_An3+53crYgQMvygBz6iyGPVmWxbHAH6E8kRg@mail.gma\
+il.com>)(177=1263)(178=55)(150=14)(17A=8556d)(17B=546157)(17C
+    =Superpower #4: See if your info has been leaked)(17D
+    =624546161.571397561667749354598.JavaMail.app@bg91-ca-ue1.prod.awspr)
+  (17E=6367d5eb)(180=d49f)(181=3fd)(183=92a0d)(184=600589)(185
+    =reply+c8694b5b7b75518e-21438~297520-1667799647@notifications.canvaslms.co\
+m)(186=Instructure Canvas <notifications@instructure.com>)(187
+    =Course Invitation)(188
+    =01000184509b04a2-fdfcda57-b0dd-4a3f-a032-c317a59206c5-000000@email.amazon\
+ses.com)(189=63689a60)(18A=63689a5f)(18B=UTF-8)(18C=2c97)(18D=a8)(18F
+    =956a5)(190=612005)(191
+    =CAKy4c94n7TL=i1-hsNXnfKACNNaRcN0m2CCpzqg+fg5MzFS5cw@mail.gmail.com)
+  (192
+    =<01000184509b04a2-fdfcda57-b0dd-4a3f-a032-c317a59206c5-000000@email.amazo\
+nses.com>)(194=17f2)(196=96e98)(197=618136)(198
+    =reply+8eca2fbe621204fb-21438~298177-1667814651@notifications.canvaslms.co\
+m)(199=Undelivered message)(19A
+    =01000184517ffd12-5a318e11-4f1c-488d-bb6e-253599d3ec1d-000000@email.amazon\
+ses.com)(19C=1645)(19E=984de)(19F=623838)(1A0
+    =01000184517ffcde-00127c94-07b5-4ec5-87f7-563239c8679b-000000@email.amazon\
+ses.com)(1A1=1649)(1A3=99b28)(1A4=629544)(1A5
+    =Ubuntu One <noreply@login.ubuntu.com>)(1A6
+    =Ubuntu One: Finish your registration)(1A7
+    =20221107123059.26563.68907@juju-72cc77-prod-sso-0)(1A8=6368fa91)
+  (1AA=1391)(1AC=9aeba)(1AD=634554)(1AE
+    =Ubuntu One: Password change notification)(1AF
+    =20221107123938.29147.29005@juju-72cc77-prod-sso-1)(1B0=6368fc8b)
+  (1B2=1232)(1B4=9c0ed)(1B5=639213)(1B6
+    =Microsoft account team <account-security-noreply@accountprotection.micros\
+oft.com>)(1B7=Verify your email address)(1B8
+    =41JIBDH5CIU4.C230LPQAYT3Y@BL02EPF000016E9)(1B9=6368fdb4)(1BB=309d)
+  (1BC=31)(1BD=9f18b)(1BE=651659)(1BF
+    =New app(s\) connected to your Microsoft account)(1C0
+    =3SOJISH5CIU4.ROXBX4AMDA7E1@BL02EPF000016E5)(1C1=6368fe10)(1C3=33e8)
+  (1C4=32)>
+{1:^80 {(k^97:c)(s=9)} 
+  [1(^9D=0)(^B0=0)(^88=0)(^8A=0)(^8B=58)(^82^87)(^85^88)(^81^89)(^83^8A)
+    (^B1^8B)(^B2^8C)(^86^8C)(^89=1)(^87^8D)(^8C=60)(^9B^8F)(^8F^90)
+    (^B3=0)(^C5=20)]
+  [2(^9D^92)(^B0^93)(^88=0)(^8A=0)(^8B=58)(^82^87)(^85^88)(^81^94)(^83^95)
+    (^B1^8B)(^B2^8C)(^86^8C)(^89=1)(^87^96)(^8C=d3)(^9B^8F)(^8F=2)(^B3=0)
+    (^C5=21)]
+  [3(^9D^99)(^B0^9A)(^88=0)(^B5^9B)(^8A=0)(^8B=58)(^82^9C)(^85^9D)(^81^9E)
+    (^83^9F)(^B1^8B)(^B2^A0)(^86^A1)(^89=1)(^87^A2)(^8C^A3)(^9B^8F)
+    (^8F=3)(^B3=0)(^C5=22)]
+  [4(^9D^A5)(^B0^A6)(^88=0)(^B5^9B)(^8A=0)(^8B=58)(^82^A7)(^85^9D)(^81^A8)
+    (^83^A9)(^B1^8B)(^B2^AA)(^86^AB)(^89=1)(^87^AC)(^8C^AD)(^9B^8F)
+    (^8F=4)(^B3=0)(^C5=23)]
+  [5(^9D^AF)(^B0^B0)(^88=0)(^B5^B1)(^8A=0)(^8B=58)(^82^B2)(^85^9D)(^81^B3)
+    (^83^B4)(^B1^8B)(^84^B5)(^B2^B6)(^86^B7)(^89=1)(^87^B8)(^8C^B9)
+    (^9B^8F)(^8F=5)(^B3=0)(^C5=25)]
+  [6(^9D^BB)(^B0^BC)(^88=0)(^8A=0)(^8B=58)(^82^BD)(^85^BE)(^81^BF)(^83^C0)
+    (^B1^8B)(^B2^C1)(^86^C2)(^89=1)(^87^C3)(^8C^C4)(^9B^8F)(^8F=6)(^B3=0)
+    (^C5=26)]
+  [7(^9D^C6)(^B0^C7)(^88=0)(^8A=0)(^8B=58)(^82^BD)(^85^BE)(^81^C8)(^83^C9)
+    (^B1^8B)(^B2^CA)(^86^CB)(^89=1)(^87^CC)(^8C^CD)(^9B^8F)(^8F=7)(^B3=0)
+    (^C5=27)]
+  [8(^9D^CF)(^B0^D0)(^88=0)(^B5^D1)(^8A=0)(^8B=58)(^82^D2)(^85^BE)(^81^D3)
+    (^83^D4)(^B1^8B)(^B2^D5)(^86^D6)(^89=1)(^87^D7)(^8C^D8)(^9B^8F)
+    (^8F=8)(^B3=0)(^C5=28)]
+  [9(^9D^DE)(^B0^DF)(^88=0)(^8A=0)(^8B=58)(^82^BD)(^85^BE)(^81^E0)(^83^E1)
+    (^B1^8B)(^B2^E2)(^86^E3)(^89=1)(^87^E4)(^8C^E5)(^9B^8F)(^8F=9)(^B3=0)]
+  [A(^9D^E7)(^B0^E8)(^88=0)(^B5^9B)(^8A=0)(^8B=58)(^82^E9)(^85^9D)(^81^EA)
+    (^83^EB)(^B1^8B)(^B2^EC)(^86^ED)(^89=1)(^87^EE)(^8C^EF)(^9B^8F)
+    (^8F=a)(^B3=0)]
+  [B(^9D^F1)(^B0^F2)(^88^F9)(^8A=0)(^8B=58)(^82^F3)(^85^F4)(^81^F5)
+    (^83^F6)(^B1^8B)(^B2^F7)(^86^F8)(^89=4)(^87^FA)(^8C=23)(^9B^8F)
+    (^8F=b)(^B3=0)]
+  [C(^9D^FD)(^B0^FE)(^88=0)(^8A=0)(^8B=58)(^82^FF)(^85^BE)(^81^100)
+    (^83^101)(^B1^8B)(^B2^102)(^86^103)(^89=1)(^87^104)(^8C=5d)(^9B^8F)
+    (^8F=c)(^B3=0)]
+  [D(^9D^107)(^B0^108)(^88=0)(^B5^D1)(^8A=0)(^8B=58)(^82^D2)(^85^BE)
+    (^81^109)(^83^10A)(^B1^8B)(^B2^10B)(^86^10C)(^89=1)(^87^10D)(^8C=391)
+    (^9B^8F)(^8F=d)(^B3=0)]
+  [E(^9D^110)(^B0^111)(^88=0)(^B5^D1)(^8A=0)(^8B=58)(^82^D2)(^85^BE)
+    (^81^112)(^83^113)(^B1^8B)(^B2^114)(^86^115)(^89=1)(^87^116)(^8C=38c)
+    (^9B^8F)(^8F=e)(^B3=0)]
+  [F(^9D^119)(^B0^11A)(^88=0)(^8A=0)(^8B=58)(^82^FF)(^85^BE)(^81^11B)
+    (^83^11C)(^B1^8B)(^B2^11D)(^86^11E)(^89=1)(^87^11F)(^8C=5b)(^9B^8F)
+    (^8F=f)(^B3=0)]
+  [10(^9D^122)(^B0^123)(^88=0)(^8A=0)(^8B=58)(^82^BD)(^85^BE)(^8D^124)
+    (^81^125)(^83^126)(^B1^8B)(^B2^127)(^86^128)(^89=1)(^87^129)(^8C=2c1)
+    (^9B^8F)(^8F=10)(^B3=0)]
+  [11(^9D^12C)(^B0^12D)(^88=0)(^8A=0)(^8B=58)(^82^BD)(^85^BE)(^8D^124)
+    (^81^12E)(^83^12F)(^B1^8B)(^B2^130)(^86^131)(^89=1)(^87^132)(^8C=270)
+    (^9B^8F)(^8F=11)(^B3=0)]
+  [12(^9D^135)(^B0^136)(^88=10)(^8A=0)(^8B=58)(^82^88)(^85^F3)(^81^F5)
+    (^83^137)(^B1^8B)(^84^138)(^B2^139)(^86^139)(^89=1)(^87=e40)(^8C=33)
+    (^9B=b)(^8F=b)(^B3=0)]
+  [13(^9D^13C)(^B0^13D)(^88=0)(^B5^13E)(^8A=0)(^8B=58)(^82^13F)(^85^88)
+    (^81^140)(^83^141)(^B1^8B)(^84^142)(^B2^143)(^86^144)(^89=1)(^96^145)
+    (^87^146)(^8C=4f)(^9B=12)(^8F=b)(^B3=0)]
+  [14(^9D^149)(^B0^14A)(^88=10)(^8A=0)(^8B=58)(^82^88)(^85^13E)(^81^140)
+    (^83^14B)(^B1^8B)(^84^14C)(^B2^14D)(^86^14D)(^89=1)(^87=e87)(^8C=41)
+    (^9B=13)(^8F=b)(^B3=0)]
+  [15(^9D^158)(^B0^159)(^88=0)(^B5^15A)(^8A=0)(^8B=58)(^82^15B)(^85^9D)
+    (^81^15C)(^83^15D)(^B1^8B)(^B2^15E)(^86^15E)(^89=1)(^87^15F)(^8C=292)
+    (^9B^8F)(^8F=15)(^B3=0)]
+  [16(^9D^162)(^B0^163)(^88=0)(^8A=0)(^8B=58)(^82^FF)(^85^BE)(^81^11B)
+    (^83^164)(^B1^8B)(^B2^165)(^86^166)(^89=1)(^87^167)(^8C=57)(^9B^8F)
+    (^8F=16)(^B3=0)]
+  [17(^9D^16A)(^B0^16B)(^88=0)(^8A=0)(^8B=58)(^82^FF)(^85^BE)(^81^16C)
+    (^83^16D)(^B1^8B)(^B2^16E)(^86^16F)(^89=1)(^87^170)(^8C=58)(^9B^8F)
+    (^8F=17)(^B3=0)]
+  [18(^9D^172)(^B0^173)(^88=10)(^8A=0)(^8B=58)(^82^88)(^85^13E)(^81^140)
+    (^83^174)(^B1^8B)(^84^175)(^B2^176)(^86^176)(^89=1)(^87^177)(^8C=55)
+    (^9B=14)(^8F=b)(^B3=0)]
+  [19(^9D^17A)(^B0^17B)(^88=0)(^B5^D1)(^8A=0)(^8B=58)(^82^D2)(^85^BE)
+    (^81^17C)(^83^17D)(^B1^8B)(^B2^17E)(^86^17F)(^89=1)(^87^180)(^8C=3fd)
+    (^9B^8F)(^8F=19)(^B3=0)]
+  [1A(^9D^183)(^B0^184)(^88=0)(^B5^185)(^8A=0)(^8B=58)(^82^186)(^85^BE)
+    (^81^187)(^83^188)(^B1^8B)(^B2^189)(^86^18A)(^89=1)(^96^18B)(^87^18C)
+    (^8C=a8)(^9B^8F)(^8F=1a)(^B3=0)]
+  [1B(^9D^18F)(^B0^190)(^88=10)(^8A=0)(^8B=58)(^82^88)(^85^185)(^81^187)
+    (^83^191)(^B1^8B)(^84^192)(^B2^193)(^86^193)(^89=1)(^87^194)(^8C=a8)
+    (^9B=1a)(^8F=1a)(^B3=0)]
+  [1C(^9D^196)(^B0^197)(^88=0)(^B5^198)(^8A=0)(^8B=58)(^82^186)(^85^BE)
+    (^81^199)(^83^19A)(^B1^8B)(^B2^19B)(^86^19B)(^89=1)(^96^18B)(^87^19C)
+    (^8C=5)(^9B^8F)(^8F=1c)(^B3=0)]
+  [1D(^9D^19E)(^B0^19F)(^88=0)(^B5^198)(^8A=0)(^8B=58)(^82^186)(^85^BE)
+    (^81^199)(^83^1A0)(^B1^8B)(^B2^19B)(^86^19B)(^89=1)(^96^18B)(^87^1A1)
+    (^8C=4)(^9B^8F)(^8F=1d)(^B3=0)]
+  [1E(^9D^1A3)(^B0^1A4)(^88=0)(^8A=0)(^8B=58)(^82^1A5)(^85^BE)(^81^1A6)
+    (^83^1A7)(^B1^8B)(^B2^1A8)(^86^1A9)(^89=1)(^96^145)(^87^1AA)(^8C=1d)
+    (^9B^8F)(^8F=1e)(^B3=0)]
+  [1F(^9D^1AC)(^B0^1AD)(^88=0)(^8A=0)(^8B=58)(^82^1A5)(^85^BE)(^81^1AE)
+    (^83^1AF)(^B1^8B)(^B2^1B0)(^86^1B1)(^89=1)(^96^145)(^87^1B2)(^8C=14)
+    (^9B^8F)(^8F=1f)(^B3=0)]
+  [20(^9D^1B4)(^B0^1B5)(^88=0)(^8A=0)(^8B=58)(^82^1B6)(^85^BE)(^81^1B7)
+    (^83^1B8)(^B1^8B)(^B2^1B9)(^86^1BA)(^89=4)(^87^1BB)(^8C=31)(^9B^8F)
+    (^8F=20)(^B3=0)]
+  [21(^9D^1BD)(^B0^1BE)(^88=0)(^8A=0)(^8B=58)(^82^1B6)(^85^BE)(^81^1BF)
+    (^83^1C0)(^B1^8B)(^B2^1C1)(^86^1C2)(^89=4)(^87^1C3)(^8C=32)(^9B^8F)
+    (^8F=21)(^B3=0)]}
+{2:^80 {(k^98:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^98:c)(s=9)1:m } 1 }
+{3:^80 {(k^98:c)(s=9)3:m } 3 }
+{4:^80 {(k^98:c)(s=9)4:m } 4 }
+{5:^80 {(k^98:c)(s=9)5:m } 5 }
+{6:^80 {(k^98:c)(s=9)6:m } 6 }
+{7:^80 {(k^98:c)(s=9)7:m } 7 }
+{8:^80 {(k^98:c)(s=9)8:m } 8 }
+{9:^80 {(k^98:c)(s=9)9:m } 9 }
+{A:^80 {(k^98:c)(s=9)A:m } A }
+{B:^80 {(k^98:c)(s=9)B:m } B 12 13 14 18 }
+{C:^80 {(k^98:c)(s=9)C:m } C }
+{D:^80 {(k^98:c)(s=9)D:m } D }
+{E:^80 {(k^98:c)(s=9)E:m } E }
+{F:^80 {(k^98:c)(s=9)F:m } F }
+{10:^80 {(k^98:c)(s=9)10:m } 10 }
+{11:^80 {(k^98:c)(s=9)11:m } 11 }
+{15:^80 {(k^98:c)(s=9)12:m } 15 }
+{16:^80 {(k^98:c)(s=9)13:m } 16 }
+{17:^80 {(k^98:c)(s=9)14:m } 17 }
+{19:^80 {(k^98:c)(s=9)15:m } 19 }
+{1A:^80 {(k^98:c)(s=9)16:m } 1A 1B }
+{1C:^80 {(k^98:c)(s=9)17:m } 1C }
+{1D:^80 {(k^98:c)(s=9)18:m } 1D }
+{1E:^80 {(k^98:c)(s=9)19:m } 1E }
+{1F:^80 {(k^98:c)(s=9)1A:m } 1F }
+{20:^80 {(k^98:c)(s=9)1B:m } 20 }
+{21:^80 {(k^98:c)(s=9)1C:m } 21 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [FFFFFFFE(^95^89)]
+  [2(^95^94)]
+  [3(^95^9E)]
+  [4(^95^A8)]
+  [5(^95^B3)]
+  [6(^95^BF)]
+  [7(^95^C8)]
+  [8(^95^D3)]
+  [9(^95^E0)]
+  [A(^95^EA)]
+  [B(^95^F5)]
+  [C(^95^100)]
+  [D(^95^109)]
+  [E(^95^112)]
+  [F(^95^11B)]
+  [10(^95^125)]
+  [11(^95^12E)]
+  [15(^95^15C)]
+  [16(^95^11B)]
+  [17(^95^16C)]
+  [19(^95^17C)]
+  [1A(^95^187)]
+  [1C(^95^199)]
+  [1D(^95^199)]
+  [1E(^95^1A6)]
+  [1F(^95^1AE)]
+  [20(^95^1B7)]
+  [21(^95^1BF)]}
+
+<(85=80001004)(83=Inbox)(1C5=a2574)(1C6=6368ff57)(DA=1667825486)(DC=)
+  (DD
+    ={"threadCol":{"visible":true},"attachmentCol":{"visible":true},"flaggedCo\
+l":{"visible":true},"subjectCol":{"visible":true},"unreadButtonColHeader":{"vi\
+sible":true},"senderCol":{"visible":false},"recipientCol":{"visible":false},"c\
+orrespondentCol":{"visible":true},"junkStatusCol":{"visible":true},"dateCol":{\
+"visible":true},"locationCol":{"visible":false}})>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=0)(^AE=1)(^88^85)(^A7^83)(^A3^1C5)(^A5^1C6)(^A1=21)
+    (^A2=21)(^A6=21)(^B4^DA)(^B6=12)(^B7=1)(^B8=0)(^B9=0)(^BB=)(^BA^DD)
+    (^C4=1)]}
+
+@$${A{@
+@$$}A}@
+
+@$${B{@
+< <(a=c)> // (f=iso-8859-1)
+  (C9=preview)>
+<(1C7
+    =Get the official Gmail app [image: Gmail] Get the official Gmail app The \
+best features of Moringa School Mail are only available on your phone and tabl\
+et with the official Gmail app. Download the app or go to gmail.com on your co\
+mputer or mobile d)>[1:^80(^C9^1C7)]
+<(1C8=29)>[9:^80(^C5=29)]
+@$$}B}@
+
+@$${C{@
+[B:^80(^88=0)]
+@$$}C}@
+
+@$${D{@
+@$$}D}@
+
+@$${E{@
+@$$}E}@
+
+@$${F{@
+@$$}F}@
+
+@$${10{@
+<(1C9=2a)>[A:^80(^C5=2a)]
+<(1CA=2b)>[B:^80(^C5=2b)]
+<(1CB=2c)>[C:^80(^C5=2c)]
+<(1CC=2d)>[D:^80(^C5=2d)]
+<(1CD=2e)>[E:^80(^C5=2e)]
+<(1CE=2f)>[F:^80(^C5=2f)]
+<(1CF=30)>[10:^80(^C5=30)]
+[11:^80(^C5=31)]
+[12:^80(^C5=32)]
+<(1D0=34)>[13:^80(^C5=34)]
+<(1D1=35)>[14:^80(^C5=35)]
+<(1D2=36)>[15:^80(^C5=36)]
+<(1D3=37)>[16:^80(^C5=37)]
+<(1D4=38)>[17:^80(^C5=38)]
+<(1D5=39)>[18:^80(^C5=39)]
+<(1D6=3a)>[19:^80(^C5=3a)]
+<(1D7=3b)>[1A:^80(^C5=3b)]
+<(1D8=3c)>[1B:^80(^C5=3c)]
+<(1D9=3d)>[1C:^80(^C5=3d)]
+<(1DD=42)>[1D:^80(^C5=42)]
+[1E:^80(^C5=41)]
+<(1DC=40)>[1F:^80(^C5=40)]
+<(1DB=3f)>[20:^80(^C5=3f)]
+<(1DA=3e)>[21:^80(^C5=3e)]
+@$$}10}@
+
+@$${11{@
+<(1DE
+    ={"selectCol":{"visible":false,"ordinal":"1"},"threadCol":{"visible":true,\
+"ordinal":"3"},"flaggedCol":{"visible":true,"ordinal":"5"},"attachmentCol":{"v\
+isible":true,"ordinal":"7"},"subjectCol":{"visible":true,"ordinal":"9"},"unrea\
+dButtonColHeader":{"visible":true,"ordinal":"11"},"senderCol":{"visible":false\
+,"ordinal":"13"},"recipientCol":{"visible":false,"ordinal":"15"},"corresponden\
+tCol":{"visible":true,"ordinal":"17"},"junkStatusCol":{"visible":true,"ordinal\
+":"19"},"receivedCol":{"visible":false,"ordinal":"21"},"dateCol":{"visible":tr\
+ue,"ordinal":"23"},"statusCol":{"visible":false,"ordinal":"25"},"sizeCol":{"vi\
+sible":false,"ordinal":"27"},"tagsCol":{"visible":false,"ordinal":"29"},"accou\
+ntCol":{"visible":false,"ordinal":"31"},"priorityCol":{"visible":false,"ordina\
+l":"33"},"unreadCol":{"visible":false,"ordinal":"35"},"totalCol":{"visible":fa\
+lse,"ordinal":"37"},"locationCol":{"visible":false,"ordinal":"39"},"idCol":{"v\
+isible":false,"ordinal":"41"},"deleteCol":{"visible":false,"ordinal":"43"}})>
+[1:^9F(^BA^1DE)]
+@$$}11}@
+
+@$${12{@
+< <(a=c)> // (f=iso-8859-1)
+  (CA=imageSize)(CB=sender_name)>
+<(1DF=0|Gmail Team)>[1:^80(^CB^1DF)]
+[2:^80(^CB^1DF)]
+<(1E0=0|Slack)>[3:^80(^CB^1E0)]
+[4:^80(^CB^1E0)]
+<(1E1=0|Josiah Nganga via Slack)>
+[5:^80(^CB^1E1)]
+<(1E2=0|Firefox Accounts)>[6:^80(^CB^1E2)]
+[7:^80(^CB^1E2)]
+<(1E3=0|Firefox)>[8:^80(^CB^1E3)]
+[9:^80(^CB^1E2)]
+[A:^80(^CB^1E0)]
+<(1E4=0|Student Support)>[B:^80(^CB^1E4)]
+<(1E5=0|Google)>[C:^80(^CB^1E5)]
+<(1E6=1667825565)>[1:^9F(^B4^1E6)]
+@$$}12}@
+
+@$${13{@
+<(1E7=1667825568)>[1:^9F(^B4^1E7)]
+@$$}13}@
+
+@$${14{@
+<(1E8=1667825572)>[1:^9F(^B4^1E8)]
+@$$}14}@
+
+@$${15{@
+<(1EE=63690b5f)>[-1D:m(^9C=22)(^90=22)(^92^1EE)(^91=0)(^93=1)(^94=1)]
+
+<(1E9=664948)(1EA=christine.karimi@moringaschool.com)(1EB
+    =Invitation: SDFT03 (Fulltime Remote Class\)Orientation @ Tue Nov 8, 2022 \
+9am - 2pm (EAT\) (yunis.osman@student.moringaschool.com\))(1EC
+    =000000000000c62fb905ece19963@google.com)(1ED=63690b60)(1EF=ad86)>
+{1:^80 {(k^97:c)(s=9)} 
+  [-22(^9D^1C5)(^B0^1E9)(^88^F9)(^8A=0)(^8B=58)(^82^1EA)(^85^BE)(^81^1EB)
+    (^83^1EC)(^B1^8B)(^B2^1ED)(^86^1EE)(^89=1)(^87^1EF)(^8C^CD)(^9B^8F)
+    (^8F=22)(^B3=0)]}
+{-22:^80 {(k^98:c)(s=9)1D:m } 22 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [-22(^95^1EB)]}
+<(1F0=ad2fb)(1F1=63690d82)>[-1:^9F(^AC=1)(^AD=0)(^AE=1)(^88^85)(^A7^83)
+    (^A3^1F0)(^A5^1F1)(^A1=22)(^A2=22)(^A6=22)(^B4^1E8)(^B6=12)(^B7=1)
+    (^B8=0)(^B9=0)(^BB=)(^BA^1DE)(^C4=1)]
+@$$}15}@
+
+@$${16{@
+@$$}16}@
+
+@$${17{@
+<(1F2=1667829122)>[1:^9F(^B4^1F2)]
+@$$}17}@
+
+@$${18{@
+< <(a=c)> // (f=iso-8859-1)
+  (CC=imip_method)>
+<(1F3=REQUEST)>[-22:^80(^9D^1C5)(^B0^1E9)(^88^F9)(^8A=0)(^8B=58)(^82^1EA)
+    (^85^BE)(^81^1EB)(^83^1EC)(^B1^8B)(^B2^1ED)(^86^1EE)(^89=1)(^87^1EF)
+    (^8C^CD)(^9B^8F)(^8F=22)(^B3=0)(^C9=)(^CC^1F3)]
+@$$}18}@
+
+@$${19{@
+@$$}19}@
+
+@$${1A{@
+<(1F4=43)>[22:^80(^C5=43)]
+@$$}1A}@
+
+@$${1B{@
+@$$}1B}@

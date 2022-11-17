@@ -1,0 +1,4 @@
+2022-11-15 12:37:27.798 [info] Validating found git in: git
+2022-11-15 12:37:27.798 [info] Using git 2.38.1 from git
+2022-11-15 12:37:27.798 [info] > git rev-parse --show-toplevel [7ms]
+2022-11-15 12:37:27.798 [info] fatal: not a git repository (or any of the parent directories): .git

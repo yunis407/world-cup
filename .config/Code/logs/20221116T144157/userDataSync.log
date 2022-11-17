@@ -1,0 +1,22 @@
+2022-11-16 14:42:01.327 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2022-11-16 14:42:01.327 [info] Auto Sync is enabled.
+2022-11-16 14:42:01.327 [info] Auto Sync: Suspended until auth token is available.
+2022-11-16 14:42:03.084 [info] Auto Sync: Triggered by Interval
+2022-11-16 14:42:03.086 [info] Sync started.
+2022-11-16 14:42:04.554 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 14:42:04.569 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 14:42:04.577 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 14:42:04.582 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 14:42:05.071 [info] GlobalState: Updated remote ui state. Updated: nps/lastSessionDate,nps/sessionCount,cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount.
+2022-11-16 14:42:05.091 [info] GlobalState: Updated last synchronized ui state
+2022-11-16 14:42:05.193 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 14:42:05.195 [info] Sync done. Took 2122ms
+2022-11-16 14:42:33.440 [info] Auto Sync: Triggered by Activity
+2022-11-16 14:42:33.442 [info] Sync started.
+2022-11-16 14:42:33.985 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 14:42:34.002 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 14:42:34.012 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 14:42:34.017 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 14:42:34.025 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 14:42:34.132 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 14:42:34.134 [info] Sync done. Took 700ms

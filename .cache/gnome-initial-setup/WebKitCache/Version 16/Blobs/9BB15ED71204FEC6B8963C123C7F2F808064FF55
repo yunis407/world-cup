@@ -1,0 +1,137 @@
+this._G=this._G||{};(function(_){var window=this;
+try{
+_.gP=function(){return"Use another account"};
+
+}catch(e){_._DumpException(e)}
+try{
+_.iP=function(a,b){a=a||{};return(0,_.C)(_.I("xb")(a,b))};_.jP=function(a,b){a=a||{};return(0,_.C)(_.I("yb")(a,b))};
+
+var v0a=function(a,b,c){return(0,_.C)('<div class="'+_.L("UXurCe")+'"><div class="'+_.L("VRMoVc")+'" aria-hidden="true">'+(c?_.D(c):_.EG(a,"accountCircle",void 0,void 0,void 0,void 0,void 0,20))+'</div><div class="'+_.L("BHzsHc")+'">'+_.D(b)+"</div></div>")};
+_.H("xb","",1,function(a,b){a=a||{};var c=_.C,d=a.items,e=a.dI,f=a.im,h=a.V5,m=a.oT,p=a.Q$;a=a.IF;var r=_.C;p='<div jscontroller="'+_.L("zExKbb")+'" jsaction="'+_.L("rcuQ6b")+":"+_.L("npT2md")+"; click:"+_.L("zxUZ8d")+"("+_.L("MBVUVe")+"),"+_.L("q8eRsf")+"("+_.L("rwl3qc")+"),"+_.L("eU9lnb")+"("+_.L("AK3pmb")+"),"+_.L("hyAGff")+"("+_.L("o7vT9b")+");"+_.L("JIbuQc")+":"+_.L("Y3Lgeb")+"("+_.L("z9z6qf")+');" jsname="'+_.L("fuFsMb")+'" data-init-is-remove-mode="'+(p?"1":"0")+'" class="'+_.L("zeRELc")+(p?
+" "+_.L("flESue"):"")+'">';d=""+_.D(d);var v;m?v=(0,_.C)(_.BN({Mb:h,xa:"eARute",Zf:!0,Uq:!0,Ca:"AK3pmb",content:(0,_.K)(""+v0a(b,(0,_.K)(""+(m?_.D(m):_.D("Create account for child"))),(0,_.K)(""+_.EG(b,"supervisedUserCircle",void 0,void 0,void 0,void 0,void 0,20))))})):v="";e=d+v+(f?(0,_.C)(_.BN({Mb:e,xa:"eARute",Zf:!0,Uq:!0,Ca:"rwl3qc",content:(0,_.K)(""+v0a(b,(0,_.K)(""+(f?_.D(f):_.D(_.gP())))))})):"");var y;a?y=(0,_.C)(_.BN({xa:"eARute",Zf:!0,Uq:!0,lT:"fKeql",Ca:"o7vT9b",content:(0,_.K)(""+v0a(b,
+(0,_.K)(""+(0,_.C)("Remove an account")),(0,_.K)(""+_.EG(b,"removeAccount",void 0,void 0,void 0,void 0,void 0,20))))})):y="";b=r(p+_.AN((0,_.K)(e+y),void 0,"mYI4cb")+"</div>");return c(b)});
+_.H("yb","",1,function(a,b){a=a||{};var c=_.C,d=a.identifier,e=a.Xi,f=a.Mb,h=a.authuser,m=a.Pb,p=a.ym,r=a.hG;a=a.name;b=(0,_.C)(_.BN({Ca:"MBVUVe",xa:"ibdqA",Zf:!0,Uq:!0,Mb:(0,_.gv)('data-authuser="'+_.L(null!=h?h:-1)+'" data-identifier="'+_.L(d)+'"'+(0<=e?' data-item-index="'+_.L(e)+'"':"")+(p?' data-custom-id="'+_.L(p)+'"':"")+(f?_.M(_.mv(f)):"")),content:(0,_.K)(_.iYa(b,d,m,void 0,a,null!=r&&_.wv(_.$u(r),"signedout")?"Signed out":"")+'<div class="'+_.L("n3x5Fb")+'" aria-hidden="true">'+_.EG(b,"remove")+
+"</div>")}));return c(b)});_.H("zb","",1,function(a,b){a=a||{};var c=_.C,d=a.Xi,e=a.name,f=a.Mb,h=a.Pb;a=a.mC;b=(0,_.C)(_.BN({Ca:"MBVUVe",xa:"ibdqA",Zf:!0,Uq:!0,Mb:(0,_.gv)((0<=d?'data-item-index="'+_.L(d)+'"':"")+(f?_.M(_.mv(f)):"")),content:(0,_.K)(_.jYa(b,e,h,void 0,a)+'<div class="'+_.L("n3x5Fb")+'" aria-hidden="true">'+_.EG(b,"remove")+"</div>")}));return c(b)});
+_.H("Ab","",1,function(a,b){a=a||{};var c=_.C,d=a.Xi,e=a.metadata,f=a.Mb,h=a.authuser,m=a.Pb,p=a.ym,r=a.hG,v=a.name;a=_.C;d=(0,_.gv)('data-authuser="'+_.L(null!=h?h:-1)+'" data-metadata="'+_.L(e)+'"'+(0<=d?' data-item-index="'+_.L(null!=d?d:"")+'"':"")+(p?' data-custom-id="'+_.L(p)+'"':"")+(f?_.M(_.mv(f)):""));r=null!=r&&_.wv(_.$u(r),"signedout")?"Signed out":"";e=(0,_.C)('<div class="'+_.L("d2laFc")+'">'+_.xN(b,void 0,void 0,m,void 0,v,r,e)+"</div>");b=a(_.BN({Ca:"MBVUVe",xa:"ibdqA",Zf:!0,Uq:!0,
+Mb:d,content:(0,_.K)(e+'<div class="'+_.L("n3x5Fb")+'" aria-hidden="true">'+_.EG(b,"remove")+"</div>")}));return c(b)});
+
+}catch(e){_._DumpException(e)}
+try{
+_.x0a=function(a,b){b=b={Hd:b};var c=b.Hd;a=(0,_.C)(c?_.CI(_.Zu({Hd:c},b),a):"");a=(0,_.K)(""+a);return(0,_.C)("It looks like you already have a Google Account with "+a+". Choose your account to sign in now.")};_.y0a=function(){return"Continue creating a new account"};
+_.z0a=function(a,b){var c=a.title,d=a.zI,e=a.Ms,f=a.description,h=a.heading,m=a.nh,p=a.Ce,r=a.Yfa,v=a.Rb,y=a.LO,B=a.WO;return(0,_.C)(_.eP({Ra:a.Ra,Qa:a.Qa,Za:a.Za,Bi:a.Bi,Mb:a.Mb,content:(0,_.K)(""+_.fP({ja:a.ja,Ib:a.Ib,Wc:a.Wc,fb:(0,_.K)(""+_.iP({items:a.items,dI:a.dI,im:a.im,t7:a.t7,IF:a.IF},b)+(e?_.D(e):"")),title:c,zI:d,WO:B,Rb:v,LO:y,heading:h,nh:m,description:f,Ce:p,Kb:r},b))},b))};
+_.A0a=function(a,b){for(var c=a.ja,d=a.Ib,e=a.list,f=a.Ms,h=a.rW,m="",p=e.length,r=0;r<p;r++){var v=e[r],y=_.n(v,_.sn,5);m+=_.jP({authuser:_.k(y,12),Pb:y.Ec(),name:y.Jb(),identifier:_.un(y),Xi:r,hG:null==_.A(v,3)||_.A(v,3)?[]:_.xv("signedout"),Mb:(0,_.gv)(_.mv(h))},b)}a=""+_.z0a(_.Zu({ja:c,Ib:d,Ms:f,items:(0,_.K)(m)},a),b);return(0,_.C)(a)};
+_.B0a=function(a,b){for(var c=a.ja,d=a.Ib,e=a.list,f=a.Wc,h=a.Ms,m=a.rW,p="",r=e.length,v=0;v<r;v++){var y=e[v];p+=_.jP({authuser:_.k(y,12),Pb:y.Ec(),name:y.Jb(),identifier:_.un(y),Xi:v,Mb:(0,_.gv)(_.mv(m))},b)}a=""+_.z0a(_.Zu({ja:c,Ib:d,Wc:f,Ms:h,items:(0,_.K)(p)},a),b);return(0,_.C)(a)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.c1a=function(a,b,c,d,e,f,h,m,p,r){var v=_.C,y=_.rI();(null==e?0:_.k(e,35))?d=""+_.k(e,35):(null==e?0:e.getPhoneNumber())?d=""+e.getPhoneNumber():(null==d?e=null:(e=_.Aq(d),e=null==e?null:_.k(e,2)),e?(d=_.Aq(d),d=""+(null==d?null:_.k(d,2))):(null==d?e=null:(e=_.zq(d),e=null==e?null:_.k(e,2)),e?(d=_.zq(d),d=""+(null==d?null:_.k(d,2))):d=""));d=""+_.AP({Qq:"recoveryIdentifierId",Ca:"dWPKW",name:"identifier",label:"Phone number or email",value:d},a);d=(0,_.C)(d);return v(_.eP({Ra:r,Qa:c,Za:"jiqeKb:UHZ0U;u3KAb:UHZ0U;rcuQ6b:WYd;"+
+(null!=h?h:""),content:(0,_.K)(""+_.fP({ja:b,title:f,Rb:p,Ya:y,Cb:"queryPhoneNext",Kb:m,fb:(0,_.K)(""+d)},a))},a))};
+
+}catch(e){_._DumpException(e)}
+try{
+_.EP=function(a){_.w.call(this,a)};_.z(_.EP,_.w);_.FP=function(a){return _.dh(a,1,"default")};_.f1a=function(){return"Verify that it\u2019s you"};_.g1a=function(){return"You were signed out of your Google Account. Sign in again to continue."};_.h1a=function(){return"To continue, first verify that it's you"};
+
+}catch(e){_._DumpException(e)}
+try{
+_.GP=function(a,b){a=a||{};return(0,_.C)(_.I("dc")(a,b))};
+
+var i1a=void 0;
+var j1a=function(a,b,c,d){var e=_.C;a='<input type="hidden" name="'+_.L(a)+'" value="'+_.L(b)+'"'+(c?' jsname="'+_.L(c)+'"':"")+(d?' id="'+_.L(d)+'"':"")+' jscontroller="';void 0===i1a&&(i1a="QCqtlc");return e(a+_.L(i1a)+'">')};
+_.H("dc","",1,function(a){a=a||{};return(0,_.C)(j1a(a.name,a.value,a.Ca,a.id))});_.H("ec","",1,function(a){a=a||{};var b=_.C;a=a.mU;for(var c="",d=a.length,e=0;e<d;e++){var f=a[e];c+=j1a(f.name,f.value,f.Ca)}a=(0,_.C)(c);return b(a)});
+
+}catch(e){_._DumpException(e)}
+try{
+_.q1a=function(a,b){return(0,_.C)(_.mK({name:"firstNameResponse",Vd:"first-name-response",Ca:"RZjyWb",label:"Child's first name",value:(null==b?0:b.Lb())?""+b.Lb():""},a))};_.r1a=function(a,b,c){var d=_.C;c=null==c?null:c.Lb();return d(_.mK({name:"ageInYearsResponse",Ca:"ACdsrd",type:"tel",label:c?c+"'s age":"Child's age",value:(null==b?0:b.Pi())?""+b.Pi():""},a))};_.s1a=function(){return"Enter a name for your child"};_.t1a=function(){return"Enter a valid name for your child"};_.u1a=function(){return"Enter an age"};
+_.v1a=function(){return"Enter a valid age"};
+
+}catch(e){_._DumpException(e)}
+try{
+_.t0a=function(a,b){var c=_.C;a=a.ab.ja;var d=_.C,e=(0,_.K)("Check keyboard output"),f=(0,_.K)("Test byte array generated by your password");var h=(0,_.C)((0,_.C)(_.cP({label:"Enter password to parse",name:"password",xq:"password",Ca:"vZSTIf",ez:!0,isVisible:!0,autocomplete:"current-password"},b))+_.ZO({Xe:2,details:(0,_.K)("WARNING: If you type your real password, be careful sharing the output of this page. It is trivial to discover what you typed by inspecting these bytes.")},b)+_.U({details:(0,_.K)("No output. Type something in the password field and click Parse."),
+Ca:"FouKBb"},b));b=d(_.eP({Ra:"CP6Xbf",Qa:"piwUue",Za:"jiqeKb:UHZ0U;u3KAb:UHZ0U;rcuQ6b:WYd;",content:(0,_.K)(""+_.fP({ja:a,title:e,Rb:f,Ya:"Parse",Cb:"displayPasswordBytes",fb:(0,_.K)(""+h)},b))},b));return c(b)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.E0a=function(a,b){a=""+_.fP({ja:a.Pa.ja,title:"Loading..."},b);b=""+_.eP({Ra:"huOuDd",Qa:"iTmShe",Za:"rcuQ6b:WYd",content:(0,_.K)(a)},b);return(0,_.C)(b)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.Y0a=function(a,b){a=a.ab;var c=a.ja;var d=a.ja;var e=""+_.AP({Qq:"identifierId",Ca:"dWPKW",name:"identifier",label:"Your child\u2019s email",value:_.Zk(_.mn(d),3),Cm:_.dh(d,10,""),Ro:!0,lm:_.WO(d),autofocus:!1,Vi:"androidreauth"==d.da()},b);e+=_.T({text:"",Ca:"OZNMeb",Mb:(0,_.gv)('aria-live="assertive"')},b)+_.T({text:(0,_.K)('<button jsname="'+_.L("Cuz2Ue")+'">'+_.D("Forgot email?")+"</button>")},b)+(_.WO(d)?_.P0a(b):"")+_.bP({Ca:"Si5T8b"},b);d=(0,_.C)(e);a=""+_.fP({ja:c,title:"Sign in to your child\u2019s account",
+Rb:"With your child, sign in to their Google Account",fb:(0,_.K)(""+d),Ya:_.rI(),Cb:"identifierNext",Kb:a.ja.fa()?"Skip":"",Wb:_.M0a()},b);b=""+_.eP({Ra:"iAl6Md",Qa:"DTDxte",Za:"click:W7zCCb(Cuz2Ue);jiqeKb:UHZ0U;u3KAb:UHZ0U;cLkKDf:LwtuAc;eyyw5c:YkatHd;rcuQ6b:WYd;",content:(0,_.K)(a)},b);return(0,_.C)(b)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.Z0a=function(a,b){var c=a.ab;a=b.locale;var d=c.ja,e=(0,_.K)("Recover your Google Account");c=c.ja;var f=""+_.AP({Qq:"identifierId",Ca:"dWPKW",name:"identifier",label:"Email or phone",value:_.Zk(_.mn(c),3),Cm:_.dh(c,10,""),Ro:!0,lm:_.WO(c),autofocus:!1,Vi:"androidreauth"==c.da()},b);f+=_.T({text:"",Ca:"OZNMeb",Mb:(0,_.gv)('aria-live="assertive"')},b)+(_.WO(c)?_.P0a(b):"")+_.bP({Ca:"Si5T8b"},b);c=(0,_.C)(f);d=""+_.fP({ja:d,title:"Account recovery",Rb:e,fb:(0,_.K)(""+c),Ya:_.rI(),Cb:"identifierNext",
+Wb:"Forgot email?"},b);b=""+_.eP({Ra:"hQnFT",Mb:(0,_.gv)('data-locale="'+_.L(a)+'"'),Qa:"F7VFb",Za:"eyyw5c:quC8Bd;jiqeKb:UHZ0U;u3KAb:UHZ0U;rcuQ6b:WYd;",content:(0,_.K)(d)},b);return(0,_.C)(b)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.b1a=function(a,b){a=a.ab;for(var c="",d=_.Mr(_.qs(a.Ba)),e="",f=d.length,h=0;h<f;h++)e+=_.A(d[h],3)?"true":"";c+=_.A0a({Ra:"kABgqe",Qa:"v3lvp",Za:"mHBxT:LiTJ8;rcuQ6b:WYd;",ja:a.ja,Ib:a.Ib,list:d,title:(0,_.K)(""+_.$0a(null,b)),Rb:(0,_.K)(""+_.a1a(null,b)),im:"Use another account",IF:e?"":"Remove an account"},b);return(0,_.C)(c)};_.$0a=function(){return(0,_.C)("Choose an account")};_.a1a=function(a,b){a=_.C;b=_.I("cc")(null,b);return a(b)};_.H("ac","",0,function(){return(0,_.C)("Sign in to Google apps and Safari")});
+_.H("bc","",0,function(){return(0,_.C)("to sign in to Google apps and Safari")});
+
+}catch(e){_._DumpException(e)}
+try{
+_.d1a=function(a,b){a=""+_.c1a(a,b.ja,"z2Ux2c",b.Bb,b.Ba,"Find your email",void 0,void 0,"Enter your phone number or recovery email","oIjvfc");return(0,_.C)(a)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.e1a=function(a,b){var c=a.ab;a=a.Uba;var d="";if(_.k(c.Ba,25))if("*"==_.k(c.Ba,25))d+="Choose a Google Workspace account";else{var e="Choose an account from "+_.D(_.k(c.Ba,25));d+=e}else d+="Choose an account";e="";if(c.Ib.Jb()){var f="to continue to "+_.G0a(c);e+=f}null==c?f=null:(f=c.Ib,f=null==f?null:f.Jb());if(f){f=c.ja;if(null==f)var h=null;else f=_.nn(f),h=null==f?null:_.A(f,27);var m=c.Ib.Jb(),p=_.ll(c.Ib,7)[0],r=_.ll(c.Ib,6)[0];f="";h&&(h="To continue, Google will share your name, email address, language preference and profile picture with "+
+_.D(m)+".",f=f+h+" ");_.F(p)&&_.F(r)?(m="Before using this app, you can review "+_.D(m)+'\u2019s <a href="'+(_.L(_.sv(p))+'" target="_blank">privacy policy</a> and <a href="')+(_.L(_.sv(r))+'" target="_blank">Terms of Service</a>.'),f+=m):p?(m="Before using this app, you can review "+_.D(m)+'\u2019s <a href="'+(_.L(_.sv(p))+'" target="_blank">privacy policy</a> and Terms of Service.'),f+=m):r&&(m="Before using this app, you can review "+_.D(m)+'\u2019s privacy policy and <a href="'+(_.L(_.sv(r))+
+'" target="_blank">Terms of Service</a>.'),f+=m);f=""+_.T({text:(0,_.K)(f)},b);f=(0,_.C)(f)}else f="";b=""+_.A0a({Ib:c.Ib,Ra:"WIXDGc",Qa:"cemGcc",ja:c.ja,Mb:(0,_.gv)(a?'data-scope-data="'+_.L("%.@."+_.ql(a).substr(1))+'"':""),list:_.Mr(_.qs(c.Ba)),title:(0,_.K)(d),Rb:(0,_.K)(e),im:_.A(_.nn(c.ja),36)?_.gP():"",Ce:(0,_.K)(""+f)},b);return(0,_.C)(b)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.n1a=function(a,b,c,d){var e=_.rs(d);e=null==e?null:e.Ec();d=_.rs(d);d=null==d?null:_.un(d);var f=_.C,h=(0,_.K)(""+_.D(_.f1a()));var m=_.F(_.n(b,_.EP,87))&&_.F(_.FP(_.n(b,_.EP,87)))?_.FP(_.n(b,_.EP,87)):"";m=(0,_.C)(_.T({text:"xreauth"==m?_.h1a():_.g1a()},a)+_.GP({name:"identifierInput",value:"",Ca:"dWPKW",id:"identifierId"},a));return f(_.eP({Ra:"JqMh0e",Qa:"Giemuc",Za:"jiqeKb:ZCwQbe;u3KAb:ZCwQbe;DPVjO:tVBJG;rcuQ6b:rcuQ6b;",content:(0,_.K)(""+_.fP({ja:b,Ib:c,Hc:{Pb:null!=e?e:"",identifier:null!=
+d?d:""},title:h,description:(0,_.K)(""+m),Cb:"identifierNext",Ya:_.rI()},a))},a))};
+
+}catch(e){_._DumpException(e)}
+try{
+_.o1a=function(a,b){var c=_.C;a=a.Pa.ja;var d=""+_.T({text:(0,_.K)("To help keep your profile secure, Google needs to verify your parent's Google Account")},b);d=""+_.U({details:(0,_.K)(d)},b);d=(0,_.C)(d);return c(_.eP({Ra:"Nf2VHf",Qa:"TxaWAc",Za:"rcuQ6b:rcuQ6b;jiqeKb:R3AVS;u3KAb:R3AVS;",content:(0,_.K)(""+_.fP({ja:a,title:"Have a parent sign in",fb:(0,_.K)(""+d),Ya:"Sign in"},b))},b))};
+
+}catch(e){_._DumpException(e)}
+try{
+_.p1a=function(a,b){var c=_.C;a=a.Pa.ja;var d=(0,_.K)(""+_.D(_.I("jc")(null,b))),e=(0,_.K)(""+_.D(_.I("kc")(null,b)));var f=_.C;var h=_.I("fc")(null,b);f=f(_.iG({items:(0,_.K)(""+h)},b));return c(_.eP({Ra:"Od6CXe",Qa:"sJhOrd",Za:"jiqeKb:oXMuMe;u3KAb:oXMuMe;cLkKDf:LNUc7b;rcuQ6b:WYd;",content:(0,_.K)(""+_.fP({ja:a,title:d,Rb:e,fb:(0,_.K)(""+f),Ya:"Yes, continue",Kb:_.I("lc")(null,b)},b))},b))};
+_.H("fc","",0,function(a,b){a=_.C;var c=_.I("gc")(null,b)+_.I("hc")(null,b);b=_.I("ic")(null,b);return a(c+b)});_.H("gc","",0,function(a,b){a=""+_.T({text:"Help choose what's OK to explore, buy and watch"},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"checkCircleOutline"},b))},b);return(0,_.C)(b)});_.H("hc","",0,function(a,b){a=""+_.T({text:"See how much apps are used"},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"schedule"},b))},b);return(0,_.C)(b)});
+_.H("ic","",0,function(a,b){a=""+_.T({text:"Remotely lock devices when it's time to play, study or sleep"},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"phonelinkLock"},b))},b);return(0,_.C)(b)});_.H("jc","",0,function(){return"Create a Google Account for your child"});_.H("kc","",0,function(){return"You\u2019ll be able to manage screen time, apps and more with the Google Family Link app"});_.H("lc","",0,function(){return"No, thanks"});
+
+_.H("jc","",1,function(){return"Create a Google Account"});_.H("kc","",1,function(){return"You\u2019ll help manage this account until your child is 13 (or applicable age in your country)"});_.H("fc","",1,function(a,b){a=_.C;var c=_.I("nc")(null,b);var d=_.I("mc")(null,b);return a(c+d+_.I("hc")(null,b))});
+_.H("nc","",1,function(a,b){a=""+_.T({text:"Manage your child\u2019s account and privacy settings"},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"accountCircle",fill:"#757575"},b))},b);return(0,_.C)(b)});_.H("mc","",1,function(a,b){a=""+_.T({text:"Set content filters for services like Google Play and Search that work when your child is signed in"},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"filterList"},b))},b);return(0,_.C)(b)});
+_.H("hc","",1,function(a,b){a='Limit screen time on supervised devices with Google Family Link.  <a href="https://support.google.com/families/answer/7103340?hl='+(_.ov(b.locale)+'" target="_blank">Learn more</a>');a=""+_.T({text:(0,_.K)(a)},b);b=""+_.jG({text:(0,_.K)(a),icon:(0,_.K)(""+_.hG({name:"timer"},b))},b);return(0,_.C)(b)});
+
+}catch(e){_._DumpException(e)}
+try{
+_.w1a=function(a,b){a=a.ab;var c=""+_.T({text:(0,_.K)("With your permission, your child can use their profile to access other Google devices and services that are available to children. Access to your child\u2019s info is limited. You and people who share your family's devices and services can see your child's info.")},b);c+=_.I("oc")(a,b);a=""+_.fP({ja:a.ja,title:"Create a Google children's profile",fb:(0,_.K)(c),Ya:_.rI()},b);b=""+_.eP({Ra:"ZfV5Jf",Qa:"MinWce",Za:"rcuQ6b:WYd;jiqeKb:tJiF1e;u3KAb:tJiF1e;",
+content:(0,_.K)(a)},b);return(0,_.C)(b)};_.H("oc","",0,function(a,b){a=a||{};a=a.ub;return(0,_.C)(_.mK({name:"firstNameResponse",Vd:"first-name-response",Ca:"RZjyWb",label:"Child's first name",value:(null==a?0:a.Lb())?""+a.Lb():""},b))});
+
+_.H("oc","",1,function(a,b){a=a||{};return(0,_.C)(_.q1a(b,a.ub))});
+
+}catch(e){_._DumpException(e)}
+try{
+var x1a=void 0;
+_.y1a=function(a,b){var c=a.qc,d=a.ab;a=_.C;void 0===x1a&&(x1a="iVsDqf");var e=x1a;var f=d.ja,h=""+_.T({text:(0,_.K)(""+_.D("With your permission, your child can use their profile to access other Google devices and services that are available to children. Access to your child\u2019s info is limited. You and people who share your family's devices and services can see your child's info."))},b);c=c.qc;d=d.ub;c=(0,_.C)(_.q1a(b,d)+_.r1a(b,c,d));return a(_.eP({Ra:"KsFr5c",Qa:e,Za:"rcuQ6b:WYd;jiqeKb:tJiF1e;u3KAb:tJiF1e;",
+content:(0,_.K)(""+_.fP({ja:f,title:"Create a Google children's profile",fb:(0,_.K)(h+c),Ya:_.rI()},b))},b))};
+
+}catch(e){_._DumpException(e)}
+try{
+_.z1a=function(a,b){var c=a.ab;a="";var d=c.ub.Lb(),e="";switch(_.YO(c.ub)){case 2:e+="female";break;case 1:e+="male";break;default:e+="other"}var f="";if(_.A(c.ja,100)){var h=_.Y(new _.X("{CHILD_GENDER,select, female{First, set up {CHILD_FIRST_NAME}\u2019s Gmail and password}male{First, set up {CHILD_FIRST_NAME}\u2019s Gmail and password}other{First, set up {CHILD_FIRST_NAME}\u2019s Gmail and password}}"),{CHILD_GENDER:e,CHILD_FIRST_NAME:_.D(d)});f+=h}else _.D(d),h=_.Y(new _.X("{CHILD_GENDER,select, female{{CHILD_FIRST_NAME} will get more from Google}male{{CHILD_FIRST_NAME} will get more from Google}other{{CHILD_FIRST_NAME} will get more from Google}}"),
+{CHILD_GENDER:e,CHILD_FIRST_NAME:_.D(d)}),f+=h;h=c.ja;f=(0,_.K)(f);if(_.A(c.ja,100)){c=_.Y(new _.X("{CHILD_GENDER,select, female{For settings like Voice Match, {CHILD_FIRST_NAME} will need a Google Account with a Gmail address &amp; password. You'll also be able to manage more devices in Family Link. That way, Assistant can apply parental controls when {CHILD_FIRST_NAME}'s speaking.}male{For settings like Voice Match, {CHILD_FIRST_NAME} will need a Google Account with a Gmail address &amp; password. You'll also be able to manage more devices in Family Link. That way, Assistant can apply parental controls when {CHILD_FIRST_NAME}'s speaking.}other{For settings like Voice Match, {CHILD_FIRST_NAME} will need a Google Account with a Gmail address &amp; password. You'll also be able to manage more devices in Family Link. That way, Assistant can apply parental controls when {CHILD_FIRST_NAME}'s speaking.}}"),
+{CHILD_GENDER:e,CHILD_FIRST_NAME:_.D(d)});c+=' <a href="https://support.google.com/families/answer/7101025" target="_blank">'+_.qI()+"</a>";c=""+_.T({text:(0,_.K)(c)},b);d=_.Y(new _.X("{CHILD_GENDER,select, female{You'll create a Gmail address and password for {CHILD_FIRST_NAME} and she can sign in on her own}male{You'll create a Gmail address and password for {CHILD_FIRST_NAME} and he can sign in on his own}other{You'll create a Gmail address and password for {CHILD_FIRST_NAME} and they can sign in on their own}}"),
+{CHILD_GENDER:e,CHILD_FIRST_NAME:_.D(d)});d=""+_.T({text:(0,_.K)(d)},b);d=""+_.jG({text:(0,_.K)(d),icon:(0,_.K)(""+_.hG({name:"accountCircle",fill:"#757575"},b))},b);var m=_.Y(new _.X("{CHILD_GENDER,select, female{She'll have access to more Google services}male{He'll have access to more Google services}other{They'll have access to more Google services}}"),{CHILD_GENDER:e});m=""+_.T({text:(0,_.K)(m)},b);d+=_.jG({text:(0,_.K)(m),icon:(0,_.K)(""+_.hG({name:"google",fill:"#757575"},b))},b);e=_.Y(new _.X("{CHILD_GENDER,select, female{You'll still be able to manage parental controls in Family Link}male{You'll still be able to manage parental controls in Family Link}other{You'll still be able to manage parental controls in Family Link}}"),
+{CHILD_GENDER:e});e=""+_.T({text:(0,_.K)(e)},b);d+=_.jG({text:(0,_.K)(e),icon:(0,_.K)(""+_.hG({name:"familyLink",fill:"#757575"},b))},b);e=""+_.iG({items:(0,_.K)(d)},b);e=(0,_.C)(e);c=(0,_.C)(c+e)}else _.D(d),c=_.Y(new _.X("{CHILD_GENDER,select, female{Once {CHILD_FIRST_NAME} has a Gmail address and password, she\u2019ll be able to sign in to Google services and devices with your permission. As a parent, you\u2019ll choose important settings and set up Family Link\u2019s parental controls on supervised devices.}male{Once {CHILD_FIRST_NAME} has a Gmail address and password, he\u2019ll be able to sign in to Google services and devices with your permission. As a parent, you\u2019ll choose important settings and set up Family Link\u2019s parental controls on supervised devices.}other{Once {CHILD_FIRST_NAME} has a Gmail address and password, they\u2019ll be able to sign in to Google services and devices with your permission. As a parent, you\u2019ll choose important settings and set up Family Link\u2019s parental controls on supervised devices.}}"),
+{CHILD_GENDER:e,CHILD_FIRST_NAME:_.D(d)}),c+=' <a href="https://support.google.com/families/answer/7101025" target="_blank">'+_.qI()+"</a>",c=""+_.T({text:(0,_.K)(c)},b),d=_.Y(new _.X("{CHILD_GENDER,select, female{Manage content filters for services like YouTube and Search that work when your child is signed in}male{Manage content filters for services like YouTube and Search that work when your child is signed in}other{Manage content filters for services like YouTube and Search that work when your child is signed in}}"),
+{CHILD_GENDER:e}),d=""+_.T({text:(0,_.K)(d)},b),d=""+_.jG({text:(0,_.K)(d),icon:(0,_.K)(""+_.hG({name:"checkCircleOutline",fill:"#757575"},b))},b),m=_.Y(new _.X("{CHILD_GENDER,select, female{Help choose what\u2019s OK to explore, buy and watch on supervised devices}male{Help choose what\u2019s OK to explore, buy and watch on supervised devices}other{Help choose what\u2019s OK to explore, buy and watch on supervised devices}}"),{CHILD_GENDER:e}),m=""+_.T({text:(0,_.K)(m)},b),d+=_.jG({text:(0,_.K)(m),
+icon:(0,_.K)(""+_.hG({name:"schedule",fill:"#757575"},b))},b),m=_.Y(new _.X("{CHILD_GENDER,select, female{See how often apps are used on supervised devices}male{See how often apps are used on supervised devices}other{See how often apps are used on supervised devices}}"),{CHILD_GENDER:e}),m=""+_.T({text:(0,_.K)(m)},b),d+=_.jG({text:(0,_.K)(m),icon:(0,_.K)(""+_.hG({name:"apps",fill:"#757575"},b))},b),e=_.Y(new _.X("{CHILD_GENDER,select, female{Remotely lock supervised devices when it\u2019s time to play, study or sleep}male{Remotely lock supervised devices when it\u2019s time to play, study or sleep}other{Remotely lock supervised devices when it\u2019s time to play, study or sleep}}"),
+{CHILD_GENDER:e}),e=""+_.T({text:(0,_.K)(e)},b),d+=_.jG({text:(0,_.K)(e),icon:(0,_.K)(""+_.hG({name:"phonelinkLock",fill:"#757575"},b))},b),e=""+_.iG({items:(0,_.K)(d)},b),e=(0,_.C)(e),c=(0,_.C)(c+e);h=""+_.fP({ja:h,title:f,fb:(0,_.K)(""+c),Ya:_.rI()},b);a+=_.eP({Ra:"OJWoQe",Qa:"zrGnHe",Za:"jiqeKb:wITw6;u3KAb:wITw6;",Wc:"SFXTtb",content:(0,_.K)(h)},b);return(0,_.C)(a)};
+
+}catch(e){_._DumpException(e)}
+try{
+_.t("initialpage_view");
+
+_.aDa.aa({Va:function(a,b){var c=a.ab,d="",e=c.ja.da();switch(_.Za(e)?e.toString():e){case "oauthchooseaccount":d+=_.e1a(a,b);break;case "signinchooser":d+=_.b1a(a,b);break;case "androidreauth":d+=_.n1a(b,c.ja,c.Ib,c.Ba);break;case "recoveryidentifier":d+=_.Z0a(a,b);break;case "usernamerecovery":a=d;d=_.C;c=_.Zu({content:(0,_.K)(""+_.d1a(b,{ja:c.ja,Bb:c.Bb,Ba:c.Ba}))},c);b=(0,_.C)(_.I("mb")(c,b));b=d(b);d=a+b;break;case "keyboardcheck":d+=_.t0a(a,b);break;case "signup/v2/kidaccountinfo":d+=_.p1a(c,
+b);break;case "kididentifier":d+=_.Y0a(a,b);break;case "kidsignupname":d+=_.w1a(a,b);break;case "signup/v2/kidsignupnameage":d+=_.y1a(a,b);break;case "ulpupgradelandingpage":d+=_.z1a(a,b);break;case "ulpreauth":d+=_.o1a(a,b);break;case "signin/v2/ulpsigninlanding":d+=_.E0a(a,b);break;default:d+=_.U0a(a,b)}return(0,_.C)(d)},Wa:_.oP({ab:_.wP}),title:"ignore"});
+
+
+_.u();
+
+}catch(e){_._DumpException(e)}
+})(this._G);
+// Google Inc.

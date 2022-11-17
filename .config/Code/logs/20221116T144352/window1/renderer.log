@@ -1,0 +1,3 @@
+2022-11-16 14:43:55.324 [warning] Couldn't attach to process Could not find pty on pty host
+2022-11-16 14:43:55.325 [warning] Attach to process failed for terminal {"id":2,"pid":4139,"title":"bash","titleSource":2,"cwd":"","icon":{"id":"terminal-bash"},"resource":{"$mid":1,"fsPath":"/1668406902502/1","external":"vscode-terminal:/1668406902502/1","path":"/1668406902502/1","scheme":"vscode-terminal"},"hasChildProcesses":false,"findRevivedId":true}
+2022-11-16 14:43:56.101 [info] [perf] Render performance baseline is 97ms

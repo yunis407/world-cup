@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="google-chrome.desktop" score="24436.75" last-seen="1668669002"/>
+    <application id="org.gnome.Evolution-alarm-notify.desktop" score="70.75" last-seen="1668667107"/>
+    <application id="gnome-control-center.desktop" score="105.5" last-seen="1668590735"/>
+    <application id="org.gnome.gedit.desktop" score="18.5" last-seen="1668171239"/>
+    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
+    <application id="org.gnome.Nautilus.desktop" score="51" last-seen="1668598591"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1668499014"/>
+    <application id="snap-store_ubuntu-software.desktop" score="330.75" last-seen="1668180017"/>
+    <application id="gnome-initial-setup.desktop" score="1584.75" last-seen="1668177630"/>
+    <application id="org.gnome.Terminal.desktop" score="13547.25" last-seen="1668669135"/>
+    <application id="slack_slack.desktop" score="141" last-seen="1668513691"/>
+    <application id="code.desktop" score="674.25" last-seen="1668668908"/>
+  </context>
+</application-state>

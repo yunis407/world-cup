@@ -1,0 +1,78 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "HP",
+    "Product": "HP EliteBook 820 G4",
+    "Family": "103C_5336AN HP EliteBook"
+  },
+  "BIOS": {
+    "Vendor": "HP",
+    "Version": "P78 Ver. 01.39"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "142",
+    "Stepping": "9",
+    "Name": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "5916"
+    }
+  ],
+  "RAM": 8,
+  "Disks": [
+    256.1
+  ],
+  "Partitions": [
+    244.5,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "277mmx156mm",
+      "Resolution": "1366x768",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Africa/Nairobi",
+  "Install": {
+    "Media": "Ubuntu 20.04.4 LTS \"Focal Fossa\" - Release amd64 (20220223)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "23": "console_setup",
+      "148": "wireless",
+      "188": "prepare",
+      "216": "partman",
+      "260": "start_install",
+      "273": "timezone",
+      "283": "usersetup",
+      "335": "user_done",
+      "1178": "done"
+    }
+  }
+}

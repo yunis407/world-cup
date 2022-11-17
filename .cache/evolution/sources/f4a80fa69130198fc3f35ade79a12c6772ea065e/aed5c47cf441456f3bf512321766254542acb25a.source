@@ -1,0 +1,26 @@
+[Data Source]
+DisplayName=My Tasks
+Enabled=true
+Parent=f4a80fa69130198fc3f35ade79a12c6772ea065e
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=yunis.osman@student.moringaschool.com
+CredentialName=
+IsExternal=false
+
+[Resource]
+Identity=gtasks::MTUwNDQ3MjU0MjExMDM3MjQwMTE6MDow
+
+[Alarms]
+IncludeMe=false
+LastNotified=
+
+[Task List]
+BackendName=gtasks
+Color=#becedd
+Selected=true

@@ -1,0 +1,80 @@
+1667811437941	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1667811438976	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1667811438976	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: OK
+1667811438976	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 1024
+1667811439097	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1667811439097	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: OK
+1667811439097	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 903
+1667811439097	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1667811439097	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","oauthTokens","profileCache"]
+1667811439098	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","encryptedSendTabKeys","oauthTokens","profileCache"]
+1667811439098	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1667811439101	FirefoxAccounts	TRACE	finished write of json user data - took: 3
+1667811439101	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys","kSync","kXCS","kExtSync","kExtKbHash"]
+1667811439101	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1667811439109	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1667811439433	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1667814090257	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1667814090258	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667814090258	Sync.Service	INFO	Starting sync at 2022-11-07 12:41:30 in browser session IjypUqZzJ7Dm
+1667814090259	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1667814090274	Sync.Status	INFO	Resetting Status.
+1667814090274	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1667814090276	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1667814090277	FirefoxAccounts	DEBUG	getOAuthToken enter
+1667814090278	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1667814090278	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1667814090279	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1667814090284	Sync.SyncAuthManager	INFO	Getting sync key
+1667814090284	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1667814090284	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1667814090284	FirefoxAccounts	DEBUG	getOAuthToken enter
+1667814090285	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1667814090285	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1667814090285	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1667814090287	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1667821176369	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1667821176369	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1667821176372	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1667821176424	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667821176586	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1667821176587	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667821181814	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1667821181814	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1667821181817	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667821181819	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667821181819	Sync.Service	INFO	Starting sync at 2022-11-07 14:39:41 in browser session IjypUqZzJ7Dm
+1667821181819	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.js:62:5) JS Stack trace: LockException@util.js:62:5
+throwLockException@util.js:148:11
+WrappedLock@util.js:162:15
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1667821181819	Sync.Service	INFO	Cannot start sync: already syncing?
+1667821183466	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667821184994	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1667821362079	Sync.RemoteTabs	INFO	Generating tab list with filter
+1667821362079	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1667821472939	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1667821472940	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1667821472940	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1667821472942	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:39:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:62:16
+_tokenServerExchangeRequest@tokenserverclient.js:241:13
+1667821472948	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1667821472948	FirefoxAccounts	DEBUG	getOAuthToken enter
+1667821472950	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1667821472950	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1667821472951	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1667821473440	Sync.Resource	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200914463/info/collections
+1667821473440	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200914463/info/collections failed with status 401
+1667821473441	Sync.Service	INFO	Logging out
+1667821473442	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1667821473442	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1667821473446	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1667821473446	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1667821473449	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200914463/info/collections","status":401,"success":false,"headers":{"alt-svc":"clear","content-length":"1","content-type":"application/json","date":"Mon, 07 Nov 2022 11:44:33 GMT","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2","x-weave-timestamp":"1667821473.23"},"obj":0}
+1667821473452	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1667821473453	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1667821473460	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200914463/info/collections","status":401,"success":false,"headers":{"alt-svc":"clear","content-length":"1","content-type":"application/json","date":"Mon, 07 Nov 2022 11:44:33 GMT","server":"openresty/1.15.8.2","via":"1.1 google","x-firefox-spdy":"h2","x-weave-timestamp":"1667821473.23"},"obj":0}

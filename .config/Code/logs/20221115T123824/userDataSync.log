@@ -1,0 +1,471 @@
+2022-11-15 12:38:26.182 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2022-11-15 12:38:26.182 [info] Auto Sync is enabled.
+2022-11-15 12:38:26.182 [info] Auto Sync: Suspended until auth token is available.
+2022-11-15 12:38:27.039 [info] Auto Sync: Triggered by Interval
+2022-11-15 12:38:27.041 [info] Sync started.
+2022-11-15 12:38:30.131 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:38:30.145 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:38:30.153 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:38:30.158 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:38:30.166 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:38:30.256 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:38:30.260 [info] Sync done. Took 3228ms
+2022-11-15 12:39:17.071 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:39:17.073 [info] Sync started.
+2022-11-15 12:39:17.949 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:39:17.958 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:39:17.965 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:39:17.970 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:39:17.977 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:39:18.073 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:39:18.075 [info] Sync done. Took 1010ms
+2022-11-15 12:39:57.807 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:39:57.812 [info] Sync started.
+2022-11-15 12:39:58.680 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:39:58.685 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:39:58.691 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:39:58.695 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:39:58.701 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:39:58.811 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:39:58.813 [info] Sync done. Took 1010ms
+2022-11-15 12:40:04.842 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:40:04.844 [info] Sync started.
+2022-11-15 12:40:05.646 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:40:05.663 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:40:05.679 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:40:05.688 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:40:06.746 [info] GlobalState: Updated remote ui state. Added: tabs-list-width-horizontal.
+2022-11-15 12:40:06.764 [info] GlobalState: Updated last synchronized ui state
+2022-11-15 12:40:06.941 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:40:06.943 [info] Sync done. Took 2104ms
+2022-11-15 12:40:20.375 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:40:20.391 [info] Sync started.
+2022-11-15 12:40:21.234 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:40:21.250 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:40:21.268 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:40:21.281 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:40:22.199 [info] GlobalState: Updated remote ui state. Updated: workbench.statusbar.hidden.
+2022-11-15 12:40:22.213 [info] GlobalState: Updated last synchronized ui state
+2022-11-15 12:40:22.316 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:40:22.318 [info] Sync done. Took 1948ms
+2022-11-15 12:41:21.052 [info] Auto Sync: Triggered by Activity
+2022-11-15 12:41:21.053 [info] Sync started.
+2022-11-15 12:41:21.718 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:41:21.734 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:41:21.753 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:41:21.758 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:41:21.765 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:41:21.843 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:41:21.845 [info] Sync done. Took 795ms
+2022-11-15 12:46:21.853 [info] Auto Sync: Triggered by Interval
+2022-11-15 12:46:21.853 [info] Sync started.
+2022-11-15 12:46:23.340 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:46:23.347 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:46:23.352 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:46:23.355 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:46:23.361 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:46:23.468 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:46:23.469 [info] Sync done. Took 1618ms
+2022-11-15 12:51:23.472 [info] Auto Sync: Triggered by Interval
+2022-11-15 12:51:23.473 [info] Sync started.
+2022-11-15 12:51:25.076 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:51:25.081 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:51:25.087 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:51:25.091 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:51:25.099 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:51:25.179 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:51:25.180 [info] Sync done. Took 1711ms
+2022-11-15 12:56:25.183 [info] Auto Sync: Triggered by Interval
+2022-11-15 12:56:25.184 [info] Sync started.
+2022-11-15 12:56:26.630 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 12:56:26.635 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 12:56:26.643 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 12:56:26.647 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 12:56:26.655 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 12:56:26.756 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 12:56:26.758 [info] Sync done. Took 1577ms
+2022-11-15 13:26:58.929 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:26:58.930 [info] Sync started.
+2022-11-15 13:27:00.492 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 13:27:00.507 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 13:27:00.521 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 13:27:00.534 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 13:27:00.544 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 13:27:00.622 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 13:27:00.623 [info] Sync done. Took 1696ms
+2022-11-15 13:32:00.626 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:32:00.627 [info] Sync started.
+2022-11-15 13:32:02.213 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 13:32:02.218 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 13:32:02.223 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 13:32:02.226 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 13:32:02.233 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 13:32:02.323 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 13:32:02.329 [info] Sync done. Took 1704ms
+2022-11-15 13:37:02.332 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:37:02.333 [info] Sync started.
+2022-11-15 13:37:04.173 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 13:37:04.188 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 13:37:04.202 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 13:37:04.213 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 13:37:04.228 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 13:37:04.314 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 13:37:04.316 [info] Sync done. Took 1986ms
+2022-11-15 13:42:04.319 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:42:04.320 [info] Sync started.
+2022-11-15 13:42:06.154 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 13:42:06.159 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 13:42:06.165 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 13:42:06.170 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 13:42:06.176 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 13:42:06.254 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 13:42:06.256 [info] Sync done. Took 1939ms
+2022-11-15 13:47:06.259 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:47:06.260 [info] Sync started.
+2022-11-15 13:47:08.028 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 13:47:08.034 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 13:47:08.039 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 13:47:08.044 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 13:47:08.050 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 13:47:08.144 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 13:47:08.146 [info] Sync done. Took 1889ms
+2022-11-15 13:52:08.148 [info] Auto Sync: Triggered by Interval
+2022-11-15 13:52:08.151 [info] Sync started.
+2022-11-15 13:54:37.977 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 13:54:37.977 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:54:37.977 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:54:54.144 [info] Auto Sync: Triggered by Activity
+2022-11-15 13:54:54.145 [info] Sync started.
+2022-11-15 13:55:27.356 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 13:55:27.357 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:55:27.358 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:55:31.141 [info] Auto Sync: Triggered by Activity
+2022-11-15 13:55:31.141 [info] Sync started.
+2022-11-15 13:58:06.891 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 13:58:06.891 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:58:06.892 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 13:58:06.893 [info] Auto Sync: Triggered by Activity
+2022-11-15 13:58:06.894 [info] Sync started.
+2022-11-15 14:00:57.404 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:00:57.415 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:00:57.422 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:00:57.426 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:00:57.432 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:00:57.537 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:00:57.539 [info] Sync done. Took 170647ms
+2022-11-15 14:00:57.540 [info] Auto Sync: Triggered by Activity
+2022-11-15 14:00:57.540 [info] Sync started.
+2022-11-15 14:01:19.740 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 14:01:19.741 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:01:19.741 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:13:51.837 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:13:51.838 [info] Sync started.
+2022-11-15 14:16:59.520 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 14:16:59.520 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:16:59.520 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:21:59.522 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:21:59.523 [info] Sync started.
+2022-11-15 14:22:01.188 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:22:01.203 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:22:01.220 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:22:01.233 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:22:01.252 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:22:01.338 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:22:01.340 [info] Sync done. Took 1820ms
+2022-11-15 14:27:01.343 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:27:01.344 [info] Sync started.
+2022-11-15 14:27:03.549 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:27:03.565 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:27:03.580 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:27:03.592 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:27:03.601 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:27:03.705 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:27:03.707 [info] Sync done. Took 2366ms
+2022-11-15 14:32:03.709 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:32:03.710 [info] Sync started.
+2022-11-15 14:32:05.461 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:32:05.466 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:32:05.472 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:32:05.477 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:32:05.483 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:32:05.563 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:32:05.564 [info] Sync done. Took 1857ms
+2022-11-15 14:37:05.567 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:37:05.568 [info] Sync started.
+2022-11-15 14:37:07.313 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:37:07.342 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:37:07.356 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:37:07.360 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:37:07.366 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:37:07.456 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:37:07.458 [info] Sync done. Took 1893ms
+2022-11-15 14:42:07.461 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:42:07.462 [info] Sync started.
+2022-11-15 14:45:57.065 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 14:45:57.065 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:45:57.066 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 14:50:57.068 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:50:57.069 [info] Sync started.
+2022-11-15 14:50:58.460 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:50:58.475 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:50:58.489 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:50:58.497 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:50:58.505 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:50:58.585 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:50:58.587 [info] Sync done. Took 1521ms
+2022-11-15 14:55:58.590 [info] Auto Sync: Triggered by Interval
+2022-11-15 14:55:58.590 [info] Sync started.
+2022-11-15 14:56:01.242 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 14:56:01.256 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 14:56:01.270 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 14:56:01.281 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 14:56:01.294 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 14:56:01.388 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 14:56:01.389 [info] Sync done. Took 2802ms
+2022-11-15 15:01:01.392 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:01:01.393 [info] Sync started.
+2022-11-15 15:08:07.249 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:08:07.250 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:08:07.250 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:13:07.250 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:13:07.251 [info] Sync started.
+2022-11-15 15:14:31.479 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:14:31.479 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:14:31.479 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:19:31.482 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:19:31.483 [info] Sync started.
+2022-11-15 15:19:32.409 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 15:19:32.424 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 15:19:32.440 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 15:19:32.446 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 15:19:32.453 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 15:19:32.546 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 15:19:32.547 [info] Sync done. Took 1068ms
+2022-11-15 15:21:30.805 [info] Auto Sync: Triggered by Activity
+2022-11-15 15:21:30.807 [info] Sync started.
+2022-11-15 15:21:54.979 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:21:54.980 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:21:54.981 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:21:54.985 [info] Auto Sync: Triggered by Activity
+2022-11-15 15:21:54.987 [info] Sync started.
+2022-11-15 15:23:22.742 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:23:22.742 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:23:22.743 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:23:22.748 [info] Auto Sync: Triggered by Activity
+2022-11-15 15:23:22.749 [info] Sync started.
+2022-11-15 15:25:40.482 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:25:40.487 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:25:40.488 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:25:40.491 [info] Auto Sync: Triggered by Activity
+2022-11-15 15:25:40.492 [info] Sync started.
+2022-11-15 15:30:34.042 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-15 15:30:34.042 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:30:34.042 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-15 15:30:34.043 [info] Auto Sync: Triggered by Activity
+2022-11-15 15:30:34.043 [info] Sync started.
+2022-11-15 15:30:34.558 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 15:30:34.564 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 15:30:34.570 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 15:30:34.574 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 15:30:34.580 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 15:30:34.656 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 15:30:34.664 [info] Sync done. Took 616ms
+2022-11-15 15:35:34.662 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:35:34.663 [info] Sync started.
+2022-11-15 15:35:35.732 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 15:35:35.738 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 15:35:35.744 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 15:35:35.749 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 15:35:35.755 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 15:35:35.850 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 15:35:35.852 [info] Sync done. Took 1192ms
+2022-11-15 15:40:35.855 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:40:35.856 [info] Sync started.
+2022-11-15 15:40:36.884 [info] Settings: No changes found during synchronizing settings.
+2022-11-15 15:40:36.889 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-15 15:40:36.894 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-15 15:40:36.898 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-15 15:40:36.905 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-15 15:40:36.991 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-15 15:40:36.996 [info] Sync done. Took 1143ms
+2022-11-15 15:45:36.998 [info] Auto Sync: Triggered by Interval
+2022-11-15 15:45:36.999 [info] Sync started.
+2022-11-16 11:23:56.393 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2022-11-16 11:23:56.393 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-16 11:23:56.393 [error] RequestTimeout (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at E.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:172574)
+    at async E.manifest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:170304)
+    at async a.createSyncTask (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:137917)
+    at async o.doSync (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:89:97709)
+2022-11-16 11:28:56.395 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:28:56.401 [info] Sync started.
+2022-11-16 11:28:57.902 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:28:57.916 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:28:57.934 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:28:57.945 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:28:57.963 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:28:58.064 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:28:58.066 [info] Sync done. Took 1673ms
+2022-11-16 11:33:58.069 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:33:58.070 [info] Sync started.
+2022-11-16 11:34:03.894 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:34:03.909 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:34:03.928 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:34:03.940 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:34:03.962 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:34:04.076 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:34:04.078 [info] Sync done. Took 6011ms
+2022-11-16 11:39:04.081 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:39:04.082 [info] Sync started.
+2022-11-16 11:39:05.202 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:39:05.217 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:39:05.233 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:39:05.245 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:39:05.256 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:39:05.349 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:39:05.350 [info] Sync done. Took 1272ms
+2022-11-16 11:44:05.352 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:44:05.355 [info] Sync started.
+2022-11-16 11:44:06.161 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:44:06.186 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:44:06.214 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:44:06.226 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:44:06.236 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:44:06.337 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:44:06.338 [info] Sync done. Took 988ms
+2022-11-16 11:49:06.341 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:49:06.342 [info] Sync started.
+2022-11-16 11:49:07.725 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:49:07.769 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:49:07.796 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:49:07.812 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:49:07.830 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:49:07.933 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:49:07.934 [info] Sync done. Took 1596ms
+2022-11-16 11:54:07.937 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:54:07.938 [info] Sync started.
+2022-11-16 11:54:09.823 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:54:09.830 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:54:09.835 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:54:09.839 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:54:09.845 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:54:09.932 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:54:09.938 [info] Sync done. Took 2002ms
+2022-11-16 11:59:09.942 [info] Auto Sync: Triggered by Interval
+2022-11-16 11:59:09.943 [info] Sync started.
+2022-11-16 11:59:10.973 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 11:59:10.994 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 11:59:11.016 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 11:59:11.033 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 11:59:11.069 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 11:59:11.238 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 11:59:11.241 [info] Sync done. Took 1302ms
+2022-11-16 12:04:11.244 [info] Auto Sync: Triggered by Interval
+2022-11-16 12:04:11.245 [info] Sync started.
+2022-11-16 12:04:17.299 [info] Settings: No changes found during synchronizing settings.
+2022-11-16 12:04:17.304 [info] Keybindings: No changes found during synchronizing keybindings.
+2022-11-16 12:04:17.309 [info] Snippets: No changes found during synchronizing snippets.
+2022-11-16 12:04:17.312 [info] Tasks: No changes found during synchronizing tasks.
+2022-11-16 12:04:17.318 [info] GlobalState: No changes found during synchronizing ui state.
+2022-11-16 12:04:17.385 [info] Extensions: No changes found during synchronizing extensions.
+2022-11-16 12:04:17.386 [info] Sync done. Took 6145ms

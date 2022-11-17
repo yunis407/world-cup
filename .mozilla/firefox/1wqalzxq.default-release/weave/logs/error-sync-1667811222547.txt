@@ -1,0 +1,73 @@
+1667808696296	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1667809857386	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1667809857386	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667809857386	Sync.Service	INFO	Starting sync at 2022-11-07 11:30:57 in browser session IjypUqZzJ7Dm
+1667809857386	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1667809857389	Sync.Status	INFO	Resetting Status.
+1667809857389	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1667809857390	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1667809857390	FirefoxAccounts	DEBUG	getOAuthToken enter
+1667809857392	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1667809857392	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1667809857393	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1667809858535	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1667809858536	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1667809858537	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1667809858538	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667809872503	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1667809872503	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667809877671	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1667809877671	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1667809877674	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667809877675	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667809877675	Sync.Service	INFO	Starting sync at 2022-11-07 11:31:17 in browser session IjypUqZzJ7Dm
+1667809877675	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.js:62:5) JS Stack trace: LockException@util.js:62:5
+throwLockException@util.js:148:11
+WrappedLock@util.js:162:15
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1667809877676	Sync.Service	INFO	Cannot start sync: already syncing?
+1667809879413	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667809881693	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1667809881694	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667809881694	Sync.Service	INFO	Starting sync at 2022-11-07 11:31:21 in browser session IjypUqZzJ7Dm
+1667809881694	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.js:62:5) JS Stack trace: LockException@util.js:62:5
+throwLockException@util.js:148:11
+WrappedLock@util.js:162:15
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1667809881695	Sync.Service	INFO	Cannot start sync: already syncing?
+1667809881735	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1667810942399	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1667810942399	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1667810942404	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1667810942407	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667810942516	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1667810942516	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667810947757	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667810949160	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667810950909	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1667810950910	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1667810950913	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1667810950914	Sync.Service	DEBUG	User-Agent: Firefox/97.0 (Linux x86_64) FxSync/1.99.0.20220202182137.desktop
+1667810950914	Sync.Service	INFO	Starting sync at 2022-11-07 11:49:10 in browser session IjypUqZzJ7Dm
+1667810950914	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.js:62:5) JS Stack trace: LockException@util.js:62:5
+throwLockException@util.js:148:11
+WrappedLock@util.js:162:15
+_lockedSync@service.js:1370:6
+sync/<@service.js:1334:18
+WrappedCatch@util.js:133:27
+sync@service.js:1335:7
+1667810950914	Sync.Service	INFO	Cannot start sync: already syncing?
+1667811222540	Sync.Resource	ERROR	Request timed out after 300000ms. Aborting.
+1667811222541	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200914463/info/collections failed: AbortError: The operation was aborted.  Stack trace: _doRequest/timeoutId<()@resource://services-sync/resource.js:188
+notify()@resource://gre/modules/Timer.jsm:62
+1667811222541	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1667811222542	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1667811222542	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Request aborted (timeout)"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-sync/resource.js :: _doRequest :: line 198"  data: no] Stack trace: _doRequest()@resource://services-sync/resource.js:198
+1667811222544	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1667811222546	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Request aborted (timeout)"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-sync/resource.js :: _doRequest :: line 198"  data: no] Stack trace: _doRequest()@resource://services-sync/resource.js:198

@@ -1,0 +1,775 @@
+"use strict";
+
+
+window.onload = () => {
+
+  const env = window.ENV
+  const courseId = env.COURSE_ID;
+  const href = window.location.href;
+  const lessonId = href.match(/(pages|assignments|quizzes|discussion_topics)\/[a-zA-Z-0-9]+/g) ? href.match(/(pages|assignments|quizzes|discussion_topics)\/[a-zA-Z-0-9]+/g)[0].replace(/(pages|assignments|quizzes|discussion_topics)\//g, "") : "None";
+  const lessonType = href.match(/courses\/[0-9]+\/[a-zA-Z-_]+/g) ? href.match(/courses\/[0-9]+\/[a-zA-Z-_]+/g)[0].replace(/courses\/[0-9]+\//g, "") : "None";
+  const header = document.querySelector('.fis-header');
+
+  if (!!header) {
+    header.style.visibility = 'visible'
+    adjustHeader(lessonType, courseId, lessonId);
+  }
+
+  // DS Illumidesk specific - reduces default height of illumidesk page
+  let illumideskWrapper = document.querySelector('.tool_content_wrapper');
+
+  if (!!illumideskWrapper) {
+    if (illumideskWrapper.children[0].action.includes('illumidesk')) {
+      illumideskWrapper.classList.add('no-height')
+      let iframe = document.querySelector('#tool_content');
+      if (!!iframe) iframe.classList.add('i-height')
+    }
+  }
+
+};
+
+
+  /*
+  imports from ms instructure STARTS
+  */
+
+
+$(document).ready(function() {
+    // Handler for .ready() called.
+    $('button.offline_web_export').hide();
+    $('input#course_organize_epub_by_content_type').hide();
+});
+
+
+window.addEventListener("message", function(event) {
+    // IMPORTANT: confirm origin
+if(event.origin.startsWith("https://moringa.formstack.com")&& event.data=="submitted"){
+    console.log("received message:" + JSON.stringify(event.data));
+    $('#mark-as-done-checkbox').trigger('click');
+}
+});
+
+
+// Zendesk Widget
+
+var customLoadZendeskWidget = function() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'ze-snippet';
+    script.async = true;
+    script.src = 'https://static.zdassets.com/ekr/snippet.js?key=0532414e-ffa9-4278-9570-fff17d90b2e4';
+    document.getElementsByTagName('head')[0].appendChild(script);
+};
+
+/* ------------------ END FUNCTION SECTION */
+
+/* ------------------ RUN ON PAGE LOAD */
+
+var current_name = null;
+var current_email = null;
+var current_course = null;
+
+$(
+//document.addEventListener("DOMContentLoaded",
+function () {
+//window.onload = function () {
+    customLoadZendeskWidget();
+    
+
+      
+    $.get('/api/v1/users/self/profile', function(profile) {
+        console.log(JSON.stringify(profile));
+        current_name = profile.name;
+        current_email = profile.primary_email;
+  
+        zE('webWidget', 'updateSettings', {
+            webWidget: {
+            contactForm: {
+                fields: [
+                    { id: 'name', prefill: { '*': current_name } },
+                    { id: 'email', prefill: { '*': current_email } }
+                    ]
+                }
+            }
+          });
+    });
+  
+  
+    
+    
+  //   get course id
+    var url = window.location.href;
+    if(url.includes('courses/')){
+        var course_str = url.substr(url.indexOf('course'));
+        var segments = course_str.split('/');
+        console.log('course ID'+segments[1]);
+        $.get('/api/v1/courses/'+segments[1], function(course) {
+            console.log(JSON.stringify(course));
+            current_course = course;
+  
+            zE('webWidget', 'updateSettings', {
+                webWidget: {
+                    contactForm: {
+                        title: {
+                            '*': course.course_code+' Support'
+                        },
+                        subject: true,
+                        fields: [{ id:'subject', prefill: { '*': course.course_code+' Technical Support'}}]
+                    }
+                }
+              });
+
+        });  
+    }
+    /*
+    ----------------------------------------------
+    *Dynamically add Topic Feedback START
+    ---------------------------------------------
+    */
+
+
+    // function createFragment(htmlStr){
+    //     var fragment = document.createDocumentFragment(),
+    //     $element = document.createElement('div');
+
+    //     $element.innerHTML = htmlStr;
+    //     while($element.firstChild){
+    //         fragment.appendChild($element.firstChild);
+    //     }
+    //     return fragment;
+    // }
+
+    // var $target = document.querySelector('.show-content');
+    // htmlStr = `HELLO WORLD!!!!`;
+    // htmlStr = `<iframe id="fs-iframe" title="Content Page Rating" src="https://moringa.formstack.com/forms/student_contract_copy" width="100%" height="400x"></iframe>`
+    // $target.appendChild(createFragment(htmlStr));
+    /*
+    ----------------------------------------------
+    *Dynamically add Topic Feedback END
+    ---------------------------------------------
+    */
+
+
+
+    /*
+    ----------------------------------------------
+    *Populate Formstack Feedback form START
+    ---------------------------------------------
+    */
+    waitForElm('#fs-iframe').then((elm) => {
+        console.log('Element is ready');
+        console.log(elm.textContent);
+        populateFormStackForm(elm);
+    });
+    
+
+    /*
+    ----------------------------------------------
+    *Populate Formstack Feedback form END
+    ---------------------------------------------
+    */
+}
+);
+
+
+function populateFormStackForm(fs_iframe){
+    //const fs_iframe = document.getElementById("fs-iframe"); //find the iframe with Formstack
+    console.log('fs-frame::'+ fs_iframe);
+    if(fs_iframe==null)return;
+    // Make sure the iframe is loaded
+    fs_iframe.addEventListener("load", function(){
+       var data = {}
+        const url = window.location.href;
+
+        console.log(`Formstack URL:: ${url}`)
+
+        if(url.includes('courses/')){
+            let course_str = url.substr(url.indexOf('course'));
+            let course_segments = course_str.split('/');
+            let page_str = url.substr(url.indexOf('pages'));
+            let page_segments = page_str.split('/');
+            console.log('course ID'+course_segments[1]);
+            console.log('Page Title'+page_segments[1]);
+            
+            // Retrieve course information
+            $.get('/api/v1/courses/'+course_segments[1], function(course) {
+                let current_course = course.course_code;
+                let course_start = course.start_at
+                let course_end = course.end_at
+                let courseId = course.id
+                // let course_sis_id = course.sis_course_id
+
+                console.log(`Current course Info::${current_course}`)
+
+                if (!/\d+/.test(current_course)){
+                    
+                    console.log("Course Offering does not have term number included")
+                    return
+                }
+                if(!course_start||!course_end){
+                    console.log("This Course Offering is either Blueprint or does not have start or end date included")
+                    return
+                }
+
+                data["course_code"] =  current_course
+                data["course_start"] = course_start.split("T")[0]
+                data["course_end"] = course_end.split("T")[0]
+
+               
+                if (current_course.toLocaleLowerCase().includes("PT")){
+
+                    data["term"] = `${current_course.slice(0, 4)}${current_course.match(/\d+/)[0]}`
+                }else{
+                    data["term"] = `${current_course.slice(0, 2)}${current_course.match(/\d+/)[0]}`
+                }
+                //*Retrieve sections
+                $.get(`/api/v1/courses/${course_segments[1]}/sections?include[]=total_students`, function(sectionList) {
+                    var max = 0
+                    var primarySectionId = 0
+                    for(var i=0; i<sectionList.length; i++){   
+                        if(max <  sectionList[i].total_students){
+                            max = sectionList[i].total_students
+                        }
+                    }
+                    for(var i=0; i<sectionList.length; i++){   
+                        if(max === sectionList[i].total_students){
+                            primarySectionId = sectionList[i].id
+                        }
+                    }
+                    // Get Page info for content feedback
+                    $.get(`/api/v1/courses/${course_segments[1]}/pages/${page_segments[1]}`, function(page) { 
+
+                        var page_title = page.title
+                        var page_id = page.page_id
+                        var page_created_at = page.created_at
+                        var page_updated_at = page.updated_at
+                        var page_url = page.html_url
+                        var _url = page.url
+
+                        console.log(`Page url: ${page_url}`)
+
+                        data["page_title"] = page_title
+                        data["page_id"] = page_id
+                        data["page_created_at"] = page_created_at 
+                        data["page_updated_at"] = page_updated_at
+                        data["page_url"] = page_url
+                        data["_url"] = _url
+
+
+                        // Get enrollment ID
+                        
+                        // Get Profile of user
+                        $.get('/api/v1/users/self/profile', function(profile) {
+                            // Get the current user profile
+                            
+                            
+                            //console.log(JSON.stringify(profile));
+                           var current_user_id = profile.id;
+                           var current_user_name = profile.name;
+                           var current_user_email = profile.primary_email;
+                           var current_sis_id = profile.sis_user_id;
+                            
+                            // debugg log
+                            console.log(current_user_id);
+                            console.log(current_user_email);
+                            
+                            // data object
+                            data["id"] =  current_user_id
+                            data["name"] =  current_user_name
+                            data["email"] =  current_user_email
+                            data["SIS_Id"] = current_sis_id
+                            
+                            
+                            // debugg log
+                            console.log(`Canvas:: User ID ${current_user_id}`);
+                            console.log(current_user_email);
+                            
+                            
+                            // data object
+                            data["id"] =  current_user_id
+                            data["name"] =  current_user_name
+                            // data["email"] =  current_user_email
+                            data["SIS_Id"] = current_sis_id
+                            
+                            
+                            $.get(`/api/v1/courses/${courseId}/enrollments?user_id=${current_user_id}`, function(enrollmentsList) {
+                                // Getting the section enrollment. 
+                                var current_LMS_id;
+                                let enrollment
+                                for(var i=0; i<enrollmentsList.length; i++){   
+                                    if(primarySectionId !==  enrollmentsList[i].course_id){
+                                        enrollment = enrollmentsList[i]
+                                    }
+                                }
+                                if(enrollment){
+                                     current_LMS_id = enrollment.id
+                                }else{
+                                     current_LMS_id = 0;
+                                }
+                               
+                                console.log(`Canvas:: LMS ID ${current_LMS_id}`);
+                                data["LMS_Id"] = current_LMS_id
+
+
+                                console.log(data["SIS_Id"])
+                                console.log(data["course_code"])
+                                fs_iframe.contentWindow.postMessage(data, "*")
+                                console.log("I. data passed")
+
+                            }); 
+
+                        });
+                    });
+
+                });
+
+            });  
+        }    
+    })
+}
+
+
+
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+
+
+  /*
+  imports from MS instructure ENDS
+  */           20220202182137-8l	v   https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_214380000000000001/attachments/129762/flatIronMS.js   b2  "use strict";
+
+
+window.onload = () => {
+
+  const env = window.ENV
+  const courseId = env.COURSE_ID;
+  const href = window.location.href;
+  const lessonId = href.match(/(pages|assignments|quizzes|discussion_topics)\/[a-zA-Z-0-9]+/g) ? href.match(/(pages|assignments|quizzes|discussion_topics)\/[a-zA-Z-0-9]+/g)[0].replace(/(pages|assignments|quizzes|discussion_topics)\//g, "") : "None";
+  const lessonType = href.match(/courses\/[0-9]+\/[a-zA-Z-_]+/g) ? href.match(/courses\/[0-9]+\/[a-zA-Z-_]+/g)[0].replace(/courses\/[0-9]+\//g, "") : "None";
+  const header = document.querySelector('.fis-header');
+
+  if (!!header) {
+    header.style.visibility = 'visible'
+    adjustHeader(lessonType, courseId, lessonId);
+  }
+
+  // DS Illumidesk specific - reduces default height of illumidesk page
+  let illumideskWrapper = document.querySelector('.tool_content_wrapper');
+
+  if (!!illumideskWrapper) {
+    if (illumideskWrapper.children[0].action.includes('illumidesk')) {
+      illumideskWrapper.classList.add('no-height')
+      let iframe = document.querySelector('#tool_content');
+      if (!!iframe) iframe.classList.add('i-height')
+    }
+  }
+
+};
+
+
+  /*
+  imports from ms instructure STARTS
+  */
+
+
+$(document).ready(function() {
+    // Handler for .ready() called.
+    $('button.offline_web_export').hide();
+    $('input#course_organize_epub_by_content_type').hide();
+});
+
+
+window.addEventListener("message", function(event) {
+    // IMPORTANT: confirm origin
+if(event.origin.startsWith("https://moringa.formstack.com")&& event.data=="submitted"){
+    console.log("received message:" + JSON.stringify(event.data));
+    $('#mark-as-done-checkbox').trigger('click');
+}
+});
+
+
+// Zendesk Widget
+
+var customLoadZendeskWidget = function() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'ze-snippet';
+    script.async = true;
+    script.src = 'https://static.zdassets.com/ekr/snippet.js?key=0532414e-ffa9-4278-9570-fff17d90b2e4';
+    document.getElementsByTagName('head')[0].appendChild(script);
+};
+
+/* ------------------ END FUNCTION SECTION */
+
+/* ------------------ RUN ON PAGE LOAD */
+
+var current_name = null;
+var current_email = null;
+var current_course = null;
+
+$(
+//document.addEventListener("DOMContentLoaded",
+function () {
+//window.onload = function () {
+    customLoadZendeskWidget();
+    
+
+      
+    $.get('/api/v1/users/self/profile', function(profile) {
+        console.log(JSON.stringify(profile));
+        current_name = profile.name;
+        current_email = profile.primary_email;
+  
+        zE('webWidget', 'updateSettings', {
+            webWidget: {
+            contactForm: {
+                fields: [
+                    { id: 'name', prefill: { '*': current_name } },
+                    { id: 'email', prefill: { '*': current_email } }
+                    ]
+                }
+            }
+          });
+    });
+  
+  
+    
+    
+  //   get course id
+    var url = window.location.href;
+    if(url.includes('courses/')){
+        var course_str = url.substr(url.indexOf('course'));
+        var segments = course_str.split('/');
+        console.log('course ID'+segments[1]);
+        $.get('/api/v1/courses/'+segments[1], function(course) {
+            console.log(JSON.stringify(course));
+            current_course = course;
+  
+            zE('webWidget', 'updateSettings', {
+                webWidget: {
+                    contactForm: {
+                        title: {
+                            '*': course.course_code+' Support'
+                        },
+                        subject: true,
+                        fields: [{ id:'subject', prefill: { '*': course.course_code+' Technical Support'}}]
+                    }
+                }
+              });
+
+        });  
+    }
+    /*
+    ----------------------------------------------
+    *Dynamically add Topic Feedback START
+    ---------------------------------------------
+    */
+
+
+    // function createFragment(htmlStr){
+    //     var fragment = document.createDocumentFragment(),
+    //     $element = document.createElement('div');
+
+    //     $element.innerHTML = htmlStr;
+    //     while($element.firstChild){
+    //         fragment.appendChild($element.firstChild);
+    //     }
+    //     return fragment;
+    // }
+
+    // var $target = document.querySelector('.show-content');
+    // htmlStr = `HELLO WORLD!!!!`;
+    // htmlStr = `<iframe id="fs-iframe" title="Content Page Rating" src="https://moringa.formstack.com/forms/student_contract_copy" width="100%" height="400x"></iframe>`
+    // $target.appendChild(createFragment(htmlStr));
+    /*
+    ----------------------------------------------
+    *Dynamically add Topic Feedback END
+    ---------------------------------------------
+    */
+
+
+
+    /*
+    ----------------------------------------------
+    *Populate Formstack Feedback form START
+    ---------------------------------------------
+    */
+    waitForElm('#fs-iframe').then((elm) => {
+        console.log('Element is ready');
+        console.log(elm.textContent);
+        populateFormStackForm(elm);
+    });
+    
+
+    /*
+    ----------------------------------------------
+    *Populate Formstack Feedback form END
+    ---------------------------------------------
+    */
+}
+);
+
+
+function populateFormStackForm(fs_iframe){
+    //const fs_iframe = document.getElementById("fs-iframe"); //find the iframe with Formstack
+    console.log('fs-frame::'+ fs_iframe);
+    if(fs_iframe==null)return;
+    // Make sure the iframe is loaded
+    fs_iframe.addEventListener("load", function(){
+       var data = {}
+        const url = window.location.href;
+
+        console.log(`Formstack URL:: ${url}`)
+
+        if(url.includes('courses/')){
+            let course_str = url.substr(url.indexOf('course'));
+            let course_segments = course_str.split('/');
+            let page_str = url.substr(url.indexOf('pages'));
+            let page_segments = page_str.split('/');
+            console.log('course ID'+course_segments[1]);
+            console.log('Page Title'+page_segments[1]);
+            
+            // Retrieve course information
+            $.get('/api/v1/courses/'+course_segments[1], function(course) {
+                let current_course = course.course_code;
+                let course_start = course.start_at
+                let course_end = course.end_at
+                let courseId = course.id
+                // let course_sis_id = course.sis_course_id
+
+                console.log(`Current course Info::${current_course}`)
+
+                if (!/\d+/.test(current_course)){
+                    
+                    console.log("Course Offering does not have term number included")
+                    return
+                }
+                if(!course_start||!course_end){
+                    console.log("This Course Offering is either Blueprint or does not have start or end date included")
+                    return
+                }
+
+                data["course_code"] =  current_course
+                data["course_start"] = course_start.split("T")[0]
+                data["course_end"] = course_end.split("T")[0]
+
+               
+                if (current_course.toLocaleLowerCase().includes("PT")){
+
+                    data["term"] = `${current_course.slice(0, 4)}${current_course.match(/\d+/)[0]}`
+                }else{
+                    data["term"] = `${current_course.slice(0, 2)}${current_course.match(/\d+/)[0]}`
+                }
+                //*Retrieve sections
+                $.get(`/api/v1/courses/${course_segments[1]}/sections?include[]=total_students`, function(sectionList) {
+                    var max = 0
+                    var primarySectionId = 0
+                    for(var i=0; i<sectionList.length; i++){   
+                        if(max <  sectionList[i].total_students){
+                            max = sectionList[i].total_students
+                        }
+                    }
+                    for(var i=0; i<sectionList.length; i++){   
+                        if(max === sectionList[i].total_students){
+                            primarySectionId = sectionList[i].id
+                        }
+                    }
+                    // Get Page info for content feedback
+                    $.get(`/api/v1/courses/${course_segments[1]}/pages/${page_segments[1]}`, function(page) { 
+
+                        var page_title = page.title
+                        var page_id = page.page_id
+                        var page_created_at = page.created_at
+                        var page_updated_at = page.updated_at
+                        var page_url = page.html_url
+                        var _url = page.url
+
+                        console.log(`Page url: ${page_url}`)
+
+                        data["page_title"] = page_title
+                        data["page_id"] = page_id
+                        data["page_created_at"] = page_created_at 
+                        data["page_updated_at"] = page_updated_at
+                        data["page_url"] = page_url
+                        data["_url"] = _url
+
+
+                        // Get enrollment ID
+                        
+                        // Get Profile of user
+                        $.get('/api/v1/users/self/profile', function(profile) {
+                            // Get the current user profile
+                            
+                            
+                            //console.log(JSON.stringify(profile));
+                           var current_user_id = profile.id;
+                           var current_user_name = profile.name;
+                           var current_user_email = profile.primary_email;
+                           var current_sis_id = profile.sis_user_id;
+                            
+                            // debugg log
+                            console.log(current_user_id);
+                            console.log(current_user_email);
+                            
+                            // data object
+                            data["id"] =  current_user_id
+                            data["name"] =  current_user_name
+                            data["email"] =  current_user_email
+                            data["SIS_Id"] = current_sis_id
+                            
+                            
+                            // debugg log
+                            console.log(`Canvas:: User ID ${current_user_id}`);
+                            console.log(current_user_email);
+                            
+                            
+                            // data object
+                            data["id"] =  current_user_id
+                            data["name"] =  current_user_name
+                            // data["email"] =  current_user_email
+                            data["SIS_Id"] = current_sis_id
+                            
+                            
+                            $.get(`/api/v1/courses/${courseId}/enrollments?user_id=${current_user_id}`, function(enrollmentsList) {
+                                // Getting the section enrollment. 
+                                var current_LMS_id;
+                                let enrollment
+                                for(var i=0; i<enrollmentsList.length; i++){   
+                                    if(primarySectionId !==  enrollmentsList[i].course_id){
+                                        enrollment = enrollmentsList[i]
+                                    }
+                                }
+                                if(enrollment){
+                                     current_LMS_id = enrollment.id
+                                }else{
+                                     current_LMS_id = 0;
+                                }
+                               
+                                console.log(`Canvas:: LMS ID ${current_LMS_id}`);
+                                data["LMS_Id"] = current_LMS_id
+
+
+                                console.log(data["SIS_Id"])
+                                console.log(data["course_code"])
+                                fs_iframe.contentWindow.postMessage(data, "*")
+                                console.log("I. data passed")
+
+                            }); 
+
+                        });
+                    });
+
+                });
+
+            });  
+        }    
+    })
+}
+
+
+
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+
+
+  /*
+  imports from MS instructure ENDS
+  */”ò¿Ÿõ   g        ¯2áâ      window     áƒ{p      onload     ªΩ>      env    +∫ù˛      ENV    Ôı{<      courseId   B”™B	      COURSE_ID      ª©`X      href   0+QA      location   “8%      lessonId	   ˜ÒÔb      None
+   °l=
+      lessonType     kàˇ      header     ∏OÄ      document   ÿ1:Ú      querySelector      &We∏      .fis-header    1“— 
+      visibility     ?Iqõ      visible     ñC      adjustHeader   ª®      illumideskWrapper      '+;      .tool_content_wrapper      
+}N      children   	‡Ï      action     • sÓ
+      illumidesk      Ÿ∂z	      classList      lLA	      no-height      ·7ªµ      iframe     úiM˘      #tool_content      ∏M¨      i-height   ¢Ñ
+      ready      p⁄ØÑ      button.offline_web_export      üvÙ}      hide   ﬂπ+*      input#course_organize_epub_by_content_type       rO      addEventListener!   II∑P      event"      =®Ä;      origin#     ›JX?
+      startsWith$     Õ"ˇi      https://moringa.formstack.com%      6ó(Å      data&   èÌC>	      submitted'      ˛Q1      console(    =X˚      log)    ≤ÿK£      received message:*      nßÎ	      stringify+      8ÍD      #mark-as-done-checkbox,     ˘!p¬      trigger-    ü™‚X      click.      ØŒ»∏      customLoadZendeskWidget/    DC      createElement0      5bH¡      text/javascript1    ¨î˝9
+      ze-snippet2     ú∑»õ      src3    >ó–S      https://static.zdassets.com/ekr/snippet.js?key=0532414e-ffa9-4278-9570-fff17d90b2e44    XFZ      getElementsByTagName5   ∑7Ma      head6   ≠$~      appendChild7    £eb
+      current_name8   cΩ”      current_email9      |¥	      current_course:     √L¡ã      /api/v1/users/self/profile;     ﬁ°få      profile<    G]"`      primary_email=      äí¬	      webWidget>      R…      updateSettings?     ÿX∑9      contactForm@    ˇHDâ      fieldsA     OÎU      prefillB    <€Ò      emailC      ‹ÒÆ      courses/D   ^ìÛ∑
+      course_strE     6ôfÿ      substrF     ⁄Eú¡      indexOfG    [Å◊m      courseH     àG!Ï      segmentsI   '‡WH	      course IDJ      „ˇﬂ      /api/v1/courses/K   “E      titleL      ≤2·      course_codeM    ¶?2       SupportN   Ö89      subjectO    àœ”Ã       Technical SupportP     (ßû
+      waitForElmQ     2OpÉ
+      #fs-iframeU     R1(˘      populateFormStackFormV      4ZÀ≈	      fs_iframeZ      qA.j      course_segments]    Ã»y      page_segmentsl      2#ùŸ      primarySectionIdã    _l$      selectorå   ˛Uyh      observerç   ]Q°(      MutationObserveré   ">Ç	      mutationsè      ˝õ†
+      disconnectê     dÏ„      observeë    òh;      bodyí   F˜	      childListì      ˙3>ç      subtreeî    ¶£Ó      window.onloadï      £rI9<      (pages|assignments|quizzes|discussion_topics)\/[a-zA-Z-0-9]+ñ   IbQ[/      (pages|assignments|quizzes|discussion_topics)\/ó    ’œÈ      courses\/[0-9]+\/[a-zA-Z-_]+ò   <≥ò      courses\/[0-9]+\/ô      ⁄€ø™      waitForElm/<ö   –ò S      waitForElm/</observer<     ” Ô%,â                                                                                                                                                                                	                
+                                                   ≥Oåc         .  7  8  9  U  êP  ê             !                                     
+                                             ÿ  D  H                {               ã  P             r `           å  P             é               G               ;  Ø¬0∞ï     ï     ñ     ó     ó     ò     IÙ$KEÆ˙ö   
+      í  ì         =          ?          K  N  @        *     
+     ç A         *          =          ?          @     
+     ç A         *     
+     ç A         *  á&’™é!´!      t     t  ı                         µ    s  ÷µ   ÿG   €   h   s ÷µ   G   G   ƒ   ÷∑   ÿG	   €
+   o îÖ   ë   ∑   ÿG   €∑   ÿG   €   o o ƒ  ÷∑  ÿG   €   o ƒ  ÷µ   ÿG   €   ∑  H%s ÷µ   ÿG   €   ∑  H%h   s ÷ë   µ       o ÿG   €2i   s ÷ü@ `PJ `Pñ PD `Pî0 `Pê P= `Põ P#ˇˇˇıP8 `Pê P8 `Pò P4 `Pù PIU `P+
+Pê PDaP       †   †   W                  
+       µ   ÿG   €∏  o î=   ë   ∏   µ   ÿG   €∏  o s ÷∏   ∞   ÿG   €s  ÷ë
+   ü0 `Pë 	P= `Pó P#ˇˇˇˆP4 `Pë 	PI P     p   p   3                          µ       o ÿG   €s  ÷µ       o ÿG   €s  ÷ü@ `P+P*P4 `P+P*/P4P            º                         µ   ÿG   €µ   ÿG   €∂  o s ÷≤   ∂  ¬   ÷µ          6	   6
+   6   6   ∂  G      %9   9   9   c   6      9   6   ∂  G      %9   9   d    9   9   9   s ÷ü0 `Põ P#ˇˇˇ˜P4 `PN `Pï0 5 5 5 ò@
+ 6 %	%*%¨@ PD P    »   »   w                         µ   ÿG   €   o ƒ   ÷∑      J   ÷∑      J   ÷∑   J   ÷∑   	   J
+   ÷µ   ÿG   €   o HÿG   €∑   s ÷ü0 `Pë 	P8 `P? `P? `P; `P? `Pë 	Pê  P4P            é                        «   µ   ÿG   €∏  o î*   ë   ∏   µ   ÿG   €∏  o o û»üë   µ   |2i   ⁄  } Æ   ÷∏   ÿG   €µ   G   6   9	   9
+   s ÷»ü 5 `Pë 	P= `Pó P#ˇˇˇÔPC H `Pô@ `Põ0 6 F PE P         à   ˇˇˇˇ    B               ‰  "                5       ´¨   ¨  ¨  ¨  ¨  ¨  ¨  ÷µ   G   ¨  ÷∑  G   ¨  ÷µ   G   G   ¨  ÷∑  ÿG   €g   o î8   ë	   ∑  ÿG   €g	   o HÿG
+   €g      o ì   ë      ë   ¨  ÷∑  ÿG   €g   o î8   ë   ∑  ÿG   €g   o HÿG
+   €g      o ì   ë      ë   ¨  ÷µ   ÿG   €   o ¨  ÷∑  ï4   ë   ∑  G      J   ÷µ    ∑  ∑  ∑  s ÷ë   µ   ÿG   €   o ¨   ÷∑   ïô   ë$   ∑   G   HG   ÿG   €   o îp   ë*   ´¨  ÷∑   G   ÿG   €    s ÷µ   ÿG   €!   o ¨  ÷∑  ï#   ë2   ∑  G   ÿG   €"   s ÷ë5   …ë5   …ü û@ `P? `P> `Pî0 `Pê Pù NPñ JPú0 `Pê Pù .Pñ *Pú0 `Pë 	PH	 `P ? `Pî0 `Pí PI `Pë 	PH `P ? `Pú %P-6 `Pï P4 `Pë 	P8 
+`P /	`Pï Pê@P            !  ˇˇˇˇ   µ  f          <  <  –                  !       µ   ÿG   €µ   ÿG   €∂  o s ÷≤   ∂  G   ¬   ÷≤   ∂  G   ¬   ÷µ	    
+      6   6   6   c   6      9   6   µ   9   9   d    6      9   6   µ   9   9   d   9   9   9
+   s ÷ü0 `Põ P#ˇˇˇ˜P4 `Pì0 `Pì@ `Pï0 5 5 5 %*%î0 %*%£@ 
+PD P     ‹   ‹   ê                         ∂  G   ÿG   €   o ñ   ë   ÷∂  G      ë   îU   ë   µ   ÿG   €   µ	   ÿG
+   €∂  G   o %s ÷µ       o ÿG   €   s ÷ë   ü@ `Pî P´0 `P• 'P$ˇˇˇ·P4 `P+P/PIP      D   D                            µ   |2i   ⁄  } úü0 `Pê PCQ            í                         —   µ   i   J   ÷µ    µ   o ÿG   €h	   s ÷µ   ÿG
+   €   h   s ÷≤   h   ¬   ÷≤   ¬   ÷≤   ¬   ÷≤   ¬   ÷µ    h   s ÷üE`Pë@$`P+P/PD+`Pñ PD6%`PKC%`P7%`P7%`PGG`P+PDÄ c P 3ıÿ  p  p  p  p  p  p                l    p                    pZ  ]      %  
+  pV    p    r  å    pã     `	  p  p     p  $        p       p.    p7  8  9    p  `"  #  $  %  &  '  (  )    *  $  +  ,  -    `  `           Y     P  PZ    Pq   	    P  P  P      ü              –       `             `$          `.  $  ©   :    p       –   C  E  F  G  ^  /  '  (  I  J    pP  Q  ¶    p  `  /  {  0  æ  1  ç    3  2  4  5  6    `=    p	  `
+  `    ç    pê  ë     @í  ì    `    è    `'  (    *  9  Ë =  >    @  @  @  @L  M  *  K  N    @ç   @O  A  @  ?    `'  (    *  7  $  8  <  Ë =  >    @  @	  @
+  @ç   @*  A    @B    @@  ?  ˇXÑ                 @   #   î      ) c              † 1              † Å      .      †
+ h              † ∫              † °              †               `)	       U     `† 	               †                †                †                †                †                  †  è      P      †  í      ô      ) ù      ö      ) ùH©¿      b2      b2                       s      s                  ¬  S  ∫  S  %                É  ~  {  ~  ,   +            º  ˚  ¥  ˚  7   &             „  q  ⁄  q  J   	             d	  A  \	  A  P   0            }  £  u  £  j   6            G     G     ü   "          Ä ï  0  w  0  Ø             Ä ü  0  ó  0  ¥   /               Û/    Û/  √   A          Ä è  ‚/  á  ‚/  ‚   i            q   Õ/  i   Õ/     e            	$  µ/  $  µ/    D            Œ*  ó/  ∆*  ó/  '  p          Ä %0  32  0  32  M            Ä I0  /2  I0  /2  N              ˝0  π1  ˝0  π1  S  .          5°›\^Ô`B      ck\„ck\„DÏ€”âñ˜   §    O^partitionKey=%28https%2Cinstructure.com%29,:https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_214380000000000001/attachments/129762/flatIronMS.js necko:classified 1 strongly-framed 1 security-info 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VR0OBBYEFJJB85rm2SmR/O/z6hC8F88lgKEGMIIB6QYDVR0RBIIB4DCCAdyCGnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tghwqLnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tghpzMy51cy13ZXN0LTIuYW1hem9uYXdzLmNvbYIcKi5zMy51cy13ZXN0LTIuYW1hem9uYXdzLmNvbYIkczMuZHVhbHN0YWNrLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tgiYqLnMzLmR1YWxzdGFjay51cy13ZXN0LTIuYW1hem9uYXdzLmNvbYISKi5zMy5hbWF6b25hd3MuY29tgiQqLnMzLWNvbnRyb2wudXMtd2VzdC0yLmFtYXpvbmF3cy5jb22CInMzLWNvbnRyb2wudXMtd2VzdC0yLmFtYXpvbmF3cy5jb22CLiouczMtY29udHJvbC5kdWFsc3RhY2sudXMtd2VzdC0yLmFtYXpvbmF3cy5jb22CLHMzLWNvbnRyb2wuZHVhbHN0YWNrLnVzLXdlc3QtMi5hbWF6b25hd3MuY29tgigqLnMzLWFjY2Vzc3BvaW50LnVzLXdlc3QtMi5hbWF6b25hd3MuY29tgjIqLnMzLWFjY2Vzc3BvaW50LmR1YWxzdGFjay51cy13ZXN0LTIuYW1hem9uYXdzLmNvbTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD0GA1UdHwQ2MDQwMqAwoC6GLGh0dHA6Ly9jcmwuc2NhMWIuYW1hem9udHJ1c3QuY29tL3NjYTFiLTEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3Auc2NhMWIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRwOi8vY3J0LnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcnQwDAYDVR0TAQH/BAIwADCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYA6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAGDYOlnrwAABAMARzBFAiALP+ud2S1mPhlm6QlaHT9B4KZZCaq9nZJUAjZG3qWKcwIhAMpU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 request-method GET response-head HTTP/1.1 200 OK
+x-amz-id-2: fU1K5U90vvX0erArgKInHMaLEnLjv2GlGNh0O0xFhTWVrlcMIu0zWCjNyZavBloBN43eO13ZWZM8DHbYhT2ROw==
+x-amz-request-id: 7S4H1NHBKV97G15B
+Date: Mon, 07 Nov 2022 06:13:07 GMT
+Last-Modified: Fri, 21 Oct 2022 07:38:33 GMT
+ETag: "e08c77292c31e01a5a4d008d740da790"
+Cache-Control: Cache-Control:max-age=473354280, public
+Expires: Wed, 21 Oct 2037 07:38:32 GMT
+x-amz-version-id: s1bCeFUAGO0ElOJ_orXztlBSoEr99JvR
+Accept-Ranges: bytes
+Content-Type: text/javascript
+Server: AmazonS3
+Content-Length: 12898
+ original-response-headers x-amz-id-2: fU1K5U90vvX0erArgKInHMaLEnLjv2GlGNh0O0xFhTWVrlcMIu0zWCjNyZavBloBN43eO13ZWZM8DHbYhT2ROw==
+x-amz-request-id: 7S4H1NHBKV97G15B
+Date: Mon, 07 Nov 2022 06:13:07 GMT
+Last-Modified: Fri, 21 Oct 2022 07:38:33 GMT
+ETag: "e08c77292c31e01a5a4d008d740da790"
+Cache-Control: Cache-Control:max-age=473354280, public
+Expires: Wed, 21 Oct 2037 07:38:32 GMT
+x-amz-version-id: s1bCeFUAGO0ElOJ_orXztlBSoEr99JvR
+Accept-Ranges: bytes
+Content-Type: text/javascript
+Server: AmazonS3
+Content-Length: 12898
+ ctid 2 uncompressed-len 0 net-response-time-onstart 327 net-response-time-onstop 328 alt-data 1;12898,javascript/moz-bytecode-20220202182137-8l alt-data-from-child 1   à 

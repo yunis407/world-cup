@@ -1,0 +1,27 @@
+2022-11-16 15:06:57.624 [info] Validating found git in: git
+2022-11-16 15:06:57.624 [info] Using git 2.38.1 from git
+2022-11-16 15:06:57.624 [info] > git rev-parse --show-toplevel [4ms]
+2022-11-16 15:06:57.624 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-11-16 15:06:57.624 [info] Log level: Info
+2022-11-16 15:06:57.624 [info] Open repository: /home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem
+2022-11-16 15:06:57.624 [info] > git status -z -uall [14ms]
+2022-11-16 15:06:57.624 [info] > git rev-parse --show-toplevel [8ms]
+2022-11-16 15:06:57.624 [info] > git remote --verbose [34ms]
+2022-11-16 15:06:57.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2022-11-16 15:06:57.624 [info] > git rev-parse --show-toplevel [6ms]
+2022-11-16 15:06:57.624 [info] > git config --get commit.template [20ms]
+2022-11-16 15:06:57.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2022-11-16 15:06:57.624 [info] > git status -z -uall [18ms]
+2022-11-16 15:06:57.624 [info] > git remote --verbose [26ms]
+2022-11-16 15:06:57.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [49ms]
+2022-11-16 15:06:57.624 [info] > git config --get commit.template [4ms]
+2022-11-16 15:06:57.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2022-11-16 15:06:58.069 [info] > git check-ignore -v -z --stdin [5ms]
+2022-11-16 15:07:00.006 [info] > git show --textconv :README.md [41ms]
+2022-11-16 15:07:00.008 [info] > git ls-files --stage -- /home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem/README.md [36ms]
+2022-11-16 15:07:00.018 [info] > git cat-file -s 36585709e786951af24c5fbd9e835875b7db44b5 [2ms]
+2022-11-16 15:07:12.514 [info] > git status -z -uall [22ms]
+2022-11-16 15:07:12.516 [info] > git remote --verbose [45ms]
+2022-11-16 15:07:12.518 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [64ms]
+2022-11-16 15:07:12.525 [info] > git config --get commit.template [11ms]
+2022-11-16 15:07:12.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]

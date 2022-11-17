@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=yunis.osman@student.moringaschool.com
+Enabled=true
+Parent=f4a80fa69130198fc3f35ade79a12c6772ea065e
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=f40babb26a992d99257b5178864828cccaf66f11
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=yunis.osman@student.moringaschool.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

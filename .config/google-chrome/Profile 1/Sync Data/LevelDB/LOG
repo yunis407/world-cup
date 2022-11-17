@@ -1,0 +1,6 @@
+2022/11/16-14:40:05.274 e5e Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2022/11/16-14:40:05.274 e5e Recovering log #29
+2022/11/16-14:40:05.276 e5e Reusing old log /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/000029.log 
+2022/11/16-14:40:08.498 e62 Level-0 table #33: started
+2022/11/16-14:40:08.515 e62 Level-0 table #33: 95638 bytes OK
+2022/11/16-14:40:08.530 e62 Delete type=0 #29

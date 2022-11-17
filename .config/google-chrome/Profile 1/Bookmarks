@@ -1,0 +1,48 @@
+{
+   "checksum": "df3b1d9e2b2823f3b1f72273bbdae360",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13312457636851004",
+            "date_last_used": "13313063557325533",
+            "guid": "22d7a2cc-594f-4d6e-8e0d-d50d2e211df0",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Inbox (3) - yunis.osman@student.moringaschool.com - Moringa School Mail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+         } ],
+         "date_added": "13312457376880957",
+         "date_last_used": "0",
+         "date_modified": "13312457636851004",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13312457376880960",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13312457376880962",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CsABCp8BCIiBAhKYARI8CAISOAoGCgJibRABEDMaEgkA/CbPku0FACEA/CbPku0FADIYChYIAhErniHfku0FABgAIQAAAAAAAAAAIABI3pjY/ccwcPbQ2dzFMJIBRwpFChZhbm5vdGF0aW9uX2Nocm9tZV9zeW5jEgU1MSFiZBoSCQCR4dmS7QUAEQCR4dmS7QUAKSbFId+S7QUAMICihs+tsvsCEgAgASoYLzVWRmx6cC9KNXBOVzNna3FtVmNndz09EusBCAUS5gEKHDJpNFJBOHJwR1Rmc1dWa3lUQ2poV3UrditxQT0SZlo6QURxdEFaeG4vUC9HbjBsdkx6MU1TbEhxbHMvMVZPRWlEczhLL1Z2MEhpWmVOYlZaZTdUZzhuNStzRTR0VHVxVmtJUlpWeDBvOHJaVW5TL1JNZEl0bmlTR09uVE9jVzJ6N2c9PRgAIAIoAjDsyYnh3KD7Ajj1p+LcxTBAh6ji3MUwShxlOEdTQTBCV3JOUUFuWmdrZUJybkljV002Vzg9Wh4iHGoyMDBuQTNzU1BOZ2htbFliMnVqUU82QjJSOD1li6CM0RLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWndwdVo4NTZKaStaazRxU2orR3FoUkZ1YW14R1dYSUJTTHM5Z1pYMlNlOHNqVUYyUytGcE5xYWhJMnIvLzVmZEk1eFIwamd6Wlk0SXg1YXJ0bmkraCtxRTMrc0RBPT0YACAAKAAwytCgnNyg+wI4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnljOXRNTzBnNkZsR0Y0QWhhckRIU3NSdXUrVTdmWWdDdzFEK2phWDJTclNya2JqZFZGeENEMi9VT3U0VmUxcURCdGhrMkgYACAAKAAwytCgnNyg+wI4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnk0OHlzdVZqenUzZ2ZLWFVWOU81bVZxcmxvTDVuWjJsNUwyV1owa3FrMzZsbjRQUXBNRkdwbjFnMHoxVjBQNGRLZTBIa3o3ZWEveHJWNlk0Z3JxSkcvdlZ4TExnPT0YACAAKAAwytCgnNyg+wI4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAADABOAA=",
+   "version": 1
+}

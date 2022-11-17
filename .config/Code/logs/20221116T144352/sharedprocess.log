@@ -1,0 +1,22 @@
+2022-11-16 14:43:54.721 [info] Starting worker process with pid 4504 (type: fileWatcher, window: 1).
+2022-11-16 14:43:55.323 [error] [uncaught exception in sharedProcess]: Could not find pty on pty host: CodeExpectedError: Could not find pty on pty host
+    at h._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at h.attachToProcess (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:27:2712)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.O (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-11-16 14:46:47.523 [info] Starting worker process with pid 4981 (type: fileWatcher, window: 3).
+2022-11-16 14:49:54.232 [info] Starting worker process with pid 5384 (type: fileWatcher, window: 4).
+2022-11-16 15:06:56.104 [info] Starting worker process with pid 6014 (type: fileWatcher, window: 5).
+2022-11-16 15:07:18.277 [info] Worker process with pid 6014 terminated normally (type: fileWatcher, window: 5).
+2022-11-17 09:34:35.439 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2022-11-17 09:58:03.547 [info] Worker process with pid 5384 terminated normally (type: fileWatcher, window: 4).
+2022-11-17 09:58:43.367 [info] Worker process with pid 4981 terminated normally (type: fileWatcher, window: 3).

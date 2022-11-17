@@ -1,0 +1,221 @@
+body {
+    background-color: #0000;
+}
+
+.logo{
+    display: none;
+}
+
+
+.logo-url{
+    display: none !important;
+}
+
+.success{
+    display: none !important;   
+}
+
+div.main-ctn {
+    border: 0px  !important;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    background-color: #000;
+    height: 255px !important;
+}
+
+div.infoCtn {
+    width: 300px;
+}
+
+.fc_meta_logo {
+    color: #34364700;
+}
+
+.fancy_btn{
+    border: 0px  !important;
+    background-color: #0067B8;
+    padding: 7px 20px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+        margin-left: 0px !important;
+}
+
+.fancy_btn:hover{
+    background-color: #005DA6;
+
+}
+
+.fancy_btn:focus{
+/*     box-shadow: 0 0 0 0px #27d9b400,
+    inset 0 0 0 2px #000; */
+    text-decoration: underline;
+    background-color: #005DA6;
+    border: 2px #000 !important;
+
+}
+
+#audio_response_field_label{
+/*     margin-top: 20px; */
+    margin-left: 0px;
+
+}
+
+#audio{
+/*     font-family: open-sans; */
+    width: 320px;
+    padding: 0px;
+    text-align: left !important;
+}
+
+#audio_play{
+    text-align: left;
+}
+
+/* #audio_play:focus{
+    text-align: left;
+     background-color: #fff;
+     border: 2px #fff !important;
+    border-style: solid !important;
+    box-shadow: 0 0 0 0px #27d9b400,
+    inset 0 0 0 2px #fff;
+} */
+
+.fc_meta_changeback{
+    margin-left: -3px;
+    padding-bottom: 10px !important;
+}
+
+div#audio div:nth-child(5) {
+    text-align: left !important;
+/*     margin: 0px 0px 20px 0px; */
+}
+
+div#audio div:nth-child(7) {
+    float: left;
+}
+
+div#audio div:nth-child(8) {
+    padding: 0px 40px;
+}
+
+#audio_info{
+/*     line-height: 40px!important; */
+    margin-bottom: 80px !important;
+/*     margin-top: 20px !important; */
+    font-size: 14px;
+}
+
+#audio_response_field_label{
+/*     margin-top: 80px; */
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#audio_play{
+    color: rgb(0,0,0,1);
+    background-color: rgb(0,0,0,0.1);
+}
+
+#audio_download{
+    color: rgb(0,0,0,1);
+    background-color: rgb(0,0,0,0.1);
+}
+
+#audio_play:active{
+    background-color: rgb(0,0,0,0.2);
+    color: rgb(0,0,0,1);
+}
+
+#audio_download:active{
+    color: rgb(0,0,0,1);
+    background-color: rgb(0,0,0,0.2);
+}
+
+
+#audio_play:hover{
+    background-color: rgb(0,0,0,0.2);
+    color: rgb(0,0,0,1);
+}
+
+#audio_download:hover{
+    color: rgb(0,0,0,1);
+    background-color: rgb(0,0,0,0.2);
+}
+
+
+#audio_play:focus{
+    color: #000;
+    background-color: rgb(0,0,0,0.2);
+    text-decoration: underline;
+    border: 2px #000 !important;
+}
+
+#audio_download:focus{
+    color: #000;
+    background-color: rgb(0,0,0,0.2);
+    text-decoration: underline;
+    border: 2px #000 !important;
+}
+
+
+.response_field{
+    border-radius: 0px;
+    border: 0px #62626F !important;
+    border-bottom: 2px solid #0067B8 !important;
+    border-style: solid !important;
+    background-color: #fff;
+    margin-left: 0px !important;
+/*     padding: 5px 10px !important; */
+    height: 28px !important;
+    color: #1a1a1a;
+    width: 260px !important;
+    margin-bottom: 20px !important;
+}
+
+.response_field:focus {
+    background-color: rgb(0,0,0,0.1);
+}
+
+.fc_meta_help_btn {
+    visibility: hidden;
+    user-select: none;
+}
+
+a.helpBtn.metaTooltipRight{
+    visibility: hidden;
+    user-select: none;
+}
+
+/* game3 styes */
+
+#home_children_button:hover {
+	background-color: #005DA6;
+}
+
+#home_children_button:active{
+    background-color: #005293;
+    transform: scale(0.98);
+}
+
+#home_children_button:focus{
+	background-color: #005DA6;
+	text-decoration: underline;
+	outline: 2px solid #000;
+}
+
+#wrong_children_button:hover {
+	background-color: #005DA6;
+}
+
+#wrong_children_button:active{
+    background-color: #005293;
+    transform: scale(0.98);
+}
+
+#wrong_children_button:focus{
+	background-color: #005DA6;
+	text-decoration: underline;
+	outline: 2px solid #000;
+}
