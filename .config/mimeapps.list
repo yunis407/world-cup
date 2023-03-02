@@ -1,5 +1,7 @@
 [Added Associations]
 text/plain=org.gnome.gedit.desktop;
+application/octet-stream=apturl.desktop;
+inode/directory=code.desktop;
 
 [Default Applications]
 text/html=google-chrome.desktop

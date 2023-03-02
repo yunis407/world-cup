@@ -1,0 +1,8 @@
+[Trace 11:19:33.082] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Trace 11:19:33.084] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Trace 11:19:33.085] Server: connection.languages.diagnostics.on: file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Trace 11:19:33.086] Server: connection.languages.diagnostics.on: file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Trace 11:19:33.185] DocumentSymbolProvider: provideDocumentSymbols — file:///home/yunis/phase-1-javascript-variables-lab/README.md 1
+[Debug 11:19:33.186] LinkProvider: compute - file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Debug 11:19:33.324] TableOfContentsProvider: create - file:///home/yunis/phase-1-javascript-variables-lab/README.md
+[Debug 11:19:33.375] MdFoldingProvider: provideFoldingRanges — file:///home/yunis/phase-1-javascript-variables-lab/README.md 1

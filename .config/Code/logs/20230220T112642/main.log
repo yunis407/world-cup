@@ -1,0 +1,6 @@
+2023-02-20 11:26:42.306 [info] update#setState idle
+2023-02-20 11:26:43.852 [info] Starting extension host with pid 15729 (fork() took 29 ms).
+2023-02-20 11:27:12.322 [info] update#setState checking for updates
+2023-02-20 11:27:12.331 [info] update#setState available for download
+2023-02-20 11:32:00.042 [info] Extension host with pid 15729 exited with code: 0, signal: null.
+2023-02-20 11:32:00.047 [info] Waiting for extension host with pid 15729 to exit.

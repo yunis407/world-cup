@@ -1,3 +1,15 @@
-2022/11/09-14:51:45.056 1180 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/09-14:51:45.056 1180 Recovering log #3
-2022/11/09-14:51:45.057 1180 Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
+2022/12/08-10:07:04.768 c441 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/08-10:07:04.768 c441 Recovering log #7
+2022/12/08-10:07:04.770 c441 Reusing old log /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000007.log 
+2022/12/08-14:18:39.530 d577 Level-0 table #12: started
+2022/12/08-14:18:39.534 d577 Level-0 table #12: 5863 bytes OK
+2022/12/08-14:18:39.537 d577 Delete type=0 #7
+2022/12/08-14:18:39.538 d577 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/08-14:18:39.538 d577 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 977 : 1
+2022/12/08-14:18:39.538 d577 Compacting 1@1 + 1@2 files
+2022/12/08-14:18:39.543 d577 Generated table #13@1: 36 keys, 2503 bytes
+2022/12/08-14:18:39.543 d577 Compacted 1@1 + 1@2 files => 2503 bytes
+2022/12/08-14:18:39.546 d577 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/08-14:18:39.546 d577 Delete type=2 #12
+2022/12/08-14:18:39.546 d577 Delete type=2 #9
+2022/12/08-14:18:39.547 d577 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 977 : 1 .. (end); will stop at (end)

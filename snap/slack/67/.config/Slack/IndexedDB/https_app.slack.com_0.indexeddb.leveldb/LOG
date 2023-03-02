@@ -1,3 +1,3 @@
-2022/11/17-15:35:48.326 1920 Reusing MANIFEST /home/yunis/snap/slack/67/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/17-15:35:48.326 1920 Recovering log #3
-2022/11/17-15:35:48.331 1920 Reusing old log /home/yunis/snap/slack/67/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000003.log 
+2022/11/28-12:13:35.962 10e6 Reusing MANIFEST /home/yunis/snap/slack/67/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/28-12:13:35.962 10e6 Recovering log #3
+2022/11/28-12:13:35.968 10e6 Reusing old log /home/yunis/snap/slack/67/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000003.log 

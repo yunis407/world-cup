@@ -1,0 +1,39 @@
+[Data Source]
+DisplayName=Holidays in Kenya
+Enabled=true
+Parent=f4a80fa69130198fc3f35ade79a12c6772ea065e
+
+[Authentication]
+Host=apidata.googleusercontent.com
+Method=OAuth2
+Port=443
+ProxyUid=system-proxy
+RememberPassword=true
+User=yunis.osman@student.moringaschool.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=tls
+
+[Resource]
+Identity=events::https://apidata.googleusercontent.com/caldav/v2/cln2sqr54dk6ur39chgnig37e9nnas1eeon66obccln68obi5pjmurr7dhiisorfdk%40virtual/events/
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=true
+Color=#16a765
+DisplayName=Holidays in Kenya
+EmailAddress=
+ResourcePath=/caldav/v2/cln2sqr54dk6ur39chgnig37e9nnas1eeon66obccln68obi5pjmurr7dhiisorfdk%40virtual/events/
+ResourceQuery=
+SslTrust=
+
+[Calendar]
+BackendName=caldav
+Color=#16a765
+Selected=true
+
+[Alarms]
+IncludeMe=true
+LastNotified=2023-02-22T11:38:59.958736Z

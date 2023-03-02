@@ -1,0 +1,3 @@
+2023-02-17 10:34:34.848 [info] Starting worker process with pid 26336 (type: fileWatcher, window: 1).
+2023-02-17 11:57:09.495 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {"name":"Offline"}
+2023-02-17 11:57:29.042 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {"name":"Offline"}

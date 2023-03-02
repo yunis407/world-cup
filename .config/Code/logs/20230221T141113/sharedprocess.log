@@ -1,0 +1,43 @@
+2023-02-21 14:11:16.809 [info] Starting worker process with pid 31476 (type: fileWatcher, window: 1).
+2023-02-22 10:47:17.435 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-22 14:02:17.366 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-22 15:01:15.967 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-23 12:00:31.395 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-27 11:14:09.420 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-27 11:17:46.865 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-27 11:18:05.371 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 11:22:53.443 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-27 11:23:13.464 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:24:26.674 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:29:36.699 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:34:44.992 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:39:52.262 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:44:55.161 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:50:05.191 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-27 12:55:15.221 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 11:41:10.987 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 11:43:33.519 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 11:46:21.015 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 11:48:43.551 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 11:51:31.045 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 11:53:49.496 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 11:56:38.748 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 11:58:56.637 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 12:39:30.960 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 13:46:12.878 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 14:21:25.248 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+2023-02-28 14:39:20.277 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 14:50:05.135 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 14:55:14.990 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 15:00:23.753 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 15:05:33.779 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-02-28 15:10:43.801 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-03-01 11:23:17.632 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {"name":"Offline"}
+2023-03-01 11:28:24.639 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-03-01 12:28:56.106 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}
+2023-03-01 12:33:48.003 [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {"name":"Offline"}
+2023-03-01 12:33:56.115 [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {"name":"Offline"}
+2023-03-01 13:03:06.552 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-02 12:06:59.215 [info] Starting worker process with pid 73917 (type: fileWatcher, window: 3).
+2023-03-02 12:26:26.088 [info] Worker process with pid 73917 terminated normally (type: fileWatcher, window: 3).
+2023-03-02 12:26:34.071 [info] Starting worker process with pid 74843 (type: fileWatcher, window: 4).

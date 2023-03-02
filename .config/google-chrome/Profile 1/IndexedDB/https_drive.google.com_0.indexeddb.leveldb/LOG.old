@@ -1,0 +1,15 @@
+2022/12/13-12:39:24.349 1d89 Creating DB /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2022/12/13-12:39:24.359 1d89 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/13-12:39:29.427 1fa9 Level-0 table #5: started
+2022/12/13-12:39:29.506 1fa9 Level-0 table #5: 1345077 bytes OK
+2022/12/13-12:39:29.522 1fa9 Delete type=0 #3
+2022/12/13-12:39:29.782 2126 Level-0 table #7: started
+2022/12/13-12:39:29.848 2126 Level-0 table #7: 1100577 bytes OK
+2022/12/13-12:39:29.855 2126 Delete type=0 #4
+2022/12/13-12:39:29.871 2126 Compacting 1@1 + 1@2 files
+2022/12/13-12:39:30.046 2126 Generated table #8@1: 14156 keys, 2145356 bytes
+2022/12/13-12:39:30.129 2126 Generated table #9@1: 2714 keys, 250057 bytes
+2022/12/13-12:39:30.129 2126 Compacted 1@1 + 1@2 files => 2395413 bytes
+2022/12/13-12:39:30.133 2126 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/12/13-12:39:30.134 2126 Delete type=2 #5
+2022/12/13-12:39:30.134 2126 Delete type=2 #7

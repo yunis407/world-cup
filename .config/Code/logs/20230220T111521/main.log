@@ -1,0 +1,6 @@
+2023-02-20 11:15:21.545 [info] update#setState idle
+2023-02-20 11:15:23.082 [info] Starting extension host with pid 14768 (fork() took 40 ms).
+2023-02-20 11:15:51.547 [info] update#setState checking for updates
+2023-02-20 11:15:51.566 [info] update#setState available for download
+2023-02-20 11:26:07.367 [info] Waiting for extension host with pid 14768 to exit.
+2023-02-20 11:26:07.377 [info] Extension host with pid 14768 exited with code: 0, signal: null.

@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.editor.untitled.hint": "hidden",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

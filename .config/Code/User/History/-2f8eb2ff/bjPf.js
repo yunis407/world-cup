@@ -1,0 +1,24 @@
+// Write your solution here!
+const cats = ["Milo","Otis","Garfield"];
+const destructivelyAppendCat = name =>{
+    name = "Ralph"
+    cats.push(name);
+}
+const  destructivelyPrependCat = name =>{
+    name = "Bob"
+    cats.unshift(name);
+}
+
+const destructivelyRemoveLastCat = ()=> cats.pop();
+
+const  destructivelyRemoveFirstCat =()=> cats.shift();
+const  appendCat =()=> {
+     const endCats =[...cats,"Broom"];
+     return endCats;
+    }
+
+    const  prependCat=()=>{
+        const atCats =["Arnold",...cats];
+        return atCats;
+    }
+    const removeLastCat=()=> 

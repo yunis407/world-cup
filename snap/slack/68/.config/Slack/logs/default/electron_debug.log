@@ -1,0 +1,391 @@
+[6575:1108/154902.903297:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[6575:1108/154903.147211:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6575:1108/154903.219264:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.173" (uid=1000 pid=6575 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=688 comm="/lib/systemd/systemd-logind " label="unconfined")
+[6575:1108/154903.371165:ERROR:nss_util.cc(55)] Failed to create /home/yunis/.pki/nssdb directory.
+[6575:1108/154924.822122:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6575:1108/154924.822952:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/105914.317088:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[57850:1109/105914.620257:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/105914.621011:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/105914.688182:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.420" (uid=1000 pid=57850 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=721 comm="/lib/systemd/systemd-logind " label="unconfined")
+[57850:1109/105914.724633:ERROR:nss_util.cc(55)] Failed to create /home/yunis/.pki/nssdb directory.
+[57850:1109/105918.771854:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/105918.855169:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/105918.855913:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[57850:1109/130411.517808:ERROR:bus.cc(398)] Failed to connect to the bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[2949:1109/142415.064625:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2949:1109/142415.792006:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2949:1109/142415.792697:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2949:1109/142416.035597:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.113" (uid=1000 pid=2949 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=698 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2949:1109/142416.472412:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[2949:1109/142421.224529:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2949:1109/142421.309364:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2949:1109/142421.309960:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2054:1110/093350.835229:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2054:1110/093351.329790:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2054:1110/093351.330527:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2054:1110/093351.535106:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.105" (uid=1000 pid=2054 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=737 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2054:1110/093411.535089:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[2054:1110/093543.214554:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2054:1110/093543.430856:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2054:1110/093543.431460:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4799:1114/121546.401400:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4799:1114/121546.985065:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4799:1114/121546.985973:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4799:1114/121547.161037:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.120" (uid=1000 pid=4799 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=744 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4799:1114/121547.773585:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4799:1114/121558.762307:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4799:1114/121559.014134:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4799:1114/121559.014694:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[30476:1115/141944.892065:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[30476:1115/141945.061277:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[30476:1115/141945.062004:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[30476:1115/141945.113473:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.291" (uid=1000 pid=30476 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=744 comm="/lib/systemd/systemd-logind " label="unconfined")
+[30476:1115/141945.422008:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[30476:1115/141949.147569:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[30476:1115/141949.289539:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[30476:1115/141949.290298:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153546.858680:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[6235:1117/153547.455875:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153547.457030:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153547.602514:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.131" (uid=1000 pid=6235 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=746 comm="/lib/systemd/systemd-logind " label="unconfined")
+[6235:1117/153547.880724:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[6235:1117/153554.123492:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153554.257417:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6235:1117/153554.258107:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6575:1117/153627.362036:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 27
+[6575:1117/153629.769595:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 25
+[6575:1117/153633.143417:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 23
+[6575:1117/153634.179604:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 37
+[11349:1123/113952.393252:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[11349:1123/113952.856425:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[11349:1123/113952.857319:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[11349:1123/113953.070625:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.143" (uid=1000 pid=11349 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=700 comm="/lib/systemd/systemd-logind " label="unconfined")
+[11349:1123/113953.528798:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[11349:1123/114004.637581:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[11349:1123/114004.897419:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[11349:1123/114004.898040:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[11388:1124/155905.941575:WARNING:spdy_session.cc(3234)] Received RST for invalid stream3
+[11388:1124/160015.943921:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[11388:1124/160049.385747:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[4561:1125/000412.084268:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4561:1125/000412.611823:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4561:1125/000412.612528:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4561:1125/000412.769142:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=4561 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=742 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4561:1125/000413.141838:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4561:1125/000508.192911:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4561:1125/000508.295410:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4561:1125/000508.296396:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4974:1127/181615.035706:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4974:1127/181615.279900:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4974:1127/181615.280908:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4974:1127/181615.295253:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4974:1127/181615.377382:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.131" (uid=1000 pid=4974 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=699 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4974:1127/181619.686119:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4974:1127/181619.886356:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4974:1127/181619.886976:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4296:1128/121333.135513:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4296:1128/121333.693443:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4296:1128/121333.694140:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4296:1128/121333.953871:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.117" (uid=1000 pid=4296 comm="/snap/slack/67/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=743 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4296:1128/121334.186983:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4296:1128/121339.144838:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4296:1128/121339.270013:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4296:1128/121339.270710:ERROR:browser_main_loop.cc(270)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2251:1130/114447.680593:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2251:1130/114448.075797:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2251:1130/114448.077188:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2251:1130/114448.365610:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.104" (uid=1000 pid=2251 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=750 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2251:1130/114448.567646:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[2251:1130/114454.218261:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2251:1130/114454.333690:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2251:1130/114454.334684:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4150:1130/142910.747685:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4150:1130/142911.295845:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4150:1130/142911.296914:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4150:1130/142911.641070:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=4150 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=758 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4150:1130/142911.908961:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4150:1130/142917.237370:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4150:1130/142917.326929:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4150:1130/142917.327867:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1201/090431.461861:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[3423:1201/090432.006608:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1201/090432.008318:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1201/090432.259940:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.122" (uid=1000 pid=3423 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=726 comm="/lib/systemd/systemd-logind " label="unconfined")
+[3423:1201/090432.590089:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[3423:1201/090437.667577:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1201/090437.753887:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1201/090437.754488:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1202/113144.874665:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1202/113145.146999:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3423:1202/113145.148411:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9678:1205/061843.124435:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[9678:1205/061843.670330:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9678:1205/061843.671212:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9678:1205/061843.966358:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.137" (uid=1000 pid=9678 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=723 comm="/lib/systemd/systemd-logind " label="unconfined")
+[9678:1205/061844.257180:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[9678:1205/061849.293117:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9678:1205/061849.372293:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[9678:1205/061849.373087:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2943:1205/092102.471105:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[2943:1205/092102.907161:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2943:1205/092102.908357:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2943:1205/092103.090459:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.113" (uid=1000 pid=2943 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=720 comm="/lib/systemd/systemd-logind " label="unconfined")
+[2943:1205/092103.443239:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[2943:1205/092108.393153:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2943:1205/092108.485877:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2943:1205/092108.487030:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3358:1206/141840.967348:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[3358:1206/141841.348686:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3358:1206/141841.349748:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3358:1206/141841.681243:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.110" (uid=1000 pid=3358 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=720 comm="/lib/systemd/systemd-logind " label="unconfined")
+[3358:1206/141841.927711:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[3358:1206/141847.074824:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3358:1206/141847.312253:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[3358:1206/141847.312919:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49558:1208/090456.574061:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[49558:1208/090456.914555:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49558:1208/090456.915375:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49558:1208/090457.201339:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.214" (uid=1000 pid=49558 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=712 comm="/lib/systemd/systemd-logind " label="unconfined")
+[49558:1208/090457.473022:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[49558:1208/090502.581025:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49558:1208/090502.671362:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49558:1208/090502.672844:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[49597:1210/150935.264188:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 37
+[49597:1210/150937.207821:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 47
+[6754:1213/121454.003163:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[6754:1213/121454.403050:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1213/121454.403792:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1213/121454.629137:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.132" (uid=1000 pid=6754 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=757 comm="/lib/systemd/systemd-logind " label="unconfined")
+[6754:1213/121455.175439:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[6754:1213/121500.166248:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1213/121500.373827:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1213/121500.374696:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121536.419485:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121536.624795:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121536.625346:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121544.122022:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121544.333427:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1215/121544.334241:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1227/000319.383525:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1227/000319.574077:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[6754:1227/000319.574830:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/105850.992241:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[21844:0206/105851.226067:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/105851.227393:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/105851.322476:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=21844 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=753 comm="/lib/systemd/systemd-logind " label="unconfined")
+[21844:0206/105851.543863:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[21882:0206/105937.968856:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 281
+[21882:0206/105956.993609:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 283
+[21882:0206/105956.993655:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 285
+[21844:0206/110121.676997:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/110121.923075:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/110121.923977:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21882:0206/110159.008824:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 557
+[21844:0206/110249.670069:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/110249.962759:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[21844:0206/110249.963813:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5603:0206/150610.367832:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5603:0206/150610.817576:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5603:0206/150610.818471:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5603:0206/150611.086338:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.127" (uid=1000 pid=5603 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=728 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5603:0206/150611.450854:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[5642:0206/150656.341179:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 303
+[5642:0206/150700.030369:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 305
+[5642:0206/150700.030614:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 307
+[5603:0206/150745.821788:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5603:0206/150745.929522:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5603:0206/150745.930521:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5642:0206/150820.891669:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 577
+[5642:0207/151048.204025:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 275
+[5642:0207/151048.204180:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 277
+[5642:0207/151048.204313:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 279
+[5642:0207/151048.204398:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 281
+[5642:0207/151048.204472:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 283
+[5642:0207/151048.204546:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 285
+[5642:0207/151048.204617:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 287
+[5642:0207/151048.204688:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 289
+[5642:0207/151048.204770:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 291
+[5642:0207/151048.204845:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 293
+[4969:0208/103916.325266:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[4969:0208/103916.782974:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[4969:0208/103916.861036:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4969:0208/103916.861907:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4969:0208/103917.148706:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.115" (uid=1000 pid=4969 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=758 comm="/lib/systemd/systemd-logind " label="unconfined")
+[4969:0208/104015.204019:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4969:0208/104015.311149:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[4969:0208/104015.312692:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[8287:0209/115026.467660:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[8287:0209/115026.885541:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[8287:0209/115027.140630:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[8287:0209/115027.141718:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[8287:0209/115027.404660:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.132" (uid=1000 pid=8287 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=755 comm="/lib/systemd/systemd-logind " label="unconfined")
+[8287:0209/115127.489176:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[8287:0209/115127.588431:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[8287:0209/115127.589405:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[20904:0210/094202.033299:WARNING:sync_reader.cc(273)] ASR: No room in socket buffer.: Broken pipe (32)
+[20904:0210/094409.933392:WARNING:sync_reader.cc(273)] ASR: No room in socket buffer.: Broken pipe (32)
+[7656:0213/110152.311441:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[7656:0213/110152.721860:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[7656:0213/110152.722968:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[7656:0213/110152.933245:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.127" (uid=1000 pid=7656 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=759 comm="/lib/systemd/systemd-logind " label="unconfined")
+[7656:0213/110153.206417:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[7696:0213/110230.091218:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1033
+[7696:0213/110230.091725:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1035
+[7696:0213/110230.091936:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1037
+[7696:0213/110230.092207:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1039
+[7696:0213/110230.092457:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1041
+[7696:0213/110230.092653:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1043
+[7696:0213/110230.092843:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1045
+[7696:0213/110230.093031:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1047
+[7696:0213/110230.093225:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1049
+[7696:0213/110230.093408:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1051
+[7696:0213/110230.093604:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1053
+[7696:0213/110230.433710:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1055
+[7656:0213/110232.494913:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[7656:0213/110232.739360:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[7656:0213/110232.740005:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0214/111204.271413:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5305:0214/111204.743484:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0214/111204.744532:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0214/111205.050664:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.119" (uid=1000 pid=5305 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=741 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5305:0214/111205.521705:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[5305:0214/111210.025570:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0214/111210.137455:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0214/111210.138183:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5345:0214/111242.211149:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 481
+[5345:0215/102442.619935:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 3
+[5345:0215/110953.275975:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1
+[5345:0215/111949.862267:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 13
+[5345:0215/122120.671696:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 867
+[5345:0215/122120.671855:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 869
+[5345:0215/122121.578163:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 871
+[5305:0216/102108.734704:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0216/102108.934330:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5305:0216/102108.935311:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5345:0216/150324.114856:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5345:0217/103626.189363:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 331
+[5345:0217/103626.859368:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 333
+[5345:0217/103628.752271:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 335
+[5852:0219/124828.560610:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5852:0219/124829.034193:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5852:0219/124829.035490:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5852:0219/124829.274182:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.login1.Manager.Inhibit: object_path= /org/freedesktop/login1: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5852 comm="/snap/slack/68/usr/lib/slack/slack --no-sandbox --" label="snap.slack.slack (enforce)") interface="org.freedesktop.login1.Manager" member="Inhibit" error name="(unset)" requested_reply="0" destination="org.freedesktop.login1" (uid=0 pid=717 comm="/lib/systemd/systemd-logind " label="unconfined")
+[5852:0219/124829.530336:ERROR:nss_util.cc(232)] Error initializing NSS with a persistent database (sql:/home/yunis/.pki/nssdb): NSS error code: -8174
+[5852:0219/124834.041883:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5852:0219/124834.129051:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5852:0219/124834.130496:ERROR:browser_main_loop.cc(269)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5892:0221/140933.797750:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 295
+[5892:0221/140934.491787:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 297
+[5892:0222/143950.382690:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 515
+[5892:0224/093815.263389:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 335
+[5892:0226/222632.761890:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 311
+[5892:0226/222633.452897:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 313
+[5892:0227/122514.852448:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0227/122514.853257:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0227/122530.332177:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0227/122530.332678:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0227/122602.575612:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0228/123121.865246:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 481
+[5892:0228/123121.865517:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 483
+[5892:0228/123121.865659:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 487
+[5892:0228/123121.865777:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 489
+[5892:0228/123121.865890:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 491
+[5892:0228/123121.866007:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 493
+[5892:0228/123121.866124:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 485
+[5892:0228/123121.866236:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 495
+[5892:0228/123121.866350:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 497
+[5892:0228/123121.866460:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 499
+[5892:0228/123121.866572:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 501
+[5892:0228/123121.866683:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 505
+[5892:0228/123121.866811:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 503
+[5892:0228/123121.866945:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 509
+[5892:0228/123121.867041:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 507
+[5892:0228/123121.867135:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 513
+[5892:0228/123121.867227:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 515
+[5892:0228/123121.867320:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 517
+[5892:0228/123121.867412:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 519
+[5892:0228/123121.867503:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 511
+[5892:0228/123121.867595:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 521
+[5892:0228/123121.867687:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 523
+[5892:0228/123124.371480:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 525
+[5892:0228/123124.371546:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 527
+[5892:0228/123126.567524:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 529
+[5892:0228/123126.567847:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 531
+[5892:0228/123126.568049:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 533
+[5892:0228/123126.568238:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 535
+[5892:0228/123128.493940:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 537
+[5892:0228/123128.494285:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 539
+[5892:0228/123128.494537:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 541
+[5892:0228/123128.494734:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 543
+[5892:0228/123128.494907:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 545
+[5892:0228/123128.495071:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 547
+[5892:0228/123128.495231:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 549
+[5892:0228/123128.495394:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 551
+[5892:0228/123128.495554:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 553
+[5892:0228/123128.495716:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 555
+[5892:0228/123128.495887:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 557
+[5892:0228/123128.496047:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 559
+[5892:0228/123128.496212:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 561
+[5892:0228/123128.496368:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 563
+[5892:0228/123128.496583:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 565
+[5892:0228/123128.496750:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 567
+[5892:0228/123128.496946:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 569
+[5892:0228/123128.497111:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 571
+[5892:0228/123128.497273:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 573
+[5892:0228/123128.497447:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 575
+[5892:0228/123128.497615:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 577
+[5892:0228/123128.497782:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 579
+[5892:0228/123128.497950:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 581
+[5892:0228/123128.498121:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 583
+[5892:0228/123128.498333:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 585
+[5892:0228/123128.498652:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 591
+[5892:0228/123128.498834:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 593
+[5892:0228/123128.499030:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 595
+[5892:0228/123128.499192:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 597
+[5892:0228/123128.499360:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 599
+[5892:0228/123128.499537:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 601
+[5892:0228/123128.499739:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 589
+[5892:0228/123128.500204:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 587
+[5892:0228/123128.500445:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 603
+[5892:0228/123128.500735:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 605
+[5892:0228/123128.500997:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 607
+[5892:0228/123128.501227:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 609
+[5892:0228/123128.501347:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 611
+[5892:0228/123128.501483:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 615
+[5892:0228/123128.501581:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 617
+[5892:0228/123128.501679:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 613
+[5892:0228/123128.501772:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 619
+[5892:0228/123128.501866:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 621
+[5892:0228/123128.501959:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 623
+[5892:0228/123128.502052:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 625
+[5892:0228/123128.502145:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 627
+[5892:0228/123128.502240:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 629
+[5892:0228/123128.502338:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 631
+[5892:0228/123128.502463:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 633
+[5892:0228/123128.502572:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 635
+[5892:0228/123128.502671:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 637
+[5892:0228/123128.502787:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 639
+[5892:0228/144015.107242:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0228/144039.889216:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100
+[5892:0228/144125.389070:WARNING:spdy_session.cc(3502)] Received HEADERS for invalid stream 1
+[5892:0301/111953.088342:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/111953.220225:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/111954.478589:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/111954.542649:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/111957.401308:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/111957.466790:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112003.729120:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112003.799489:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112011.001339:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112011.060498:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112024.434726:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112024.507510:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112029.001014:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112029.063884:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112053.595420:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112053.657153:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112153.824570:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112153.888865:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112254.049615:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101
+[5892:0301/112254.110309:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -101

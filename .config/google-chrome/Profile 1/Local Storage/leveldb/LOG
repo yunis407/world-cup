@@ -1,3 +1,30 @@
-2022/11/17-23:39:41.998 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2022/11/17-23:39:42.086 3 Recovering log #37
-2022/11/17-23:39:42.181 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/000037.log 
+2023/02/19-11:47:41.339 3 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2023/02/19-11:47:41.521 3 Recovering log #190
+2023/02/19-11:47:41.630 3 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Local Storage/leveldb/000190.log 
+2023/02/19-11:49:19.131 3 Level-0 table #195: started
+2023/02/19-11:49:19.148 3 Level-0 table #195: 10982 bytes OK
+2023/02/19-11:49:19.155 3 Delete type=0 #190
+2023/02/21-14:13:43.003 4b Level-0 table #197: started
+2023/02/21-14:13:43.013 4b Level-0 table #197: 21026 bytes OK
+2023/02/21-14:13:43.020 4b Delete type=0 #194
+2023/02/26-22:48:16.383 93 Level-0 table #199: started
+2023/02/26-22:48:16.394 93 Level-0 table #199: 15430 bytes OK
+2023/02/26-22:48:16.405 93 Delete type=0 #196
+2023/03/01-12:13:15.778 b3 Level-0 table #201: started
+2023/03/01-12:13:15.789 b3 Level-0 table #201: 13817 bytes OK
+2023/03/01-12:13:15.798 b3 Delete type=0 #198
+2023/03/01-12:13:15.800 b3 Compacting 4@0 + 1@1 files
+2023/03/01-12:13:15.832 b3 Generated table #202@0: 1030 keys, 189563 bytes
+2023/03/01-12:13:15.832 b3 Compacted 4@0 + 1@1 files => 189563 bytes
+2023/03/01-12:13:15.837 b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/01-12:13:15.841 b3 Delete type=2 #197
+2023/03/01-12:13:15.841 b3 Delete type=2 #192
+2023/03/01-12:13:15.841 b3 Delete type=2 #201
+2023/03/01-12:13:15.841 b3 Delete type=2 #199
+2023/03/01-12:13:15.842 b3 Delete type=2 #195
+2023/03/02-11:52:19.744 cc Level-0 table #204: started
+2023/03/02-11:52:19.754 cc Level-0 table #204: 20608 bytes OK
+2023/03/02-11:52:19.761 cc Delete type=0 #200
+2023/03/02-11:55:36.791 cc Level-0 table #206: started
+2023/03/02-11:55:36.797 cc Level-0 table #206: 16710 bytes OK
+2023/03/02-11:55:36.801 cc Delete type=0 #203

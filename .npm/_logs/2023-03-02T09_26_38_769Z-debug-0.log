@@ -1,0 +1,140 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.2
+2 info using node@v16.18.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 8ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 20ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/yunis/.cache/typescript/4.8/.npmrc Completed in 3ms
+10 timing config:load:project Completed in 48ms
+11 timing config:load:file:/home/yunis/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 86ms
+19 timing npm:load:configload Completed in 87ms
+20 timing npm:load:mkdirpcache Completed in 5ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install types-registry@latest
+23 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+24 timing npm:load:setTitle Completed in 7ms
+25 timing config:load:flatten Completed in 18ms
+26 timing npm:load:display Completed in 26ms
+27 verbose logfile logs-max:10 dir:/home/yunis/.npm/_logs
+28 verbose logfile /home/yunis/.npm/_logs/2023-03-02T09_26_38_769Z-debug-0.log
+29 timing npm:load:logFile Completed in 8ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 134ms
+33 timing arborist:ctor Completed in 2ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 173ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/types-registry 2870ms (cache updated)
+39 timing idealTree:userRequests Completed in 2882ms
+40 silly idealTree buildDeps
+41 silly fetch manifest types-registry@0.1.633
+42 silly placeDep ROOT types-registry@0.1.633 REPLACE for:  want: 0.1.633
+43 timing idealTree:#root Completed in 9ms
+44 timing idealTree:node_modules/types-registry Completed in 0ms
+45 timing idealTree:buildDeps Completed in 10ms
+46 timing idealTree:fixDepFlags Completed in 1ms
+47 timing idealTree Completed in 3070ms
+48 timing reify:loadTrees Completed in 3072ms
+49 timing reify:diffTrees Completed in 4ms
+50 silly reify mark retired [ '/home/yunis/.cache/typescript/4.8/node_modules/types-registry' ]
+51 silly reify moves {
+51 silly reify   '/home/yunis/.cache/typescript/4.8/node_modules/types-registry': '/home/yunis/.cache/typescript/4.8/node_modules/.types-registry-zZVKTtHJ'
+51 silly reify }
+52 timing reify:retireShallow Completed in 9ms
+53 timing reify:createSparse Completed in 5ms
+54 timing reify:loadBundles Completed in 0ms
+55 silly audit bulk request {
+55 silly audit   '@babel/helper-string-parser': [ '7.19.4' ],
+55 silly audit   '@babel/helper-validator-identifier': [ '7.19.1' ],
+55 silly audit   '@babel/parser': [ '7.20.15' ],
+55 silly audit   '@babel/types': [ '7.20.7' ],
+55 silly audit   '@types/babel__core': [ '7.20.0' ],
+55 silly audit   '@types/babel__generator': [ '7.6.4' ],
+55 silly audit   '@types/babel__preset-env': [ '7.9.2' ],
+55 silly audit   '@types/babel__template': [ '7.4.1' ],
+55 silly audit   '@types/babel__traverse': [ '7.18.2' ],
+55 silly audit   '@types/babel-core': [ '6.25.7' ],
+55 silly audit   '@types/babel-generator': [ '6.25.5' ],
+55 silly audit   '@types/babel-template': [ '6.25.2' ],
+55 silly audit   '@types/babel-traverse': [ '6.25.7' ],
+55 silly audit   '@types/babel-types': [ '7.0.11' ],
+55 silly audit   '@types/babylon': [ '6.16.6' ],
+55 silly audit   '@types/body-parser': [ '1.19.2' ],
+55 silly audit   '@types/chai': [ '4.3.4' ],
+55 silly audit   '@types/chai-dom': [ '1.11.0' ],
+55 silly audit   '@types/chai-spies': [ '1.0.3' ],
+55 silly audit   '@types/connect': [ '3.4.35' ],
+55 silly audit   '@types/express': [ '4.17.15' ],
+55 silly audit   '@types/express-serve-static-core': [ '4.17.31' ],
+55 silly audit   '@types/html-encoding-sniffer': [ '3.0.0' ],
+55 silly audit   '@types/jsdom': [ '21.1.0' ],
+55 silly audit   '@types/json-server': [ '0.14.4' ],
+55 silly audit   '@types/lodash': [ '4.14.191' ],
+55 silly audit   '@types/lowdb': [ '1.0.11' ],
+55 silly audit   '@types/mime': [ '3.0.1' ],
+55 silly audit   '@types/mocha': [ '10.0.1' ],
+55 silly audit   '@types/node': [ '18.11.9' ],
+55 silly audit   '@types/node-fetch': [ '2.6.2' ],
+55 silly audit   '@types/prompt-sync': [ '4.2.0' ],
+55 silly audit   '@types/qs': [ '6.9.7' ],
+55 silly audit   '@types/range-parser': [ '1.2.4' ],
+55 silly audit   '@types/serve-static': [ '1.15.0' ],
+55 silly audit   '@types/sinon': [ '10.0.13' ],
+55 silly audit   '@types/sinon-stub-promise': [ '2.1.7' ],
+55 silly audit   '@types/sinonjs__fake-timers': [ '8.1.2' ],
+55 silly audit   '@types/tough-cookie': [ '4.0.2' ],
+55 silly audit   '@types/webidl-conversions': [ '7.0.0' ],
+55 silly audit   '@types/whatwg-encoding': [ '2.0.0' ],
+55 silly audit   '@types/whatwg-mimetype': [ '3.0.0' ],
+55 silly audit   '@types/whatwg-url': [ '11.0.0' ],
+55 silly audit   asynckit: [ '0.4.0' ],
+55 silly audit   'combined-stream': [ '1.0.8' ],
+55 silly audit   'delayed-stream': [ '1.0.0' ],
+55 silly audit   entities: [ '4.4.0' ],
+55 silly audit   'form-data': [ '3.0.1' ],
+55 silly audit   'mime-db': [ '1.52.0' ],
+55 silly audit   'mime-types': [ '2.1.35' ],
+55 silly audit   parse5: [ '7.1.1' ],
+55 silly audit   'to-fast-properties': [ '2.0.0' ],
+55 silly audit   'types-registry': [ '0.1.633' ]
+55 silly audit }
+56 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.633.tgz. Extracting by manifest.
+57 http fetch GET 200 https://registry.npmjs.org/npm 3192ms (cache updated)
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 443ms
+59 timing auditReport:getReport Completed in 450ms
+60 silly audit report {}
+61 timing auditReport:init Completed in 0ms
+62 timing reify:audit Completed in 452ms
+63 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.633.tgz 937ms (cache miss)
+64 timing reifyNode:node_modules/types-registry Completed in 949ms
+65 timing reify:unpack Completed in 950ms
+66 timing reify:unretire Completed in 1ms
+67 timing build:queue Completed in 0ms
+68 timing build:deps Completed in 1ms
+69 timing build Completed in 1ms
+70 timing reify:build Completed in 1ms
+71 timing reify:trash Completed in 3ms
+72 timing reify:save Completed in 39ms
+73 timing reify Completed in 4142ms
+74 silly CHANGE node_modules/types-registry
+75 timing command:install Completed in 4152ms
+76 notice
+76 notice New major version of npm available! 8.19.2 -> 9.6.0
+76 notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.0>
+76 notice Run `npm install -g npm@9.6.0` to update!
+76 notice
+77 verbose exit 0
+78 timing npm Completed in 4503ms
+79 info ok

@@ -1,0 +1,19 @@
+2023-02-16 12:01:53.396 [info] Extension host with pid 18377 started
+2023-02-16 12:01:53.397 [info] Skipping acquiring lock for /home/yunis/.config/Code/User/workspaceStorage/7da293092afcbe6dfe6a14ae57115703.
+2023-02-16 12:01:53.631 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-16 12:01:53.632 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-16 12:01:53.637 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-02-16 12:01:53.732 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-16 12:01:53.733 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-16 12:01:53.921 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-16 12:01:54.142 [info] Eager extensions activated
+2023-02-16 12:01:54.151 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-16 12:01:54.152 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-02-16 12:01:54.153 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-16 12:01:54.154 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-02-16 12:01:54.154 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-02-16 12:01:55.919 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-16 12:01:55.920 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-16 12:01:55.920 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-17 10:33:11.627 [info] Extension host terminating: received terminate message from renderer
+2023-02-17 10:33:11.684 [info] Extension host with pid 18377 exiting with code 0

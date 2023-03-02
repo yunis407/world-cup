@@ -1,0 +1,5 @@
+2023-02-20 11:32:35.556 [info] update#setState idle
+2023-02-20 11:32:37.132 [info] Starting extension host with pid 16310 (fork() took 38 ms).
+2023-02-20 11:33:05.571 [info] update#setState checking for updates
+2023-02-20 11:33:05.586 [info] update#setState available for download
+2023-02-20 11:44:41.355 [info] Extension host with pid 16310 exited with code: 0, signal: null.

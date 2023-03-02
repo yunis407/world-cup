@@ -1,6 +1,15 @@
-2022/11/17-15:35:46.342 1921 Reusing MANIFEST /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/MANIFEST-000001
-2022/11/17-15:35:46.344 1921 Recovering log #12
-2022/11/17-15:35:46.350 1921 Reusing old log /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/000012.log 
-2022/11/17-16:58:48.420 3550 Level-0 table #16: started
-2022/11/17-16:58:48.426 3550 Level-0 table #16: 9671 bytes OK
-2022/11/17-16:58:48.431 3550 Delete type=0 #12
+2022/11/28-12:13:32.709 10ce Reusing MANIFEST /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2022/11/28-12:13:32.711 10ce Recovering log #27
+2022/11/28-12:13:32.722 10ce Reusing old log /home/yunis/snap/slack/67/.config/Slack/Local Storage/leveldb/000027.log 
+2022/11/29-09:29:01.018 1135 Level-0 table #31: started
+2022/11/29-09:29:01.025 1135 Level-0 table #31: 13174 bytes OK
+2022/11/29-09:29:01.030 1135 Delete type=0 #27
+2022/11/29-09:29:01.031 1135 Compacting 4@0 + 1@1 files
+2022/11/29-09:29:01.036 1135 Generated table #32@0: 11 keys, 4727 bytes
+2022/11/29-09:29:01.036 1135 Compacted 4@0 + 1@1 files => 4727 bytes
+2022/11/29-09:29:01.039 1135 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/29-09:29:01.039 1135 Delete type=2 #25
+2022/11/29-09:29:01.039 1135 Delete type=2 #31
+2022/11/29-09:29:01.039 1135 Delete type=2 #20
+2022/11/29-09:29:01.039 1135 Delete type=2 #28
+2022/11/29-09:29:01.039 1135 Delete type=2 #22

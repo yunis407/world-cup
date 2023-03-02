@@ -2,12 +2,18 @@
     "telemetry.machineId": "468f3e3c2c0411d2ea6b5f8d0414a04b083904ed1fc19ec0fd68efc17da3c4bb",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1668708994612"
+                "folderUri": "file:///home/yunis/phase-1-javascript-variables-lab"
+            },
+            {
+                "folderUri": "file:///home/yunis/phase-0-html-experiencing-html-lab"
+            },
+            {
+                "folderUri": "file:///home/yunis"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -47,7 +53,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -56,56 +63,111 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/my_list.html",
-                                        "path": "/home/yunis/my_list.html",
+                                        "external": "file:///home/yunis",
+                                        "path": "/home/yunis",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/my_list.html"
+                                    "label": "/home/yunis"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/Downloads",
-                                        "path": "/home/yunis/Downloads",
+                                        "external": "file:///home/yunis/phase-0-html-experiencing-html-lab",
+                                        "path": "/home/yunis/phase-0-html-experiencing-html-lab",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads"
+                                    "label": "~/phase-0-html-experiencing-html-lab"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
-                                        "path": "/home/yunis/Development/code/phase-0/phase-0-html-experiencing-html-lab",
+                                        "external": "file:///home/yunis/phase-1-javascript-variables-lab",
+                                        "path": "/home/yunis/phase-1-javascript-variables-lab",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/code/phase-0/phase-0-html-experiencing-html-lab"
+                                    "label": "~/phase-1-javascript-variables-lab"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem",
-                                        "path": "/home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem",
+                                        "external": "file:///home/yunis/phase-0-intro-to-js-2-looping-code-along",
+                                        "path": "/home/yunis/phase-0-intro-to-js-2-looping-code-along",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem/phase-0-completing-assignments-learn-lab-gem"
+                                    "label": "~/phase-0-intro-to-js-2-looping-code-along"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem",
-                                        "path": "/home/yunis/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem",
+                                        "external": "file:///home/yunis/phase-0-intro-to-js-2-objects-lab",
+                                        "path": "/home/yunis/phase-0-intro-to-js-2-objects-lab",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Development/code/phase-0/phase-0-completing-assignments-learn-lab-gem"
+                                    "label": "~/phase-0-intro-to-js-2-objects-lab"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-0-intro-to-js-2-array-lab",
+                                        "path": "/home/yunis/phase-0-intro-to-js-2-array-lab",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-0-intro-to-js-2-array-lab"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-1-scope-lab",
+                                        "path": "/home/yunis/phase-1-scope-lab",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-1-scope-lab"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-1-first-class-functions-lab",
+                                        "path": "/home/yunis/phase-1-first-class-functions-lab",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-1-first-class-functions-lab"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-1-first-class-functions",
+                                        "path": "/home/yunis/phase-1-first-class-functions",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-1-first-class-functions"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yunis/phase-1-arrow-functions",
+                                        "path": "/home/yunis/phase-1-arrow-functions",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/phase-1-arrow-functions"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -114,111 +176,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-images-lab/index.html",
-                                        "path": "/home/yunis/phase-0-html-images-lab/index.html",
+                                        "external": "file:///home/yunis/phase-0-intro-to-js-2-array-lab/index.js",
+                                        "path": "/home/yunis/phase-0-intro-to-js-2-array-lab/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-images-lab/index.html"
+                                    "label": "~/phase-0-intro-to-js-2-array-lab/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-tables-lab/index.html",
-                                        "path": "/home/yunis/phase-0-html-tables-lab/index.html",
+                                        "external": "file:///home/yunis/phase-1-scope-lab/index.js",
+                                        "path": "/home/yunis/phase-1-scope-lab/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-tables-lab/index.html"
+                                    "label": "~/phase-1-scope-lab/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-lists-lab/index.html",
-                                        "path": "/home/yunis/phase-0-html-lists-lab/index.html",
+                                        "external": "file:///home/yunis/phase-1-first-class-functions-lab/README.md",
+                                        "path": "/home/yunis/phase-1-first-class-functions-lab/README.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-lists-lab/index.html"
+                                    "label": "~/phase-1-first-class-functions-lab/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js",
-                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js",
+                                        "external": "file:///home/yunis/phase-1-first-class-functions/index.js",
+                                        "path": "/home/yunis/phase-1-first-class-functions/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/test/helpers.js"
+                                    "label": "~/phase-1-first-class-functions/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html",
-                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html",
+                                        "external": "file:///home/yunis/phase-1-arrow-functions/index.js",
+                                        "path": "/home/yunis/phase-1-arrow-functions/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-link-tag-with-href/phase-0-html-link-tag-with-href/index.html"
+                                    "label": "~/phase-1-arrow-functions/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js",
-                                        "path": "/home/yunis/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js",
+                                        "external": "file:///home/yunis/phase-1-javascript-functions-continued/index.js",
+                                        "path": "/home/yunis/phase-1-javascript-functions-continued/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-link-tag-with-href/node_modules/abab/lib/atob.js"
+                                    "label": "~/phase-1-javascript-functions-continued/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/test/index.html.test.js",
-                                        "path": "/home/yunis/phase-0-html-document-structure-lab/test/index.html.test.js",
+                                        "external": "file:///home/yunis/phase-1-functions-lab/index.js",
+                                        "path": "/home/yunis/phase-1-functions-lab/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-document-structure-lab/test/index.html.test.js"
+                                    "label": "~/phase-1-functions-lab/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-tag-lab/test/helpers.js",
-                                        "path": "/home/yunis/phase-0-html-tag-lab/test/helpers.js",
+                                        "external": "file:///home/yunis/phase-1-control-flow-lab/index.js",
+                                        "path": "/home/yunis/phase-1-control-flow-lab/index.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-tag-lab/test/helpers.js"
+                                    "label": "~/phase-1-control-flow-lab/index.js"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/index.html",
-                                        "path": "/home/yunis/phase-0-html-document-structure-lab/index.html",
+                                        "external": "file:///home/yunis/sumaya.js/index.html",
+                                        "path": "/home/yunis/sumaya.js/index.html",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-document-structure-lab/index.html"
+                                    "label": "~/sumaya.js/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yunis/phase-0-html-document-structure-lab/CONTRIBUTING.md",
-                                        "path": "/home/yunis/phase-0-html-document-structure-lab/CONTRIBUTING.md",
+                                        "external": "file:///home/yunis/phase-1-fetch-lab/test/helpers.js",
+                                        "path": "/home/yunis/phase-1-fetch-lab/test/helpers.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/phase-0-html-document-structure-lab/CONTRIBUTING.md"
+                                    "label": "~/phase-1-fetch-lab/test/helpers.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -372,6 +434,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -567,7 +633,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -822,7 +889,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1336,6 +1404,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1721,22 +1794,46 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 412,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/yunis/.config/Code/Backups/1668708994612",
+            "folder": "file:///home/yunis",
+            "backupPath": "/home/yunis/.config/Code/Backups/424bd11a3565b2b42866b94cc16e6529",
             "uiState": {
                 "mode": 1,
-                "x": 374,
-                "y": 139,
-                "width": 905,
-                "height": 566
+                "x": 171,
+                "y": 64,
+                "width": 1024,
+                "height": 642
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/yunis/phase-1-javascript-variables-lab",
+                "backupPath": "/home/yunis/.config/Code/Backups/ea213920d8e35f9c451291099b12ae8f",
+                "uiState": {
+                    "mode": 1,
+                    "x": 408,
+                    "y": 133,
+                    "width": 1028,
+                    "height": 472
+                }
+            },
+            {
+                "folder": "file:///home/yunis",
+                "backupPath": "/home/yunis/.config/Code/Backups/424bd11a3565b2b42866b94cc16e6529",
+                "uiState": {
+                    "mode": 1,
+                    "x": 171,
+                    "y": 64,
+                    "width": 1024,
+                    "height": 642
+                }
+            }
+        ]
     }
 }

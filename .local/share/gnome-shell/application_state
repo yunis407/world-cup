@@ -1,19 +1,13 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="snap-store_ubuntu-software.desktop" score="178.375" last-seen="1668712282"/>
-    <application id="code.desktop" score="1964.625" last-seen="1668721936"/>
-    <application id="org.gnome.Nautilus.desktop" score="37.5" last-seen="1668686747"/>
-    <application id="slack_slack.desktop" score="70.5" last-seen="1668688552"/>
-    <application id="gnome-initial-setup.desktop" score="792.375" last-seen="1668177630"/>
-    <application id="google-chrome.desktop" score="15905.875" last-seen="1668721969"/>
-    <application id="org.gnome.Evolution-alarm-notify.desktop" score="35.375" last-seen="1668671400"/>
-    <application id="software-properties-gtk.desktop" score="6" last-seen="1668688533"/>
-    <application id="org.gnome.gedit.desktop" score="16.25" last-seen="1668685865"/>
-    <application id="org.gnome.Terminal.desktop" score="7435.625" last-seen="1668718065"/>
-    <application id="gnome-control-center.desktop" score="55.25" last-seen="1668692174"/>
-    <application id="yelp.desktop" score="0" last-seen="1668688831"/>
-    <application id="apport-gtk.desktop" score="0" last-seen="1668499014"/>
-    <application id="update-manager.desktop" score="0" last-seen="1668416224"/>
+    <application id="slack_slack.desktop" score="6.18359375" last-seen="1676892252"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="2.25" last-seen="1677658965"/>
+    <application id="google-chrome.desktop" score="14970.8291015625" last-seen="1677749150"/>
+    <application id="org.gnome.Evolution-alarm-notify.desktop" score="7.82421875" last-seen="1677746541"/>
+    <application id="code.desktop" score="59.867258347570896" last-seen="1677749228"/>
+    <application id="org.gnome.Terminal.desktop" score="25.826171875" last-seen="1677749242"/>
+    <application id="update-manager.desktop" score="72" last-seen="1677576586"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1676881570"/>
   </context>
 </application-state>

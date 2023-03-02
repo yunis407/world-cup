@@ -1,0 +1,4 @@
+freceivesAFunctionunction(callback){
+    return callback();
+}
+

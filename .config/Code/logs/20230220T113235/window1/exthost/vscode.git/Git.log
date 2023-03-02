@@ -1,0 +1,22 @@
+2023-02-20 11:32:39.634 [info] Validating found git in: git
+2023-02-20 11:32:39.634 [info] Using git 2.38.1 from git
+2023-02-20 11:32:39.634 [info] > git rev-parse --show-toplevel [41ms]
+2023-02-20 11:32:39.634 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-02-20 11:32:39.634 [info] Log level: Info
+2023-02-20 11:32:39.634 [info] Open repository: /home/yunis/phase-0-intro-to-js-2-looping-code-along
+2023-02-20 11:32:39.634 [info] > git status -z -uall [34ms]
+2023-02-20 11:32:39.635 [info] > git remote --verbose [48ms]
+2023-02-20 11:32:39.635 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [59ms]
+2023-02-20 11:32:39.635 [info] > git rev-parse --show-toplevel [22ms]
+2023-02-20 11:32:39.635 [info] > git config --get commit.template [20ms]
+2023-02-20 11:32:39.635 [info] > git rev-parse --show-toplevel [14ms]
+2023-02-20 11:32:39.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-02-20 11:32:39.635 [info] > git remote --verbose [13ms]
+2023-02-20 11:32:39.635 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [26ms]
+2023-02-20 11:32:39.635 [info] > git status -z -uall [16ms]
+2023-02-20 11:32:39.635 [info] > git config --get commit.template [11ms]
+2023-02-20 11:32:39.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-02-20 11:32:40.219 [info] > git show --textconv :index.js [45ms]
+2023-02-20 11:32:40.219 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-20 11:32:40.221 [info] > git ls-files --stage -- /home/yunis/phase-0-intro-to-js-2-looping-code-along/index.js [20ms]
+2023-02-20 11:32:40.242 [info] > git cat-file -s 5757be8d4775dbc86078502f37aa8edeebd1ccf3 [2ms]

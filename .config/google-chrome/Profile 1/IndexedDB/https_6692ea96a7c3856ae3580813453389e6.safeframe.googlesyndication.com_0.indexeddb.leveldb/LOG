@@ -1,0 +1,6 @@
+2022/12/09-15:06:39.966 ef6d Creating DB /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_6692ea96a7c3856ae3580813453389e6.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/12/09-15:06:39.979 ef6d Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/IndexedDB/https_6692ea96a7c3856ae3580813453389e6.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/09-15:06:47.236 ef6e Level-0 table #5: started
+2022/12/09-15:06:47.240 ef6e Level-0 table #5: 925 bytes OK
+2022/12/09-15:06:47.245 ef6e Delete type=0 #3
+2022/12/09-15:06:47.245 ef6e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

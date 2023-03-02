@@ -1,3 +1,6 @@
-2022/11/17-23:39:44.147 a6a Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Extension State/MANIFEST-000001
-2022/11/17-23:39:44.148 a6a Recovering log #10
-2022/11/17-23:39:44.354 a6a Reusing old log /home/yunis/.config/google-chrome/Profile 1/Extension State/000010.log 
+2023/02/19-11:47:44.329 825 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Extension State/MANIFEST-000001
+2023/02/19-11:47:44.330 825 Recovering log #38
+2023/02/19-11:47:44.669 825 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Extension State/000038.log 
+2023/03/01-12:12:39.889 1018b Level-0 table #42: started
+2023/03/01-12:12:39.973 1018b Level-0 table #42: 2013430 bytes OK
+2023/03/01-12:12:39.991 1018b Delete type=0 #38

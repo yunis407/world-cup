@@ -1,3 +1,51 @@
-2022/11/17-23:39:42.102 a6b Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
-2022/11/17-23:39:42.202 a6b Recovering log #43
-2022/11/17-23:39:42.291 a6b Reusing old log /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/000043.log 
+2023/02/19-11:47:41.590 829 Reusing MANIFEST /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2023/02/19-11:47:41.624 829 Recovering log #221
+2023/02/19-11:47:41.709 829 Reusing old log /home/yunis/.config/google-chrome/Profile 1/Sync Data/LevelDB/000221.log 
+2023/02/19-11:49:29.253 7ec Level-0 table #226: started
+2023/02/19-11:49:29.263 7ec Level-0 table #226: 103537 bytes OK
+2023/02/19-11:49:29.268 7ec Delete type=0 #221
+2023/02/21-11:05:28.060 7150 Level-0 table #228: started
+2023/02/21-11:05:28.083 7150 Level-0 table #228: 106283 bytes OK
+2023/02/21-11:05:28.103 7150 Delete type=0 #225
+2023/02/21-14:09:25.881 78f1 Level-0 table #230: started
+2023/02/21-14:09:25.897 78f1 Level-0 table #230: 89826 bytes OK
+2023/02/21-14:09:25.905 78f1 Delete type=0 #227
+2023/02/24-10:39:23.379 bfb9 Level-0 table #232: started
+2023/02/24-10:39:23.389 bfb9 Level-0 table #232: 101722 bytes OK
+2023/02/24-10:39:23.394 bfb9 Delete type=0 #229
+2023/02/24-10:39:23.395 bfb9 Compacting 4@0 + 1@1 files
+2023/02/24-10:39:23.403 bfb9 Generated table #233@0: 116 keys, 13312 bytes
+2023/02/24-10:39:23.403 bfb9 Compacted 4@0 + 1@1 files => 13312 bytes
+2023/02/24-10:39:23.408 bfb9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/24-10:39:23.408 bfb9 Delete type=2 #232
+2023/02/24-10:39:23.408 bfb9 Delete type=2 #228
+2023/02/24-10:39:23.408 bfb9 Delete type=2 #230
+2023/02/24-10:39:23.408 bfb9 Delete type=2 #226
+2023/02/24-10:39:23.408 bfb9 Delete type=2 #223
+2023/02/27-11:29:08.348 d73f Level-0 table #235: started
+2023/02/27-11:29:08.363 d73f Level-0 table #235: 134920 bytes OK
+2023/02/27-11:29:08.371 d73f Delete type=0 #231
+2023/02/28-13:57:50.804 ec5b Level-0 table #237: started
+2023/02/28-13:57:50.815 ec5b Level-0 table #237: 140201 bytes OK
+2023/02/28-13:57:50.819 ec5b Delete type=0 #234
+2023/03/01-11:31:57.145 fd85 Level-0 table #239: started
+2023/03/01-11:31:57.161 fd85 Level-0 table #239: 124218 bytes OK
+2023/03/01-11:31:57.165 fd85 Delete type=0 #236
+2023/03/01-12:17:26.419 10243 Level-0 table #241: started
+2023/03/01-12:17:26.431 10243 Level-0 table #241: 102937 bytes OK
+2023/03/01-12:17:26.436 10243 Delete type=0 #238
+2023/03/01-12:17:26.436 10243 Compacting 4@0 + 1@1 files
+2023/03/01-12:17:26.447 10243 Generated table #242@0: 124 keys, 14773 bytes
+2023/03/01-12:17:26.447 10243 Compacted 4@0 + 1@1 files => 14773 bytes
+2023/03/01-12:17:26.451 10243 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/01-12:17:26.451 10243 Delete type=2 #233
+2023/03/01-12:17:26.451 10243 Delete type=2 #241
+2023/03/01-12:17:26.451 10243 Delete type=2 #235
+2023/03/01-12:17:26.451 10243 Delete type=2 #237
+2023/03/01-12:17:26.451 10243 Delete type=2 #239
+2023/03/01-13:59:26.028 109f1 Level-0 table #244: started
+2023/03/01-13:59:26.044 109f1 Level-0 table #244: 88988 bytes OK
+2023/03/01-13:59:26.059 109f1 Delete type=0 #240
+2023/03/02-11:55:36.422 11ef1 Level-0 table #246: started
+2023/03/02-11:55:36.445 11ef1 Level-0 table #246: 100502 bytes OK
+2023/03/02-11:55:36.454 11ef1 Delete type=0 #243

@@ -1,0 +1,3 @@
+freceivesAFunctionunction(callback){
+    console.log
+}
